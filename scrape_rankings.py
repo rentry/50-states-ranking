@@ -32,13 +32,58 @@ HISTORY_FILE = DATA_DIR / "history.jsonl"
 LATEST_FILE = DATA_DIR / "latest.json"
 RANKINGS_FILE = DATA_DIR / "rankings.json"
 
+STATE_META_FILE = Path(__file__).resolve().parent / "state_meta.json"
+
+# Set this once you know your GitHub Pages URL, e.g.
+# "https://your-username.github.io/50-states-ranking"
+# If left blank, flag_url in the output will be a relative path instead
+# of a full URL (e.g. "assets/flags/ohio.svg").
+PAGES_BASE_URL = "https://rentry.github.io/50-states-ranking"
+
 STATE_LINE_RE = re.compile(r"^\s*(\d+)\s+(.+?)\s+\$([\d,]+\.\d{2})\s*$")
 CAMPAIGN_LINK_RE = re.compile(r"/campaigns/50forua-")
+NAME_SUFFIX_RE = re.compile(r"\s+(battalion|regiment)$", re.IGNORECASE)
 
 # Overall campaign totals, e.g. "Donated$542,338.64"
 DONATED_RE = re.compile(r"Donated\s*\$([\d,]+\.\d{2})")
 DONATIONS_COUNT_RE = re.compile(r"Donations\s*([\d,]+)")
 GOAL_RE = re.compile(r"Goal\s*\$([\d,]+(?:\.\d{2})?)")
+
+
+def normalize_name(text: str) -> str:
+    """Lowercase, strip punctuation, collapse whitespace - used to match a
+    scraped display name (e.g. "DC Battalion") against state_meta.json."""
+    s = text.lower().strip()
+    s = re.sub(r"[^a-z0-9]+", " ", s)
+    return re.sub(r"\s+", " ", s).strip()
+
+
+def load_state_meta() -> dict:
+    if not STATE_META_FILE.exists():
+        return {}
+    with open(STATE_META_FILE, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+
+def attach_flags(states: list[dict], state_meta: dict) -> list[dict]:
+    enriched = []
+    for s in states:
+        stripped = NAME_SUFFIX_RE.sub("", s["name"]).strip()
+        key = normalize_name(stripped)
+        entry = state_meta.get(key)
+
+        flag_url = None
+        if entry:
+            flag_url = (
+                f"{PAGES_BASE_URL.rstrip('/')}/{entry['flag_file']}"
+                if PAGES_BASE_URL
+                else entry["flag_file"]
+            )
+        else:
+            print(f"WARNING: no flag match for state name '{s['name']}'", file=sys.stderr)
+
+        enriched.append({**s, "flag_url": flag_url})
+    return enriched
 
 
 def fetch_page(url: str = CAMPAIGN_URL) -> str:
@@ -107,6 +152,9 @@ def build_snapshot() -> dict:
             "No state rankings were found on the page. The page structure may "
             "have changed and the scraper needs updating."
         )
+
+    state_meta = load_state_meta()
+    states = attach_flags(states, state_meta)
 
     return {
         "scraped_at": datetime.now(timezone.utc).isoformat(),

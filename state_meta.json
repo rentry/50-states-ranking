@@ -1,0 +1,266 @@
+{
+  "alabama": {
+    "canonical_name": "Alabama",
+    "flag_file": "assets/flags/alabama.svg"
+  },
+  "alaska": {
+    "canonical_name": "Alaska",
+    "flag_file": "assets/flags/alaska.svg"
+  },
+  "american samoa": {
+    "canonical_name": "American Samoa",
+    "flag_file": "assets/flags/american-samoa.svg"
+  },
+  "arizona": {
+    "canonical_name": "Arizona",
+    "flag_file": "assets/flags/arizona.svg"
+  },
+  "arkansas": {
+    "canonical_name": "Arkansas",
+    "flag_file": "assets/flags/arkansas.svg"
+  },
+  "california": {
+    "canonical_name": "California",
+    "flag_file": "assets/flags/california.svg"
+  },
+  "colorado": {
+    "canonical_name": "Colorado",
+    "flag_file": "assets/flags/colorado.svg"
+  },
+  "connecticut": {
+    "canonical_name": "Connecticut",
+    "flag_file": "assets/flags/connecticut.svg"
+  },
+  "dc": {
+    "canonical_name": "District of Columbia",
+    "flag_file": "assets/flags/district-of-columbia.svg"
+  },
+  "delaware": {
+    "canonical_name": "Delaware",
+    "flag_file": "assets/flags/delaware.svg"
+  },
+  "district of columbia": {
+    "canonical_name": "District of Columbia",
+    "flag_file": "assets/flags/district-of-columbia.svg"
+  },
+  "florida": {
+    "canonical_name": "Florida",
+    "flag_file": "assets/flags/florida.svg"
+  },
+  "georgia": {
+    "canonical_name": "Georgia",
+    "flag_file": "assets/flags/georgia.svg"
+  },
+  "guam": {
+    "canonical_name": "Guam",
+    "flag_file": "assets/flags/guam.svg"
+  },
+  "hawaii": {
+    "canonical_name": "Hawaii",
+    "flag_file": "assets/flags/hawaii.svg"
+  },
+  "idaho": {
+    "canonical_name": "Idaho",
+    "flag_file": "assets/flags/idaho.svg"
+  },
+  "illinois": {
+    "canonical_name": "Illinois",
+    "flag_file": "assets/flags/illinois.svg"
+  },
+  "indiana": {
+    "canonical_name": "Indiana",
+    "flag_file": "assets/flags/indiana.svg"
+  },
+  "iowa": {
+    "canonical_name": "Iowa",
+    "flag_file": "assets/flags/iowa.svg"
+  },
+  "kansas": {
+    "canonical_name": "Kansas",
+    "flag_file": "assets/flags/kansas.svg"
+  },
+  "kentucky": {
+    "canonical_name": "Kentucky",
+    "flag_file": "assets/flags/kentucky.svg"
+  },
+  "louisiana": {
+    "canonical_name": "Louisiana",
+    "flag_file": "assets/flags/louisiana.svg"
+  },
+  "maine": {
+    "canonical_name": "Maine",
+    "flag_file": "assets/flags/maine.svg"
+  },
+  "maryland": {
+    "canonical_name": "Maryland",
+    "flag_file": "assets/flags/maryland.svg"
+  },
+  "massachusetts": {
+    "canonical_name": "Massachusetts",
+    "flag_file": "assets/flags/massachusetts.svg"
+  },
+  "michigan": {
+    "canonical_name": "Michigan",
+    "flag_file": "assets/flags/michigan.svg"
+  },
+  "minnesota": {
+    "canonical_name": "Minnesota",
+    "flag_file": "assets/flags/minnesota.svg"
+  },
+  "mississippi": {
+    "canonical_name": "Mississippi",
+    "flag_file": "assets/flags/mississippi.svg"
+  },
+  "missouri": {
+    "canonical_name": "Missouri",
+    "flag_file": "assets/flags/missouri.svg"
+  },
+  "montana": {
+    "canonical_name": "Montana",
+    "flag_file": "assets/flags/montana.svg"
+  },
+  "nc": {
+    "canonical_name": "North Carolina",
+    "flag_file": "assets/flags/north-carolina.svg"
+  },
+  "nd": {
+    "canonical_name": "North Dakota",
+    "flag_file": "assets/flags/north-dakota.svg"
+  },
+  "nebraska": {
+    "canonical_name": "Nebraska",
+    "flag_file": "assets/flags/nebraska.svg"
+  },
+  "nevada": {
+    "canonical_name": "Nevada",
+    "flag_file": "assets/flags/nevada.svg"
+  },
+  "new hampshire": {
+    "canonical_name": "New Hampshire",
+    "flag_file": "assets/flags/new-hampshire.svg"
+  },
+  "new jersey": {
+    "canonical_name": "New Jersey",
+    "flag_file": "assets/flags/new-jersey.svg"
+  },
+  "new mexico": {
+    "canonical_name": "New Mexico",
+    "flag_file": "assets/flags/new-mexico.svg"
+  },
+  "new york": {
+    "canonical_name": "New York",
+    "flag_file": "assets/flags/new-york.svg"
+  },
+  "north carolina": {
+    "canonical_name": "North Carolina",
+    "flag_file": "assets/flags/north-carolina.svg"
+  },
+  "north dakota": {
+    "canonical_name": "North Dakota",
+    "flag_file": "assets/flags/north-dakota.svg"
+  },
+  "northern mariana islands": {
+    "canonical_name": "Northern Mariana Islands",
+    "flag_file": "assets/flags/northern-mariana-islands.svg"
+  },
+  "ohio": {
+    "canonical_name": "Ohio",
+    "flag_file": "assets/flags/ohio.svg"
+  },
+  "oklahoma": {
+    "canonical_name": "Oklahoma",
+    "flag_file": "assets/flags/oklahoma.svg"
+  },
+  "oregon": {
+    "canonical_name": "Oregon",
+    "flag_file": "assets/flags/oregon.svg"
+  },
+  "pennsylvania": {
+    "canonical_name": "Pennsylvania",
+    "flag_file": "assets/flags/pennsylvania.svg"
+  },
+  "puerto rico": {
+    "canonical_name": "Puerto Rico",
+    "flag_file": "assets/flags/puerto-rico.svg"
+  },
+  "rhode island": {
+    "canonical_name": "Rhode Island",
+    "flag_file": "assets/flags/rhode-island.svg"
+  },
+  "sc": {
+    "canonical_name": "South Carolina",
+    "flag_file": "assets/flags/south-carolina.svg"
+  },
+  "sd": {
+    "canonical_name": "South Dakota",
+    "flag_file": "assets/flags/south-dakota.svg"
+  },
+  "south carolina": {
+    "canonical_name": "South Carolina",
+    "flag_file": "assets/flags/south-carolina.svg"
+  },
+  "south dakota": {
+    "canonical_name": "South Dakota",
+    "flag_file": "assets/flags/south-dakota.svg"
+  },
+  "tennessee": {
+    "canonical_name": "Tennessee",
+    "flag_file": "assets/flags/tennessee.svg"
+  },
+  "texas": {
+    "canonical_name": "Texas",
+    "flag_file": "assets/flags/texas.svg"
+  },
+  "us virgin islands": {
+    "canonical_name": "Virgin Islands",
+    "flag_file": "assets/flags/virgin-islands.svg"
+  },
+  "utah": {
+    "canonical_name": "Utah",
+    "flag_file": "assets/flags/utah.svg"
+  },
+  "vermont": {
+    "canonical_name": "Vermont",
+    "flag_file": "assets/flags/vermont.svg"
+  },
+  "virgin islands": {
+    "canonical_name": "Virgin Islands",
+    "flag_file": "assets/flags/virgin-islands.svg"
+  },
+  "virginia": {
+    "canonical_name": "Virginia",
+    "flag_file": "assets/flags/virginia.svg"
+  },
+  "washington": {
+    "canonical_name": "Washington",
+    "flag_file": "assets/flags/washington.svg"
+  },
+  "washington d c": {
+    "canonical_name": "District of Columbia",
+    "flag_file": "assets/flags/district-of-columbia.svg"
+  },
+  "washington dc": {
+    "canonical_name": "District of Columbia",
+    "flag_file": "assets/flags/district-of-columbia.svg"
+  },
+  "west virginia": {
+    "canonical_name": "West Virginia",
+    "flag_file": "assets/flags/west-virginia.svg"
+  },
+  "wi": {
+    "canonical_name": "Wisconsin",
+    "flag_file": "assets/flags/wisconsin.svg"
+  },
+  "wisconsin": {
+    "canonical_name": "Wisconsin",
+    "flag_file": "assets/flags/wisconsin.svg"
+  },
+  "wv": {
+    "canonical_name": "West Virginia",
+    "flag_file": "assets/flags/west-virginia.svg"
+  },
+  "wyoming": {
+    "canonical_name": "Wyoming",
+    "flag_file": "assets/flags/wyoming.svg"
+  }
+}
