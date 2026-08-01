@@ -1,0 +1,269 @@
+{
+  "scraped_at": "2026-08-01T22:09:23.281074+00:00",
+  "source_url": "https://car4ukraine.com/campaigns/50forua",
+  "totals": {
+    "donated": 542568.64,
+    "donations_count": 1963,
+    "goal": 1000000.0
+  },
+  "baseline_date": null,
+  "states": [
+    {
+      "rank": 1,
+      "name": "Ohio Regiment",
+      "amount": 69042.42,
+      "url": "https://car4ukraine.com/campaigns/50forua-ohio-battalion",
+      "amount_7d_ago": null,
+      "delta_7d": null
+    },
+    {
+      "rank": 2,
+      "name": "Michigan Regiment",
+      "amount": 45661.24,
+      "url": "https://car4ukraine.com/campaigns/50forua-michigan-battalion",
+      "amount_7d_ago": null,
+      "delta_7d": null
+    },
+    {
+      "rank": 3,
+      "name": "Delaware Battalion",
+      "amount": 28645.83,
+      "url": "https://car4ukraine.com/campaigns/50forua-delaware-battalion",
+      "amount_7d_ago": null,
+      "delta_7d": null
+    },
+    {
+      "rank": 4,
+      "name": "Iowa Battalion",
+      "amount": 28629.21,
+      "url": "https://car4ukraine.com/campaigns/50forua-iowa-battalion",
+      "amount_7d_ago": null,
+      "delta_7d": null
+    },
+    {
+      "rank": 5,
+      "name": "New Jersey Battalion",
+      "amount": 28380.08,
+      "url": "https://car4ukraine.com/campaigns/50forua-new-jersey-battalion",
+      "amount_7d_ago": null,
+      "delta_7d": null
+    },
+    {
+      "rank": 6,
+      "name": "Arizona Battalion",
+      "amount": 28240.71,
+      "url": "https://car4ukraine.com/campaigns/50forua-arizona-battalion",
+      "amount_7d_ago": null,
+      "delta_7d": null
+    },
+    {
+      "rank": 7,
+      "name": "Connecticut Battalion",
+      "amount": 26410.96,
+      "url": "https://car4ukraine.com/campaigns/50forua-connecticut-battalion",
+      "amount_7d_ago": null,
+      "delta_7d": null
+    },
+    {
+      "rank": 8,
+      "name": "DC Battalion",
+      "amount": 25728.49,
+      "url": "https://car4ukraine.com/campaigns/50forua-dc-battalion",
+      "amount_7d_ago": null,
+      "delta_7d": null
+    },
+    {
+      "rank": 9,
+      "name": "Virginia Battalion",
+      "amount": 22244.09,
+      "url": "https://car4ukraine.com/campaigns/50forua-virginia-battalion",
+      "amount_7d_ago": null,
+      "delta_7d": null
+    },
+    {
+      "rank": 10,
+      "name": "Washington Battalion",
+      "amount": 18911.74,
+      "url": "https://car4ukraine.com/campaigns/50forua-washington-battalion",
+      "amount_7d_ago": null,
+      "delta_7d": null
+    },
+    {
+      "rank": 11,
+      "name": "Utah Battalion",
+      "amount": 17492.97,
+      "url": "https://car4ukraine.com/campaigns/50forua-utah-battalion",
+      "amount_7d_ago": null,
+      "delta_7d": null
+    },
+    {
+      "rank": 12,
+      "name": "Arkansas Battalion",
+      "amount": 17160.83,
+      "url": "https://car4ukraine.com/campaigns/50forua-arkansas-battalion",
+      "amount_7d_ago": null,
+      "delta_7d": null
+    },
+    {
+      "rank": 13,
+      "name": "New Hampshire Battalion",
+      "amount": 16511.22,
+      "url": "https://car4ukraine.com/campaigns/50forua-new-hampshire-battalion",
+      "amount_7d_ago": null,
+      "delta_7d": null
+    },
+    {
+      "rank": 14,
+      "name": "Tennessee Battalion",
+      "amount": 16444.87,
+      "url": "https://car4ukraine.com/campaigns/50forua-tennessee-battalion",
+      "amount_7d_ago": null,
+      "delta_7d": null
+    },
+    {
+      "rank": 15,
+      "name": "Pennsylvania Battalion",
+      "amount": 14781.45,
+      "url": "https://car4ukraine.com/campaigns/50forua-pennsylvania-battalion",
+      "amount_7d_ago": null,
+      "delta_7d": null
+    },
+    {
+      "rank": 16,
+      "name": "Vermont Battalion",
+      "amount": 14162.74,
+      "url": "https://car4ukraine.com/campaigns/50forua-new-vermont-battalion",
+      "amount_7d_ago": null,
+      "delta_7d": null
+    },
+    {
+      "rank": 17,
+      "name": "Minnesota Battalion",
+      "amount": 13579.35,
+      "url": "https://car4ukraine.com/campaigns/50forua-minnesota-battalion",
+      "amount_7d_ago": null,
+      "delta_7d": null
+    },
+    {
+      "rank": 18,
+      "name": "Hawaii Battalion",
+      "amount": 13510.8,
+      "url": "https://car4ukraine.com/campaigns/50forua-hawaii-battalion",
+      "amount_7d_ago": null,
+      "delta_7d": null
+    },
+    {
+      "rank": 19,
+      "name": "American Samoa Battalion",
+      "amount": 13143.35,
+      "url": "https://car4ukraine.com/campaigns/50forua-american-samoa",
+      "amount_7d_ago": null,
+      "delta_7d": null
+    },
+    {
+      "rank": 20,
+      "name": "Guam Battalion",
+      "amount": 12526.44,
+      "url": "https://car4ukraine.com/campaigns/50forua-guam-battalion",
+      "amount_7d_ago": null,
+      "delta_7d": null
+    },
+    {
+      "rank": 21,
+      "name": "California Battalion",
+      "amount": 8418.19,
+      "url": "https://car4ukraine.com/campaigns/50forua-california-battalion",
+      "amount_7d_ago": null,
+      "delta_7d": null
+    },
+    {
+      "rank": 22,
+      "name": "Wisconsin Battalion",
+      "amount": 8300.81,
+      "url": "https://car4ukraine.com/campaigns/50forua-wi-battalion",
+      "amount_7d_ago": null,
+      "delta_7d": null
+    },
+    {
+      "rank": 23,
+      "name": "Maine Battalion",
+      "amount": 7686.5,
+      "url": "https://car4ukraine.com/campaigns/50forua-maine-battalion",
+      "amount_7d_ago": null,
+      "delta_7d": null
+    },
+    {
+      "rank": 24,
+      "name": "North Carolina Battalion",
+      "amount": 6832.14,
+      "url": "https://car4ukraine.com/campaigns/50forua-nc-battalion",
+      "amount_7d_ago": null,
+      "delta_7d": null
+    },
+    {
+      "rank": 25,
+      "name": "Illinois Battalion",
+      "amount": 5797.37,
+      "url": "https://car4ukraine.com/campaigns/50forua-illinois-battalion",
+      "amount_7d_ago": null,
+      "delta_7d": null
+    },
+    {
+      "rank": 26,
+      "name": "Oregon Battalion",
+      "amount": 5604.99,
+      "url": "https://car4ukraine.com/campaigns/50forua-oregon-battalion",
+      "amount_7d_ago": null,
+      "delta_7d": null
+    },
+    {
+      "rank": 27,
+      "name": "Texas Battalion",
+      "amount": 4953.28,
+      "url": "https://car4ukraine.com/campaigns/50forua-texas-battalion",
+      "amount_7d_ago": null,
+      "delta_7d": null
+    },
+    {
+      "rank": 28,
+      "name": "New Mexico",
+      "amount": 4575.17,
+      "url": "https://car4ukraine.com/campaigns/50forua-new-mexico-battalion",
+      "amount_7d_ago": null,
+      "delta_7d": null
+    },
+    {
+      "rank": 29,
+      "name": "Colorado Battalion",
+      "amount": 4002.3,
+      "url": "https://car4ukraine.com/campaigns/50forua-colorado-battalion",
+      "amount_7d_ago": null,
+      "delta_7d": null
+    },
+    {
+      "rank": 30,
+      "name": "Maryland Battalion",
+      "amount": 3236.51,
+      "url": "https://car4ukraine.com/campaigns/50forua-maryland-battalion",
+      "amount_7d_ago": null,
+      "delta_7d": null
+    },
+    {
+      "rank": 31,
+      "name": "Florida Battalion",
+      "amount": 1751.55,
+      "url": "https://car4ukraine.com/campaigns/50forua-florida-battalion",
+      "amount_7d_ago": null,
+      "delta_7d": null
+    },
+    {
+      "rank": 32,
+      "name": "Indiana Battalion",
+      "amount": 1410.65,
+      "url": "https://car4ukraine.com/campaigns/50forua-indiana-battalion",
+      "amount_7d_ago": null,
+      "delta_7d": null
+    }
+  ],
+  "top_movers_7d": []
+}
