@@ -145,7 +145,7 @@ need to do anything for that to keep happening.
 
 Once the repo is public and the Action has run at least once:
 
-1. Repo **Settings** â†’ **Pages**
+1. Repo **Settings** → **Pages**
 2. Under "Build and deployment," set Source to **Deploy from a branch**
 3. Branch: `main`, folder: `/ (root)`
 4. Save. GitHub will give you a URL like
