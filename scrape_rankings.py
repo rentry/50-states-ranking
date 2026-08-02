@@ -38,7 +38,7 @@ STATE_META_FILE = Path(__file__).resolve().parent / "state_meta.json"
 # "https://your-username.github.io/50-states-ranking"
 # If left blank, flag_url in the output will be a relative path instead
 # of a full URL (e.g. "assets/flags/ohio.svg").
-PAGES_BASE_URL = "https://rentry.github.io/50-states-ranking"
+PAGES_BASE_URL = "https://brentryanjohnson.com/50-states-ranking"
 
 STATE_LINE_RE = re.compile(r"^\s*(\d+)\s+(.+?)\s+\$([\d,]+\.\d{2})\s*$")
 CAMPAIGN_LINK_RE = re.compile(r"/campaigns/50forua-")
