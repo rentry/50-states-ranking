@@ -2,9 +2,11 @@ name: Scrape 50 States for Ukraine rankings
 
 on:
   schedule:
-    # Runs at the top of every hour (UTC). GitHub may delay this by a few
-    # minutes during high load - that's normal and fine for our purposes.
-    - cron: "0 * * * *"
+    # Runs at 7 minutes past every hour (UTC), not exactly on the hour.
+    # GitHub's own docs warn that the top of the hour (":00") is the most
+    # congested time slot and scheduled runs can be delayed or even
+    # silently dropped there. An offset minute avoids that contention.
+    - cron: "7 * * * *"
   workflow_dispatch: {}  # lets you trigger a run manually from the Actions tab
 
 permissions:
