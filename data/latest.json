@@ -1,9 +1,9 @@
 {
-  "scraped_at": "2026-08-02T22:07:29.474572+00:00",
+  "scraped_at": "2026-08-03T00:07:30.820526+00:00",
   "source_url": "https://car4ukraine.com/campaigns/50forua",
   "totals": {
-    "donated": 547376.3,
-    "donations_count": 1974,
+    "donated": 548801.3,
+    "donations_count": 1975,
     "goal": 1000000.0
   },
   "states": [
@@ -184,38 +184,38 @@
     },
     {
       "rank": 26,
+      "name": "Maryland Battalion",
+      "amount": 5679.98,
+      "url": "https://car4ukraine.com/campaigns/50forua-maryland-battalion",
+      "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/maryland.svg"
+    },
+    {
+      "rank": 27,
       "name": "Oregon Battalion",
       "amount": 5604.99,
       "url": "https://car4ukraine.com/campaigns/50forua-oregon-battalion",
       "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/oregon.svg"
     },
     {
-      "rank": 27,
+      "rank": 28,
       "name": "Texas Battalion",
       "amount": 4953.28,
       "url": "https://car4ukraine.com/campaigns/50forua-texas-battalion",
       "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/texas.svg"
     },
     {
-      "rank": 28,
+      "rank": 29,
       "name": "New Mexico",
       "amount": 4575.17,
       "url": "https://car4ukraine.com/campaigns/50forua-new-mexico-battalion",
       "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/new-mexico.svg"
     },
     {
-      "rank": 29,
+      "rank": 30,
       "name": "Colorado Battalion",
       "amount": 4502.3,
       "url": "https://car4ukraine.com/campaigns/50forua-colorado-battalion",
       "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/colorado.svg"
-    },
-    {
-      "rank": 30,
-      "name": "Maryland Battalion",
-      "amount": 4254.98,
-      "url": "https://car4ukraine.com/campaigns/50forua-maryland-battalion",
-      "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/maryland.svg"
     },
     {
       "rank": 31,
