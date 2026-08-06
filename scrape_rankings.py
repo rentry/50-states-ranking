@@ -12,6 +12,8 @@ Output:
     Writes data/rankings.json           (latest snapshot + 7-day deltas, for the website)
 """
 
+import csv
+import io
 import json
 import re
 import sys
@@ -33,6 +35,144 @@ LATEST_FILE = DATA_DIR / "latest.json"
 RANKINGS_FILE = DATA_DIR / "rankings.json"
 
 STATE_META_FILE = Path(__file__).resolve().parent / "state_meta.json"
+
+# Published Google Sheet CSV URL for the vehicle ledger (one row per truck/
+# vehicle, maintained by Colin). Publish via File > Share > Publish to web >
+# CSV in Google Sheets, then paste the URL here. Leave blank to skip vehicle
+# data entirely (nothing else breaks - rank/amount still work from the
+# car4ukraine scrape alone).
+VEHICLE_LEDGER_URL = "https://docs.google.com/spreadsheets/d/1UNjVYb94PSoxa25jGjXECWSQGzSnNQwMRQE2PVw-T5Y/export?format=csv&gid=1696411874"
+
+DELIVERED_STATUS = "9 delivered"  # normalized (lowercased/stripped) match target
+HELP99_PARTNER = "help99"
+
+# Names that legitimately appear in "State Battalion" but aren't states/
+# territories (e.g. city-level campaigns). Silently ignored, no warning -
+# this is expected, not a data-quality issue. Add to this set as needed.
+KNOWN_NON_STATE_NAMES = {"chicago"}
+
+
+def gh_warning(message: str) -> None:
+    """Prints a GitHub Actions warning annotation (visible as a banner on
+    the run summary, not just buried in log text) in addition to a plain
+    stderr line for local runs."""
+    print(f"::warning::{message}")
+    print(f"WARNING: {message}", file=sys.stderr)
+
+
+def fetch_vehicle_ledger(url: str) -> list[dict]:
+    """Fetches and parses the vehicle ledger CSV. Non-fatal on failure -
+    returns an empty list so the core scrape still succeeds without it."""
+    if not url:
+        return []
+    try:
+        resp = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=15)
+        resp.raise_for_status()
+    except Exception as exc:  # noqa: BLE001
+        print(f"WARNING: could not fetch vehicle ledger ({exc}); skipping", file=sys.stderr)
+        return []
+    return list(csv.DictReader(io.StringIO(resp.text)))
+
+
+def parse_state_weights(weights_field: str) -> list[tuple[str, float]]:
+    """Parses 'California:0.5, Texas:0.5' into [('California', 0.5), ('Texas', 0.5)]."""
+    pairs = []
+    for chunk in weights_field.split(","):
+        chunk = chunk.strip()
+        if not chunk or ":" not in chunk:
+            continue
+        name, _, weight_str = chunk.partition(":")
+        try:
+            pairs.append((name.strip(), float(weight_str.strip())))
+        except ValueError:
+            gh_warning(f"bad weight value in State Weights: {chunk!r}")
+    return pairs
+
+
+def aggregate_vehicle_data(rows: list[dict], known_state_keys: set) -> tuple[dict, dict]:
+    """
+    Aggregates the vehicle ledger into per-state vehicle counts (float,
+    supports fractional/weighted credit) and a Help99-partner flag.
+    Only rows with Status == "9 Delivered" are counted. Multi-state rows
+    use "State Weights" if present, otherwise split equally. Names that
+    don't match a known state (e.g. "Chicago") are skipped with a note,
+    not an error.
+    """
+    vehicles_by_state = {}
+    help99_by_state = {}
+
+    for row in rows:
+        status = (row.get("Status") or "").strip().lower()
+        if status != DELIVERED_STATUS:
+            continue
+
+        battalion_field = (row.get("State Battalion") or "").strip()
+        weights_field = (row.get("State Weights") or "").strip()
+        is_help99 = (row.get("Partner") or "").strip().lower() == HELP99_PARTNER
+
+        if weights_field:
+            pairs = parse_state_weights(weights_field)
+        else:
+            names = [n.strip() for n in battalion_field.split(",") if n.strip()]
+            weight = 1.0 / len(names) if names else 0
+            pairs = [(n, weight) for n in names]
+
+        for name, weight in pairs:
+            key = normalize_name(name)
+            if key not in known_state_keys:
+                if key in KNOWN_NON_STATE_NAMES:
+                    print(f"INFO: ignoring known non-state entry '{name}' (row: {row.get('Name', '?')})", file=sys.stderr)
+                else:
+                    gh_warning(
+                        f"unrecognized name '{name}' in row '{row.get('Name', '?')}' - "
+                        f"possible typo in the sheet? This state's vehicle credit was NOT counted."
+                    )
+                continue
+            vehicles_by_state[key] = vehicles_by_state.get(key, 0.0) + weight
+            if is_help99:
+                help99_by_state[key] = True
+
+    return vehicles_by_state, help99_by_state
+
+
+def attach_vehicle_data(states: list[dict], vehicles_by_state: dict, help99_by_state: dict) -> list[dict]:
+    enriched = []
+    for s in states:
+        stripped = NAME_SUFFIX_RE.sub("", s["name"]).strip()
+        key = normalize_name(stripped)
+        enriched.append({
+            **s,
+            "vehicles_delivered": round(vehicles_by_state.get(key, 0.0), 4),
+            "includes_help99": help99_by_state.get(key, False),
+        })
+    return enriched
+
+
+def rerank_by_vehicles(states: list[dict]) -> list[dict]:
+    """
+    Re-sorts and re-ranks states with vehicles_delivered as the primary
+    key (descending) and amount as the tie-breaker for list order only.
+    States tied on vehicles_delivered share the same rank number
+    (competition ranking: e.g. 1, 1, 3 - not 1, 1, 2), even if their
+    amounts differ. The original car4ukraine rank is preserved separately
+    as fundraising_rank for reference.
+    """
+    ordered = sorted(states, key=lambda s: (-s.get("vehicles_delivered", 0.0), -s["amount"]))
+
+    reranked = []
+    current_rank = 0
+    prev_vehicles = None
+    for i, s in enumerate(ordered):
+        vehicles = s.get("vehicles_delivered", 0.0)
+        if vehicles != prev_vehicles:
+            current_rank = i + 1
+            prev_vehicles = vehicles
+        reranked.append({
+            **s,
+            "fundraising_rank": s["rank"],
+            "rank": current_rank,
+        })
+    return reranked
 
 # Set this once you know your GitHub Pages URL, e.g.
 # "https://your-username.github.io/50-states-ranking"
@@ -155,6 +295,11 @@ def build_snapshot() -> dict:
 
     state_meta = load_state_meta()
     states = attach_flags(states, state_meta)
+
+    ledger_rows = fetch_vehicle_ledger(VEHICLE_LEDGER_URL)
+    vehicles_by_state, help99_by_state = aggregate_vehicle_data(ledger_rows, set(state_meta.keys()))
+    states = attach_vehicle_data(states, vehicles_by_state, help99_by_state)
+    states = rerank_by_vehicles(states)
 
     return {
         "scraped_at": datetime.now(timezone.utc).isoformat(),
