@@ -43,6 +43,13 @@ STATE_META_FILE = Path(__file__).resolve().parent / "state_meta.json"
 # car4ukraine scrape alone).
 VEHICLE_LEDGER_URL = "https://docs.google.com/spreadsheets/d/1UNjVYb94PSoxa25jGjXECWSQGzSnNQwMRQE2PVw-T5Y/export?format=csv&gid=1696411874"
 
+# Published Google Sheet CSV URL for the merch/shop links tab (state ->
+# Fourthwall collection URL, one row per state, maintained by Colin).
+# Publish that specific tab via File > Share > Publish to web > CSV, then
+# paste its URL here. Leave blank to skip merch links entirely (nothing
+# else breaks).
+MERCH_SHEET_URL = "https://docs.google.com/spreadsheets/d/1UNjVYb94PSoxa25jGjXECWSQGzSnNQwMRQE2PVw-T5Y/export?format=csv&gid=1595623771"
+
 DELIVERED_STATUS = "9 delivered"  # normalized (lowercased/stripped) match target
 HELP99_PARTNER = "help99"
 
@@ -226,6 +233,40 @@ def attach_flags(states: list[dict], state_meta: dict) -> list[dict]:
     return enriched
 
 
+def fetch_merch_links(url: str) -> dict:
+    """Fetches and parses the merch/shop-link sheet. Returns a dict keyed
+    by normalized state name -> shop URL. Non-fatal on failure - returns
+    an empty dict so the core scrape still succeeds without it."""
+    if not url:
+        return {}
+    try:
+        resp = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=15)
+        resp.raise_for_status()
+    except Exception as exc:  # noqa: BLE001
+        print(f"WARNING: could not fetch merch links ({exc}); skipping", file=sys.stderr)
+        return {}
+
+    lookup = {}
+    for row in csv.DictReader(io.StringIO(resp.text)):
+        name = (row.get("State Battalion") or "").strip()
+        link = (row.get("Shop Link") or "").strip()
+        if name and link:
+            lookup[normalize_name(name)] = link
+    return lookup
+
+
+def attach_merch_links(states: list[dict], merch_by_state: dict) -> list[dict]:
+    if not merch_by_state:
+        return [{**s, "merch_url": None} for s in states]
+
+    enriched = []
+    for s in states:
+        stripped = NAME_SUFFIX_RE.sub("", s["name"]).strip()
+        key = normalize_name(stripped)
+        enriched.append({**s, "merch_url": merch_by_state.get(key)})
+    return enriched
+
+
 def fetch_page(url: str = CAMPAIGN_URL) -> str:
     resp = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=30)
     resp.raise_for_status()
@@ -300,6 +341,9 @@ def build_snapshot() -> dict:
     vehicles_by_state, help99_by_state = aggregate_vehicle_data(ledger_rows, set(state_meta.keys()))
     states = attach_vehicle_data(states, vehicles_by_state, help99_by_state)
     states = rerank_by_vehicles(states)
+
+    merch_by_state = fetch_merch_links(MERCH_SHEET_URL)
+    states = attach_merch_links(states, merch_by_state)
 
     return {
         "scraped_at": datetime.now(timezone.utc).isoformat(),
