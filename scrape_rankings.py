@@ -50,7 +50,7 @@ VEHICLE_LEDGER_URL = "https://docs.google.com/spreadsheets/d/1UNjVYb94PSoxa25jGj
 # else breaks).
 MERCH_SHEET_URL = "https://docs.google.com/spreadsheets/d/1UNjVYb94PSoxa25jGjXECWSQGzSnNQwMRQE2PVw-T5Y/export?format=csv&gid=1595623771"
 
-DELIVERED_STATUS = "9 delivered"  # normalized (lowercased/stripped) match target
+COUNTED_STATUSES = {"9 delivered", "8 deployed"}  # normalized (lowercased/stripped) match targets
 HELP99_PARTNER = "help99"
 
 # Names that legitimately appear in "State Battalion" but aren't states/
@@ -96,23 +96,45 @@ def parse_state_weights(weights_field: str) -> list[tuple[str, float]]:
     return pairs
 
 
+def parse_money(value: str):
+    """Parses a currency string like '$26,953.34' into a float. Returns
+    None for empty/unparseable input (logged as a warning if non-empty)."""
+    if not value or not value.strip():
+        return None
+    cleaned = value.replace("$", "").replace(",", "").strip()
+    if not cleaned:
+        return None
+    try:
+        return float(cleaned)
+    except ValueError:
+        gh_warning(f"could not parse money value from ledger: {value!r}")
+        return None
+
+
 def aggregate_vehicle_data(rows: list[dict], known_state_keys: set) -> tuple[dict, dict]:
     """
-    Aggregates the vehicle ledger into per-state vehicle counts (float,
-    supports fractional/weighted credit) and a Help99-partner flag.
-    Only rows with Status == "9 Delivered" are counted. Multi-state rows
-    use "State Weights" if present, otherwise split equally. Names that
-    don't match a known state (e.g. "Chicago") are skipped with a note,
-    not an error.
+    Aggregates the vehicle ledger into:
+      - vehicles_by_state: per-state vehicle counts (float, supports
+        fractional/weighted credit). Only rows with a status in
+        COUNTED_STATUSES are counted here.
+      - help99_dollars_by_state: per-state Help99 dollar totals, from the
+        "Fundraised Amount" column. NOT filtered by status - funds raised
+        toward a vehicle still count even before it's fully delivered.
+        A state's presence here (nonzero) is also what determines whether
+        its displayed dollar total includes Help99 money and therefore
+        gets the explanatory asterisk - not vehicle-delivery status.
+
+    Multi-state rows use "State Weights" if present, otherwise split
+    equally across the listed states, for both vehicles and dollars.
+    Names that don't match a known state (e.g. "Chicago") are skipped
+    with a note, not an error - checked once per row regardless of
+    status, so a typo in a not-yet-delivered row is still caught.
     """
     vehicles_by_state = {}
-    help99_by_state = {}
+    help99_dollars_by_state = {}
 
     for row in rows:
         status = (row.get("Status") or "").strip().lower()
-        if status != DELIVERED_STATUS:
-            continue
-
         battalion_field = (row.get("State Battalion") or "").strip()
         weights_field = (row.get("State Weights") or "").strip()
         is_help99 = (row.get("Partner") or "").strip().lower() == HELP99_PARTNER
@@ -124,6 +146,7 @@ def aggregate_vehicle_data(rows: list[dict], known_state_keys: set) -> tuple[dic
             weight = 1.0 / len(names) if names else 0
             pairs = [(n, weight) for n in names]
 
+        resolved_pairs = []
         for name, weight in pairs:
             key = normalize_name(name)
             if key not in known_state_keys:
@@ -132,17 +155,25 @@ def aggregate_vehicle_data(rows: list[dict], known_state_keys: set) -> tuple[dic
                 else:
                     gh_warning(
                         f"unrecognized name '{name}' in row '{row.get('Name', '?')}' - "
-                        f"possible typo in the sheet? This state's vehicle credit was NOT counted."
+                        f"possible typo in the sheet? This state's credit was NOT counted."
                     )
                 continue
-            vehicles_by_state[key] = vehicles_by_state.get(key, 0.0) + weight
-            if is_help99:
-                help99_by_state[key] = True
+            resolved_pairs.append((key, weight))
 
-    return vehicles_by_state, help99_by_state
+        if status in COUNTED_STATUSES:
+            for key, weight in resolved_pairs:
+                vehicles_by_state[key] = vehicles_by_state.get(key, 0.0) + weight
+
+        if is_help99:
+            amount = parse_money(row.get("Fundraised Amount"))
+            if amount is not None:
+                for key, weight in resolved_pairs:
+                    help99_dollars_by_state[key] = help99_dollars_by_state.get(key, 0.0) + amount * weight
+
+    return vehicles_by_state, help99_dollars_by_state
 
 
-def attach_vehicle_data(states: list[dict], vehicles_by_state: dict, help99_by_state: dict) -> list[dict]:
+def attach_vehicle_data(states: list[dict], vehicles_by_state: dict, help99_dollars_by_state: dict) -> list[dict]:
     enriched = []
     for s in states:
         stripped = NAME_SUFFIX_RE.sub("", s["name"]).strip()
@@ -150,9 +181,68 @@ def attach_vehicle_data(states: list[dict], vehicles_by_state: dict, help99_by_s
         enriched.append({
             **s,
             "vehicles_delivered": round(vehicles_by_state.get(key, 0.0), 4),
-            "includes_help99": help99_by_state.get(key, False),
+            "includes_help99": bool(help99_dollars_by_state.get(key)),
         })
     return enriched
+
+
+def add_missing_help99_only_states(
+    states: list[dict], vehicles_by_state: dict, help99_dollars_by_state: dict, state_meta: dict
+) -> list[dict]:
+    """
+    Some states may have only ever fundraised through Help99/NAFO and
+    never appeared on car4ukraine.com at all - so they wouldn't be in
+    `states` yet. This adds a synthetic entry for any such state found in
+    the vehicle ledger (by vehicle count or dollar total) that isn't
+    already present. Fully automatic - no hardcoded state names - so any
+    future Help99-only state is picked up the same way, not just the
+    known current examples (New York, Massachusetts).
+
+    Synthetic entries have url=None (nothing on car4ukraine to link to),
+    so the widget's existing "no url -> no donate button, row not
+    clickable" logic already handles them correctly with no extra work.
+    fundraising_rank is None since car4ukraine never assigned them one.
+    """
+    existing_keys = set()
+    for s in states:
+        stripped = NAME_SUFFIX_RE.sub("", s["name"]).strip()
+        existing_keys.add(normalize_name(stripped))
+
+    candidate_keys = set(vehicles_by_state.keys()) | set(help99_dollars_by_state.keys())
+    missing_keys = candidate_keys - existing_keys
+
+    result = list(states)
+    for key in sorted(missing_keys):
+        meta_entry = state_meta.get(key)
+        canonical_name = meta_entry["canonical_name"] if meta_entry else key.title()
+        result.append({
+            "rank": None,
+            "name": canonical_name,
+            "amount": 0.0,
+            "url": None,
+            "fundraising_rank": None,
+        })
+        print(f"INFO: added Help99-only state not on car4ukraine: '{canonical_name}'", file=sys.stderr)
+    return result
+
+
+def combine_help99_dollars(states: list[dict], help99_dollars_by_state: dict) -> list[dict]:
+    """
+    Adds each state's Help99 dollar total on top of its car4ukraine
+    amount (which must already be car4ukraine-only at this point - never
+    read from the ledger - to avoid double-counting). Returns the total
+    Help99 dollars added across all states too, so the caller can adjust
+    the overall campaign total for consistency.
+    """
+    enriched = []
+    total_help99_dollars = 0.0
+    for s in states:
+        stripped = NAME_SUFFIX_RE.sub("", s["name"]).strip()
+        key = normalize_name(stripped)
+        help99_dollars = help99_dollars_by_state.get(key, 0.0)
+        total_help99_dollars += help99_dollars
+        enriched.append({**s, "amount": round(s["amount"] + help99_dollars, 2)})
+    return enriched, round(total_help99_dollars, 2)
 
 
 def rerank_by_vehicles(states: list[dict]) -> list[dict]:
@@ -335,11 +425,29 @@ def build_snapshot() -> dict:
         )
 
     state_meta = load_state_meta()
-    states = attach_flags(states, state_meta)
 
     ledger_rows = fetch_vehicle_ledger(VEHICLE_LEDGER_URL)
-    vehicles_by_state, help99_by_state = aggregate_vehicle_data(ledger_rows, set(state_meta.keys()))
-    states = attach_vehicle_data(states, vehicles_by_state, help99_by_state)
+    vehicles_by_state, help99_dollars_by_state = aggregate_vehicle_data(
+        ledger_rows, set(state_meta.keys())
+    )
+
+    # Add any state that only ever fundraised via Help99 and never
+    # appeared on car4ukraine.com at all, before attaching flags/vehicles
+    # so those synthetic entries get the same treatment as everyone else.
+    states = add_missing_help99_only_states(states, vehicles_by_state, help99_dollars_by_state, state_meta)
+
+    states = attach_flags(states, state_meta)
+    states = attach_vehicle_data(states, vehicles_by_state, help99_dollars_by_state)
+
+    # Combine dollar totals (car4ukraine-scraped amount + Help99 ledger
+    # amount) before ranking, since ranking's tie-break uses amount. Note:
+    # totals["donated"] (the progress bar figure) intentionally does NOT
+    # get this same adjustment - it represents the car4ukraine campaign's
+    # own goal/progress specifically, and adding Help99 dollars to it
+    # would misrepresent progress against that goal. The widget instead
+    # labels the progress bar clearly as car4ukraine-specific.
+    states, _total_help99_dollars = combine_help99_dollars(states, help99_dollars_by_state)
+
     states = rerank_by_vehicles(states)
 
     merch_by_state = fetch_merch_links(MERCH_SHEET_URL)
@@ -397,10 +505,24 @@ def build_rankings_with_deltas(snapshot: dict, history: list[dict]) -> dict:
     enriched_states = []
     for s in snapshot["states"]:
         prior = baseline_by_name.get(s["name"])
+
         delta = None
         if prior is not None:
             delta = round(s["amount"] - prior["amount"], 2)
-        enriched_states.append({**s, "amount_7d_ago": prior["amount"] if prior else None, "delta_7d": delta})
+
+        vehicles_delta = None
+        prior_vehicles = prior.get("vehicles_delivered") if prior else None
+        if prior_vehicles is not None:
+            current_vehicles = s.get("vehicles_delivered", 0.0)
+            vehicles_delta = round(current_vehicles - prior_vehicles, 4)
+
+        enriched_states.append({
+            **s,
+            "amount_7d_ago": prior["amount"] if prior else None,
+            "delta_7d": delta,
+            "vehicles_delivered_7d_ago": prior_vehicles,
+            "vehicles_delta_7d": vehicles_delta,
+        })
 
     movers = [s for s in enriched_states if s["delta_7d"] is not None]
     top_movers = sorted(movers, key=lambda s: s["delta_7d"], reverse=True)
