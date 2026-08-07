@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-08-07T13:24:36.610333+00:00",
+  "scraped_at": "2026-08-07T15:04:33.789752+00:00",
   "source_url": "https://car4ukraine.com/campaigns/50forua",
   "totals": {
     "donated": 550470.4,
@@ -14,7 +14,7 @@
       "amount": 69042.42,
       "url": "https://car4ukraine.com/campaigns/50forua-ohio-battalion",
       "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/ohio.svg",
-      "vehicles_delivered": 4.0,
+      "vehicles_delivered": 5.0,
       "includes_help99": false,
       "fundraising_rank": 1,
       "merch_url": null,
@@ -22,7 +22,7 @@
       "delta_7d": null
     },
     {
-      "rank": 1,
+      "rank": 2,
       "name": "Florida Battalion",
       "amount": 1751.55,
       "url": "https://car4ukraine.com/campaigns/50forua-florida-battalion",
@@ -48,7 +48,20 @@
       "delta_7d": null
     },
     {
-      "rank": 4,
+      "rank": 3,
+      "name": "Connecticut Battalion",
+      "amount": 26410.96,
+      "url": "https://car4ukraine.com/campaigns/50forua-connecticut-battalion",
+      "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/connecticut.svg",
+      "vehicles_delivered": 3.0,
+      "includes_help99": false,
+      "fundraising_rank": 7,
+      "merch_url": null,
+      "amount_7d_ago": null,
+      "delta_7d": null
+    },
+    {
+      "rank": 5,
       "name": "Delaware Battalion",
       "amount": 28645.83,
       "url": "https://car4ukraine.com/campaigns/50forua-delaware-battalion",
@@ -61,7 +74,7 @@
       "delta_7d": null
     },
     {
-      "rank": 4,
+      "rank": 5,
       "name": "New Jersey Battalion",
       "amount": 28380.08,
       "url": "https://car4ukraine.com/campaigns/50forua-new-jersey-battalion",
@@ -74,7 +87,7 @@
       "delta_7d": null
     },
     {
-      "rank": 6,
+      "rank": 7,
       "name": "Arizona Battalion",
       "amount": 28359.95,
       "url": "https://car4ukraine.com/campaigns/50forua-arizona-battalion",
@@ -87,20 +100,7 @@
       "delta_7d": null
     },
     {
-      "rank": 6,
-      "name": "Connecticut Battalion",
-      "amount": 26410.96,
-      "url": "https://car4ukraine.com/campaigns/50forua-connecticut-battalion",
-      "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/connecticut.svg",
-      "vehicles_delivered": 2.0,
-      "includes_help99": false,
-      "fundraising_rank": 7,
-      "merch_url": null,
-      "amount_7d_ago": null,
-      "delta_7d": null
-    },
-    {
-      "rank": 6,
+      "rank": 7,
       "name": "DC Battalion",
       "amount": 25728.49,
       "url": "https://car4ukraine.com/campaigns/50forua-dc-battalion",
