@@ -535,12 +535,31 @@ def build_rankings_with_deltas(snapshot: dict, history: list[dict]) -> dict:
             current_vehicles = s.get("vehicles_delivered", 0.0)
             vehicles_delta = round(current_vehicles - prior_vehicles, 4)
 
+        # Rank movement (higher rank number = worse, so "improved" means the
+        # number went down - a prior rank of 5 -> current rank of 2 is a
+        # +3 improvement). Only shown when positive (moved up); staying
+        # the same or dropping shows nothing, matching how negative dollar
+        # deltas are also hidden rather than shown discouragingly.
+        # prior_rank can be None even when `prior` exists - e.g. a
+        # Help99-only state added by the one-time backfill script never
+        # had a real computed rank in that old snapshot. That's fine and
+        # self-resolving: it just means no rank-movement badge for that
+        # state until enough newly-computed history accumulates.
+        rank_improvement = None
+        prior_rank = prior.get("rank") if prior else None
+        current_rank = s.get("rank")
+        if prior_rank is not None and current_rank is not None:
+            diff = prior_rank - current_rank
+            if diff > 0:
+                rank_improvement = diff
+
         enriched_states.append({
             **s,
             "amount_7d_ago": prior["amount"] if prior else None,
             "delta_7d": delta,
             "vehicles_delivered_7d_ago": prior_vehicles,
             "vehicles_delta_7d": vehicles_delta,
+            "rank_improvement_7d": rank_improvement,
         })
 
     movers = [s for s in enriched_states if s["delta_7d"] is not None]
