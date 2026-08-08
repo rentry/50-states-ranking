@@ -1,8 +1,9 @@
 {
-  "scraped_at": "2026-08-08T06:32:47.015828+00:00",
+  "scraped_at": "2026-08-08T06:57:34.432287+00:00",
   "source_url": "https://car4ukraine.com/campaigns/50forua",
+  "schema_version": 2,
   "totals": {
-    "donated": 550546.95,
+    "donated": 723381.14,
     "donations_count": 1986,
     "goal": 1000000.0
   },
