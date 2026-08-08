@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-08-08T14:43:04.566809+00:00",
+  "scraped_at": "2026-08-08T15:39:07.345766+00:00",
   "source_url": "https://car4ukraine.com/campaigns/50forua",
   "totals": {
     "donated": 723441.14,
@@ -167,7 +167,7 @@
       "vehicles_delivered": 1.25,
       "includes_help99": false,
       "fundraising_rank": 11,
-      "merch_url": null,
+      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/utah-battalion",
       "amount_7d_ago": 17492.97,
       "delta_7d": 0.0,
       "vehicles_delivered_7d_ago": null,
