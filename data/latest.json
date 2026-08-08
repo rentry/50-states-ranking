@@ -1,10 +1,10 @@
 {
-  "scraped_at": "2026-08-08T15:39:07.345766+00:00",
+  "scraped_at": "2026-08-08T16:47:40.814061+00:00",
   "source_url": "https://car4ukraine.com/campaigns/50forua",
   "schema_version": 2,
   "totals": {
-    "donated": 723441.14,
-    "donations_count": 1987,
+    "donated": 723664.14,
+    "donations_count": 1989,
     "goal": 1000000.0
   },
   "states": [
@@ -198,7 +198,7 @@
     {
       "rank": 13,
       "name": "Vermont Battalion",
-      "amount": 14392.74,
+      "amount": 14615.74,
       "url": "https://car4ukraine.com/campaigns/50forua-new-vermont-battalion",
       "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/vermont.svg",
       "vehicles_delivered": 1.0,
