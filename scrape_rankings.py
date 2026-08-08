@@ -53,6 +53,15 @@ MERCH_SHEET_URL = "https://docs.google.com/spreadsheets/d/1UNjVYb94PSoxa25jGjXEC
 COUNTED_STATUSES = {"9 delivered", "8 deployed"}  # normalized (lowercased/stripped) match targets
 HELP99_PARTNER = "help99"
 
+# Bumped whenever a change alters the *meaning* of a field already stored
+# in history.jsonl (e.g. combining Help99 dollars into `amount`, which
+# happened at version 2). Snapshots older than the current version are
+# not valid delta baselines - comparing across a meaning-change produces
+# a misleading number, not a real week-over-week figure. Bump this again
+# any time a similar change happens, and old history will automatically
+# stop being used as a baseline rather than silently corrupting deltas.
+SCHEMA_VERSION = 2
+
 # Names that legitimately appear in "State Battalion" but aren't states/
 # territories (e.g. city-level campaigns). Silently ignored, no warning -
 # this is expected, not a data-quality issue. Add to this set as needed.
@@ -440,22 +449,26 @@ def build_snapshot() -> dict:
     states = attach_vehicle_data(states, vehicles_by_state, help99_dollars_by_state)
 
     # Combine dollar totals (car4ukraine-scraped amount + Help99 ledger
-    # amount) before ranking, since ranking's tie-break uses amount. Note:
-    # totals["donated"] (the progress bar figure) intentionally does NOT
-    # get this same adjustment - it represents the car4ukraine campaign's
-    # own goal/progress specifically, and adding Help99 dollars to it
-    # would misrepresent progress against that goal. The widget instead
-    # labels the progress bar clearly as car4ukraine-specific.
-    states, _total_help99_dollars = combine_help99_dollars(states, help99_dollars_by_state)
+    # amount) before ranking, since ranking's tie-break uses amount.
+    states, total_help99_dollars = combine_help99_dollars(states, help99_dollars_by_state)
 
     states = rerank_by_vehicles(states)
 
     merch_by_state = fetch_merch_links(MERCH_SHEET_URL)
     states = attach_merch_links(states, merch_by_state)
 
+    # The progress bar reflects the aggregate across all partners (not
+    # just car4ukraine) - it's the overall 50 States for Ukraine total,
+    # per Colin's direction. It's expected/fine for this to exceed
+    # car4ukraine's own displayed total, since Help99 is a separate
+    # contributing partner.
+    if totals.get("donated") is not None and total_help99_dollars:
+        totals["donated"] = round(totals["donated"] + total_help99_dollars, 2)
+
     return {
         "scraped_at": datetime.now(timezone.utc).isoformat(),
         "source_url": CAMPAIGN_URL,
+        "schema_version": SCHEMA_VERSION,
         "totals": totals,
         "states": states,
     }
@@ -480,10 +493,16 @@ def load_history() -> list[dict]:
 
 
 def find_snapshot_near(history: list[dict], target: datetime, tolerance_hours: float = 12) -> dict | None:
-    """Finds the history entry closest to `target`, within tolerance_hours."""
+    """Finds the history entry closest to `target`, within tolerance_hours.
+    Snapshots with a schema_version older than the current one (or
+    missing it entirely - i.e. predating this concept) are excluded, since
+    comparing amounts/vehicle counts across a meaning-change would produce
+    a misleading delta rather than a real one."""
     best = None
     best_diff = None
     for snap in history:
+        if snap.get("schema_version", 0) < SCHEMA_VERSION:
+            continue
         ts = datetime.fromisoformat(snap["scraped_at"])
         diff = abs((ts - target).total_seconds())
         if best_diff is None or diff < best_diff:
