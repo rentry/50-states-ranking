@@ -469,6 +469,7 @@ def build_snapshot() -> dict:
         "scraped_at": datetime.now(timezone.utc).isoformat(),
         "source_url": CAMPAIGN_URL,
         "schema_version": SCHEMA_VERSION,
+        "rank_corrected": True,
         "totals": totals,
         "states": states,
     }
@@ -494,14 +495,15 @@ def load_history() -> list[dict]:
 
 def find_snapshot_near(history: list[dict], target: datetime, tolerance_hours: float = 12) -> dict | None:
     """Finds the history entry closest to `target`, within tolerance_hours.
-    Snapshots with a schema_version older than the current one (or
-    missing it entirely - i.e. predating this concept) are excluded, since
-    comparing amounts/vehicle counts across a meaning-change would produce
-    a misleading delta rather than a real one."""
+    Excludes snapshots with a schema_version older than current (amounts
+    not comparable) or missing rank_corrected (rank was computed with a
+    stale tiebreak amount, from before this field existed)."""
     best = None
     best_diff = None
     for snap in history:
         if snap.get("schema_version", 0) < SCHEMA_VERSION:
+            continue
+        if not snap.get("rank_corrected", False):
             continue
         ts = datetime.fromisoformat(snap["scraped_at"])
         diff = abs((ts - target).total_seconds())

@@ -67,7 +67,10 @@ def main() -> int:
     for line in lines:
         snap = json.loads(line)
 
-        if snap.get("schema_version", 0) >= sr.SCHEMA_VERSION:
+        needs_amount_fix = snap.get("schema_version", 0) < sr.SCHEMA_VERSION
+        needs_rank_fix = not snap.get("rank_corrected", False)
+
+        if not needs_amount_fix and not needs_rank_fix:
             skipped_count += 1
             output_lines.append(json.dumps(snap, separators=(",", ":")))
             continue
@@ -77,27 +80,38 @@ def main() -> int:
             stripped = sr.NAME_SUFFIX_RE.sub("", s["name"]).strip()
             existing_keys.add(sr.normalize_name(stripped))
 
-        patched_states = []
-        for s in snap["states"]:
-            stripped = sr.NAME_SUFFIX_RE.sub("", s["name"]).strip()
-            key = sr.normalize_name(stripped)
-            help99_amount = help99_dollars_by_state.get(key, 0.0)
-            patched_states.append({**s, "amount": round(s["amount"] + help99_amount, 2)})
+        if needs_amount_fix:
+            patched_states = []
+            for s in snap["states"]:
+                stripped = sr.NAME_SUFFIX_RE.sub("", s["name"]).strip()
+                key = sr.normalize_name(stripped)
+                help99_amount = help99_dollars_by_state.get(key, 0.0)
+                patched_states.append({**s, "amount": round(s["amount"] + help99_amount, 2)})
 
-        missing_keys = set(help99_dollars_by_state.keys()) - existing_keys
-        for key in sorted(missing_keys):
-            meta_entry = state_meta.get(key)
-            canonical_name = meta_entry["canonical_name"] if meta_entry else key.title()
-            patched_states.append({
-                "rank": None,
-                "name": canonical_name,
-                "amount": round(help99_dollars_by_state[key], 2),
-                "url": None,
-                "fundraising_rank": None,
-            })
+            missing_keys = set(help99_dollars_by_state.keys()) - existing_keys
+            for key in sorted(missing_keys):
+                meta_entry = state_meta.get(key)
+                canonical_name = meta_entry["canonical_name"] if meta_entry else key.title()
+                patched_states.append({
+                    "rank": None,
+                    "name": canonical_name,
+                    "amount": round(help99_dollars_by_state[key], 2),
+                    "url": None,
+                    "fundraising_rank": None,
+                })
+        else:
+            patched_states = snap["states"]
 
+        # Recompute rank using the now-corrected amounts. The original
+        # rank stored in this old entry was computed with the pre-fix
+        # (car4ukraine-only) tiebreak amounts - leaving it as-is would
+        # make rank-movement comparisons vulnerable to the same class of
+        # false-jump bug we just fixed for dollar deltas, since ties get
+        # broken by amount.
+        patched_states = sr.rerank_by_vehicles(patched_states)
         snap["states"] = patched_states
         snap["schema_version"] = sr.SCHEMA_VERSION
+        snap["rank_corrected"] = True
         patched_count += 1
         output_lines.append(json.dumps(snap, separators=(",", ":")))
 
