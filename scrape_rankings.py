@@ -62,6 +62,15 @@ HELP99_PARTNER = "help99"
 # stop being used as a baseline rather than silently corrupting deltas.
 SCHEMA_VERSION = 2
 
+# Separate from SCHEMA_VERSION on purpose - this tracks changes to what a
+# rank NUMBER means (e.g. today's switch from "ties share a rank" to
+# "dollar amount breaks every tie into a unique rank"), independent of
+# whether dollar/vehicle amounts themselves are comparable. Bumping this
+# doesn't affect dollar/vehicle delta calculations at all - it only gates
+# whether a historical rank is safe to compare against for rank-movement
+# tracking specifically.
+RANK_VERSION = 2
+
 # Names that legitimately appear in "State Battalion" but aren't states/
 # territories (e.g. city-level campaigns). Silently ignored, no warning -
 # this is expected, not a data-quality issue. Add to this set as needed.
@@ -257,22 +266,23 @@ def combine_help99_dollars(states: list[dict], help99_dollars_by_state: dict) ->
 def rerank_by_vehicles(states: list[dict]) -> list[dict]:
     """
     Re-sorts and re-ranks states with vehicles_delivered as the primary
-    key (descending) and amount as the tie-breaker for list order only.
-    States tied on vehicles_delivered share the same rank number
-    (competition ranking: e.g. 1, 1, 3 - not 1, 1, 2), even if their
-    amounts differ. The original car4ukraine rank is preserved separately
-    as fundraising_rank for reference.
+    key (descending) and amount as the secondary key (descending). Amount
+    now breaks ties into distinct rank numbers, not just list order -
+    two states only share a rank on a true dead-heat (identical vehicles
+    AND identical amount, which should be extremely rare in practice).
+    The original car4ukraine rank is preserved separately as
+    fundraising_rank for reference.
     """
     ordered = sorted(states, key=lambda s: (-s.get("vehicles_delivered", 0.0), -s["amount"]))
 
     reranked = []
     current_rank = 0
-    prev_vehicles = None
+    prev_key = None
     for i, s in enumerate(ordered):
-        vehicles = s.get("vehicles_delivered", 0.0)
-        if vehicles != prev_vehicles:
+        key = (s.get("vehicles_delivered", 0.0), s["amount"])
+        if key != prev_key:
             current_rank = i + 1
-            prev_vehicles = vehicles
+            prev_key = key
         reranked.append({
             **s,
             "fundraising_rank": s["rank"],
@@ -469,7 +479,7 @@ def build_snapshot() -> dict:
         "scraped_at": datetime.now(timezone.utc).isoformat(),
         "source_url": CAMPAIGN_URL,
         "schema_version": SCHEMA_VERSION,
-        "rank_corrected": True,
+        "rank_version": RANK_VERSION,
         "totals": totals,
         "states": states,
     }
@@ -495,15 +505,16 @@ def load_history() -> list[dict]:
 
 def find_snapshot_near(history: list[dict], target: datetime, tolerance_hours: float = 12) -> dict | None:
     """Finds the history entry closest to `target`, within tolerance_hours.
-    Excludes snapshots with a schema_version older than current (amounts
-    not comparable) or missing rank_corrected (rank was computed with a
-    stale tiebreak amount, from before this field existed)."""
+    Excludes snapshots with a schema_version older than current, since
+    comparing amounts across that meaning-change would be misleading.
+    This does NOT check rank_version - rank safety is checked separately,
+    right where rank_improvement_7d is computed, so a rank-algorithm
+    change never blocks dollar/vehicle delta calculations, which aren't
+    affected by it."""
     best = None
     best_diff = None
     for snap in history:
         if snap.get("schema_version", 0) < SCHEMA_VERSION:
-            continue
-        if not snap.get("rank_corrected", False):
             continue
         ts = datetime.fromisoformat(snap["scraped_at"])
         diff = abs((ts - target).total_seconds())
@@ -550,7 +561,8 @@ def build_rankings_with_deltas(snapshot: dict, history: list[dict]) -> dict:
         rank_improvement = None
         prior_rank = prior.get("rank") if prior else None
         current_rank = s.get("rank")
-        if prior_rank is not None and current_rank is not None:
+        prior_rank_version = prior.get("rank_version", 0) if prior else 0
+        if prior_rank is not None and current_rank is not None and prior_rank_version >= RANK_VERSION:
             diff = prior_rank - current_rank
             if diff > 0:
                 rank_improvement = diff
