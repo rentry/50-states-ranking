@@ -1,11 +1,11 @@
 {
-  "scraped_at": "2026-08-11T09:11:13.058707+00:00",
+  "scraped_at": "2026-08-11T11:00:09.342063+00:00",
   "source_url": "https://car4ukraine.com/campaigns/50forua",
   "schema_version": 2,
   "rank_version": 2,
   "totals": {
-    "donated": 725008.55,
-    "donations_count": 1993,
+    "donated": 725583.55,
+    "donations_count": 1994,
     "goal": 1000000.0
   },
   "states": [
@@ -187,10 +187,10 @@
     },
     {
       "rank": 17,
-      "name": "Pennsylvania Battalion",
-      "amount": 14781.45,
-      "url": "https://car4ukraine.com/campaigns/50forua-pennsylvania-battalion",
-      "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/pennsylvania.svg",
+      "name": "Vermont Battalion",
+      "amount": 15190.74,
+      "url": "https://car4ukraine.com/campaigns/50forua-new-vermont-battalion",
+      "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/vermont.svg",
       "vehicles_delivered": 1.0,
       "includes_help99": false,
       "fundraising_rank": 15,
@@ -198,10 +198,10 @@
     },
     {
       "rank": 18,
-      "name": "Vermont Battalion",
-      "amount": 14615.74,
-      "url": "https://car4ukraine.com/campaigns/50forua-new-vermont-battalion",
-      "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/vermont.svg",
+      "name": "Pennsylvania Battalion",
+      "amount": 14781.45,
+      "url": "https://car4ukraine.com/campaigns/50forua-pennsylvania-battalion",
+      "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/pennsylvania.svg",
       "vehicles_delivered": 1.0,
       "includes_help99": false,
       "fundraising_rank": 16,
