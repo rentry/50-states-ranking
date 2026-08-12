@@ -1,12 +1,12 @@
 {
-  "scraped_at": "2026-08-12T13:37:50.918847+00:00",
+  "scraped_at": "2026-08-12T15:08:18.787470+00:00",
   "source_url": "https://car4ukraine.com/campaigns/50forua",
   "totals": {
-    "donated": 738437.51,
-    "donations_count": 1999,
+    "donated": 739012.51,
+    "donations_count": 2000,
     "goal": 1000000.0
   },
-  "baseline_date": "2026-08-05T12:08:23.301552+00:00",
+  "baseline_date": "2026-08-05T15:24:19.359510+00:00",
   "states": [
     {
       "rank": 1,
@@ -267,7 +267,7 @@
     {
       "rank": 17,
       "name": "Vermont Battalion",
-      "amount": 15190.74,
+      "amount": 15765.74,
       "url": "https://car4ukraine.com/campaigns/50forua-new-vermont-battalion",
       "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/vermont.svg",
       "vehicles_delivered": 1.0,
@@ -275,7 +275,7 @@
       "fundraising_rank": 16,
       "merch_url": null,
       "amount_7d_ago": 14162.74,
-      "delta_7d": 1028.0,
+      "delta_7d": 1603.0,
       "vehicles_delivered_7d_ago": null,
       "vehicles_delta_7d": null,
       "rank_improvement_7d": null
@@ -573,7 +573,7 @@
     {
       "rank": 17,
       "name": "Vermont Battalion",
-      "amount": 15190.74,
+      "amount": 15765.74,
       "url": "https://car4ukraine.com/campaigns/50forua-new-vermont-battalion",
       "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/vermont.svg",
       "vehicles_delivered": 1.0,
@@ -581,7 +581,7 @@
       "fundraising_rank": 16,
       "merch_url": null,
       "amount_7d_ago": 14162.74,
-      "delta_7d": 1028.0,
+      "delta_7d": 1603.0,
       "vehicles_delivered_7d_ago": null,
       "vehicles_delta_7d": null,
       "rank_improvement_7d": null
