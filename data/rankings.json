@@ -1,12 +1,12 @@
 {
-  "scraped_at": "2026-08-12T21:56:41.379423+00:00",
+  "scraped_at": "2026-08-12T22:54:50.826729+00:00",
   "source_url": "https://car4ukraine.com/campaigns/50forua",
   "totals": {
     "donated": 739012.51,
     "donations_count": 2000,
     "goal": 1000000.0
   },
-  "baseline_date": "2026-08-05T21:21:39.669988+00:00",
+  "baseline_date": "2026-08-05T23:13:18.977152+00:00",
   "states": [
     {
       "rank": 1,
@@ -258,8 +258,8 @@
       "includes_help99": false,
       "fundraising_rank": 11,
       "merch_url": null,
-      "amount_7d_ago": 17410.83,
-      "delta_7d": 625.64,
+      "amount_7d_ago": 17437.06,
+      "delta_7d": 599.41,
       "vehicles_delivered_7d_ago": null,
       "vehicles_delta_7d": null,
       "rank_improvement_7d": null
@@ -386,8 +386,8 @@
       "includes_help99": true,
       "fundraising_rank": 29,
       "merch_url": null,
-      "amount_7d_ago": 16562.49,
-      "delta_7d": 120.36,
+      "amount_7d_ago": 16682.85,
+      "delta_7d": 0.0,
       "vehicles_delivered_7d_ago": null,
       "vehicles_delta_7d": null,
       "rank_improvement_7d": null
@@ -587,22 +587,6 @@
       "rank_improvement_7d": null
     },
     {
-      "rank": 16,
-      "name": "Arkansas Battalion",
-      "amount": 18036.47,
-      "url": "https://car4ukraine.com/campaigns/50forua-arkansas-battalion",
-      "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/arkansas.svg",
-      "vehicles_delivered": 1.0,
-      "includes_help99": false,
-      "fundraising_rank": 11,
-      "merch_url": null,
-      "amount_7d_ago": 17410.83,
-      "delta_7d": 625.64,
-      "vehicles_delivered_7d_ago": null,
-      "vehicles_delta_7d": null,
-      "rank_improvement_7d": null
-    },
-    {
       "rank": 10,
       "name": "Washington Battalion",
       "amount": 19511.74,
@@ -614,6 +598,22 @@
       "merch_url": null,
       "amount_7d_ago": 18911.74,
       "delta_7d": 600.0,
+      "vehicles_delivered_7d_ago": null,
+      "vehicles_delta_7d": null,
+      "rank_improvement_7d": null
+    },
+    {
+      "rank": 16,
+      "name": "Arkansas Battalion",
+      "amount": 18036.47,
+      "url": "https://car4ukraine.com/campaigns/50forua-arkansas-battalion",
+      "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/arkansas.svg",
+      "vehicles_delivered": 1.0,
+      "includes_help99": false,
+      "fundraising_rank": 11,
+      "merch_url": null,
+      "amount_7d_ago": 17437.06,
+      "delta_7d": 599.41,
       "vehicles_delivered_7d_ago": null,
       "vehicles_delta_7d": null,
       "rank_improvement_7d": null
@@ -646,22 +646,6 @@
       "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/maryland-battalion",
       "amount_7d_ago": 5679.98,
       "delta_7d": 337.51,
-      "vehicles_delivered_7d_ago": null,
-      "vehicles_delta_7d": null,
-      "rank_improvement_7d": null
-    },
-    {
-      "rank": 24,
-      "name": "Texas Battalion",
-      "amount": 16682.85,
-      "url": "https://car4ukraine.com/campaigns/50forua-texas-battalion",
-      "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/texas.svg",
-      "vehicles_delivered": 0.75,
-      "includes_help99": true,
-      "fundraising_rank": 29,
-      "merch_url": null,
-      "amount_7d_ago": 16562.49,
-      "delta_7d": 120.36,
       "vehicles_delivered_7d_ago": null,
       "vehicles_delta_7d": null,
       "rank_improvement_7d": null
@@ -709,6 +693,22 @@
       "fundraising_rank": 1,
       "merch_url": null,
       "amount_7d_ago": 69042.42,
+      "delta_7d": 0.0,
+      "vehicles_delivered_7d_ago": null,
+      "vehicles_delta_7d": null,
+      "rank_improvement_7d": null
+    },
+    {
+      "rank": 4,
+      "name": "Connecticut Battalion",
+      "amount": 26410.96,
+      "url": "https://car4ukraine.com/campaigns/50forua-connecticut-battalion",
+      "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/connecticut.svg",
+      "vehicles_delivered": 3.0,
+      "includes_help99": false,
+      "fundraising_rank": 7,
+      "merch_url": null,
+      "amount_7d_ago": 26410.96,
       "delta_7d": 0.0,
       "vehicles_delivered_7d_ago": null,
       "vehicles_delta_7d": null,
