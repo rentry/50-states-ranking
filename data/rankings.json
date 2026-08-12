@@ -1,9 +1,9 @@
 {
-  "scraped_at": "2026-08-12T11:54:48.047418+00:00",
+  "scraped_at": "2026-08-12T13:37:50.918847+00:00",
   "source_url": "https://car4ukraine.com/campaigns/50forua",
   "totals": {
-    "donated": 738337.51,
-    "donations_count": 1998,
+    "donated": 738437.51,
+    "donations_count": 1999,
     "goal": 1000000.0
   },
   "baseline_date": "2026-08-05T12:08:23.301552+00:00",
@@ -43,7 +43,7 @@
     {
       "rank": 3,
       "name": "Michigan Regiment",
-      "amount": 48205.37,
+      "amount": 48305.37,
       "url": "https://car4ukraine.com/campaigns/50forua-michigan-battalion",
       "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/michigan.svg",
       "vehicles_delivered": 3.0,
@@ -51,7 +51,7 @@
       "fundraising_rank": 2,
       "merch_url": null,
       "amount_7d_ago": 47964.97,
-      "delta_7d": 240.4,
+      "delta_7d": 340.4,
       "vehicles_delivered_7d_ago": null,
       "vehicles_delta_7d": null,
       "rank_improvement_7d": null
@@ -619,6 +619,22 @@
       "rank_improvement_7d": null
     },
     {
+      "rank": 3,
+      "name": "Michigan Regiment",
+      "amount": 48305.37,
+      "url": "https://car4ukraine.com/campaigns/50forua-michigan-battalion",
+      "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/michigan.svg",
+      "vehicles_delivered": 3.0,
+      "includes_help99": false,
+      "fundraising_rank": 2,
+      "merch_url": null,
+      "amount_7d_ago": 47964.97,
+      "delta_7d": 340.4,
+      "vehicles_delivered_7d_ago": null,
+      "vehicles_delta_7d": null,
+      "rank_improvement_7d": null
+    },
+    {
       "rank": 33,
       "name": "Maryland Battalion",
       "amount": 6017.49,
@@ -630,22 +646,6 @@
       "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/maryland-battalion",
       "amount_7d_ago": 5679.98,
       "delta_7d": 337.51,
-      "vehicles_delivered_7d_ago": null,
-      "vehicles_delta_7d": null,
-      "rank_improvement_7d": null
-    },
-    {
-      "rank": 3,
-      "name": "Michigan Regiment",
-      "amount": 48205.37,
-      "url": "https://car4ukraine.com/campaigns/50forua-michigan-battalion",
-      "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/michigan.svg",
-      "vehicles_delivered": 3.0,
-      "includes_help99": false,
-      "fundraising_rank": 2,
-      "merch_url": null,
-      "amount_7d_ago": 47964.97,
-      "delta_7d": 240.4,
       "vehicles_delivered_7d_ago": null,
       "vehicles_delta_7d": null,
       "rank_improvement_7d": null
