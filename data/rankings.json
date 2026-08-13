@@ -1,9 +1,9 @@
 {
-  "scraped_at": "2026-08-13T11:55:53.359314+00:00",
+  "scraped_at": "2026-08-13T13:38:21.954410+00:00",
   "source_url": "https://car4ukraine.com/campaigns/50forua",
   "totals": {
-    "donated": 739132.87,
-    "donations_count": 2001,
+    "donated": 739237.57,
+    "donations_count": 2002,
     "goal": 1000000.0
   },
   "baseline_date": "2026-08-06T12:11:01.828187+00:00",
@@ -27,7 +27,7 @@
     {
       "rank": 2,
       "name": "Florida Battalion",
-      "amount": 100746.96,
+      "amount": 100851.66,
       "url": "https://car4ukraine.com/campaigns/50forua-florida-battalion",
       "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/florida.svg",
       "vehicles_delivered": 4.0,
@@ -35,7 +35,7 @@
       "fundraising_rank": 31,
       "merch_url": null,
       "amount_7d_ago": 100704.89,
-      "delta_7d": 42.07,
+      "delta_7d": 146.77,
       "vehicles_delivered_7d_ago": null,
       "vehicles_delta_7d": null,
       "rank_improvement_7d": null
@@ -653,7 +653,7 @@
     {
       "rank": 2,
       "name": "Florida Battalion",
-      "amount": 100746.96,
+      "amount": 100851.66,
       "url": "https://car4ukraine.com/campaigns/50forua-florida-battalion",
       "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/florida.svg",
       "vehicles_delivered": 4.0,
@@ -661,7 +661,7 @@
       "fundraising_rank": 31,
       "merch_url": null,
       "amount_7d_ago": 100704.89,
-      "delta_7d": 42.07,
+      "delta_7d": 146.77,
       "vehicles_delivered_7d_ago": null,
       "vehicles_delta_7d": null,
       "rank_improvement_7d": null
