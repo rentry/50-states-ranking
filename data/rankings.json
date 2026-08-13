@@ -1,12 +1,12 @@
 {
-  "scraped_at": "2026-08-13T19:16:56.434455+00:00",
+  "scraped_at": "2026-08-13T20:55:54.348684+00:00",
   "source_url": "https://car4ukraine.com/campaigns/50forua",
   "totals": {
     "donated": 739287.57,
     "donations_count": 2003,
     "goal": 1000000.0
   },
-  "baseline_date": "2026-08-06T15:24:11.661551+00:00",
+  "baseline_date": "2026-08-07T00:11:40.469383+00:00",
   "states": [
     {
       "rank": 1,
@@ -20,8 +20,8 @@
       "merch_url": null,
       "amount_7d_ago": 69042.42,
       "delta_7d": 0.0,
-      "vehicles_delivered_7d_ago": null,
-      "vehicles_delta_7d": null,
+      "vehicles_delivered_7d_ago": 4.0,
+      "vehicles_delta_7d": 1.0,
       "rank_improvement_7d": null
     },
     {
@@ -36,8 +36,8 @@
       "merch_url": null,
       "amount_7d_ago": 100704.89,
       "delta_7d": 146.77,
-      "vehicles_delivered_7d_ago": null,
-      "vehicles_delta_7d": null,
+      "vehicles_delivered_7d_ago": 4.0,
+      "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
     },
     {
@@ -52,8 +52,8 @@
       "merch_url": null,
       "amount_7d_ago": 47964.97,
       "delta_7d": 340.4,
-      "vehicles_delivered_7d_ago": null,
-      "vehicles_delta_7d": null,
+      "vehicles_delivered_7d_ago": 3.0,
+      "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
     },
     {
@@ -68,8 +68,8 @@
       "merch_url": null,
       "amount_7d_ago": 26410.96,
       "delta_7d": 0.0,
-      "vehicles_delivered_7d_ago": null,
-      "vehicles_delta_7d": null,
+      "vehicles_delivered_7d_ago": 2.0,
+      "vehicles_delta_7d": 1.0,
       "rank_improvement_7d": null
     },
     {
@@ -84,8 +84,8 @@
       "merch_url": null,
       "amount_7d_ago": 28645.83,
       "delta_7d": 0.0,
-      "vehicles_delivered_7d_ago": null,
-      "vehicles_delta_7d": null,
+      "vehicles_delivered_7d_ago": 2.25,
+      "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
     },
     {
@@ -100,8 +100,8 @@
       "merch_url": null,
       "amount_7d_ago": 28380.08,
       "delta_7d": 0.0,
-      "vehicles_delivered_7d_ago": null,
-      "vehicles_delta_7d": null,
+      "vehicles_delivered_7d_ago": 2.25,
+      "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
     },
     {
@@ -116,8 +116,8 @@
       "merch_url": null,
       "amount_7d_ago": 28359.95,
       "delta_7d": 0.0,
-      "vehicles_delivered_7d_ago": null,
-      "vehicles_delta_7d": null,
+      "vehicles_delivered_7d_ago": 2.0,
+      "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
     },
     {
@@ -132,8 +132,8 @@
       "merch_url": null,
       "amount_7d_ago": 25728.49,
       "delta_7d": 0.0,
-      "vehicles_delivered_7d_ago": null,
-      "vehicles_delta_7d": null,
+      "vehicles_delivered_7d_ago": 2.0,
+      "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
     },
     {
@@ -148,8 +148,8 @@
       "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/virginia-battalion-merchandise",
       "amount_7d_ago": 22439.45,
       "delta_7d": 25.0,
-      "vehicles_delivered_7d_ago": null,
-      "vehicles_delta_7d": null,
+      "vehicles_delivered_7d_ago": 1.25,
+      "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
     },
     {
@@ -164,8 +164,8 @@
       "merch_url": null,
       "amount_7d_ago": 18911.74,
       "delta_7d": 600.0,
-      "vehicles_delivered_7d_ago": null,
-      "vehicles_delta_7d": null,
+      "vehicles_delivered_7d_ago": 1.25,
+      "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
     },
     {
@@ -180,8 +180,8 @@
       "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/utah-battalion",
       "amount_7d_ago": 17492.97,
       "delta_7d": 0.0,
-      "vehicles_delivered_7d_ago": null,
-      "vehicles_delta_7d": null,
+      "vehicles_delivered_7d_ago": 1.25,
+      "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
     },
     {
@@ -196,8 +196,8 @@
       "merch_url": null,
       "amount_7d_ago": 16444.87,
       "delta_7d": 0.0,
-      "vehicles_delivered_7d_ago": null,
-      "vehicles_delta_7d": null,
+      "vehicles_delivered_7d_ago": 1.25,
+      "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
     },
     {
@@ -212,8 +212,8 @@
       "merch_url": null,
       "amount_7d_ago": 28629.21,
       "delta_7d": 0.0,
-      "vehicles_delivered_7d_ago": null,
-      "vehicles_delta_7d": null,
+      "vehicles_delivered_7d_ago": 1.0,
+      "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
     },
     {
@@ -260,8 +260,8 @@
       "merch_url": null,
       "amount_7d_ago": 17437.06,
       "delta_7d": 599.41,
-      "vehicles_delivered_7d_ago": null,
-      "vehicles_delta_7d": null,
+      "vehicles_delivered_7d_ago": 1.0,
+      "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
     },
     {
@@ -274,10 +274,10 @@
       "includes_help99": false,
       "fundraising_rank": 16,
       "merch_url": null,
-      "amount_7d_ago": 14162.74,
-      "delta_7d": 1603.0,
-      "vehicles_delivered_7d_ago": null,
-      "vehicles_delta_7d": null,
+      "amount_7d_ago": 14392.74,
+      "delta_7d": 1373.0,
+      "vehicles_delivered_7d_ago": 1.0,
+      "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
     },
     {
@@ -292,8 +292,8 @@
       "merch_url": null,
       "amount_7d_ago": 14781.45,
       "delta_7d": 0.0,
-      "vehicles_delivered_7d_ago": null,
-      "vehicles_delta_7d": null,
+      "vehicles_delivered_7d_ago": 0.0,
+      "vehicles_delta_7d": 1.0,
       "rank_improvement_7d": null
     },
     {
@@ -308,8 +308,8 @@
       "merch_url": null,
       "amount_7d_ago": 13579.35,
       "delta_7d": 0.0,
-      "vehicles_delivered_7d_ago": null,
-      "vehicles_delta_7d": null,
+      "vehicles_delivered_7d_ago": 1.0,
+      "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
     },
     {
@@ -324,8 +324,8 @@
       "merch_url": null,
       "amount_7d_ago": 13510.8,
       "delta_7d": 0.0,
-      "vehicles_delivered_7d_ago": null,
-      "vehicles_delta_7d": null,
+      "vehicles_delivered_7d_ago": 1.0,
+      "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
     },
     {
@@ -340,8 +340,8 @@
       "merch_url": null,
       "amount_7d_ago": 13143.35,
       "delta_7d": 0.0,
-      "vehicles_delivered_7d_ago": null,
-      "vehicles_delta_7d": null,
+      "vehicles_delivered_7d_ago": 1.0,
+      "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
     },
     {
@@ -356,8 +356,8 @@
       "merch_url": null,
       "amount_7d_ago": 12526.44,
       "delta_7d": 0.0,
-      "vehicles_delivered_7d_ago": null,
-      "vehicles_delta_7d": null,
+      "vehicles_delivered_7d_ago": 1.0,
+      "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
     },
     {
@@ -372,8 +372,8 @@
       "merch_url": null,
       "amount_7d_ago": 20133.08,
       "delta_7d": 0.0,
-      "vehicles_delivered_7d_ago": null,
-      "vehicles_delta_7d": null,
+      "vehicles_delivered_7d_ago": 0.75,
+      "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
     },
     {
@@ -388,8 +388,8 @@
       "merch_url": null,
       "amount_7d_ago": 16682.85,
       "delta_7d": 0.0,
-      "vehicles_delivered_7d_ago": null,
-      "vehicles_delta_7d": null,
+      "vehicles_delivered_7d_ago": 0.75,
+      "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
     },
     {
@@ -404,8 +404,8 @@
       "merch_url": null,
       "amount_7d_ago": 7032.14,
       "delta_7d": 0.0,
-      "vehicles_delivered_7d_ago": null,
-      "vehicles_delta_7d": null,
+      "vehicles_delivered_7d_ago": 0.5,
+      "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
     },
     {
@@ -420,8 +420,8 @@
       "merch_url": null,
       "amount_7d_ago": 4502.3,
       "delta_7d": 12544.38,
-      "vehicles_delivered_7d_ago": null,
-      "vehicles_delta_7d": null,
+      "vehicles_delivered_7d_ago": 0.25,
+      "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
     },
     {
@@ -436,8 +436,8 @@
       "merch_url": null,
       "amount_7d_ago": 16821.77,
       "delta_7d": 0.0,
-      "vehicles_delivered_7d_ago": null,
-      "vehicles_delta_7d": null,
+      "vehicles_delivered_7d_ago": 0.25,
+      "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
     },
     {
@@ -452,8 +452,8 @@
       "merch_url": null,
       "amount_7d_ago": 8300.81,
       "delta_7d": 0.0,
-      "vehicles_delivered_7d_ago": null,
-      "vehicles_delta_7d": null,
+      "vehicles_delivered_7d_ago": 0.25,
+      "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
     },
     {
@@ -468,8 +468,8 @@
       "merch_url": null,
       "amount_7d_ago": 5797.37,
       "delta_7d": 0.0,
-      "vehicles_delivered_7d_ago": null,
-      "vehicles_delta_7d": null,
+      "vehicles_delivered_7d_ago": 0.25,
+      "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
     },
     {
@@ -484,8 +484,8 @@
       "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/oregon-battalion",
       "amount_7d_ago": 5604.99,
       "delta_7d": 0.0,
-      "vehicles_delivered_7d_ago": null,
-      "vehicles_delta_7d": null,
+      "vehicles_delivered_7d_ago": 0.25,
+      "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
     },
     {
@@ -500,8 +500,8 @@
       "merch_url": null,
       "amount_7d_ago": 4575.17,
       "delta_7d": 0.0,
-      "vehicles_delivered_7d_ago": null,
-      "vehicles_delta_7d": null,
+      "vehicles_delivered_7d_ago": 0.25,
+      "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
     },
     {
@@ -516,8 +516,8 @@
       "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/maine-battalion",
       "amount_7d_ago": 7686.5,
       "delta_7d": 0.0,
-      "vehicles_delivered_7d_ago": null,
-      "vehicles_delta_7d": null,
+      "vehicles_delivered_7d_ago": 0.0,
+      "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
     },
     {
@@ -532,8 +532,8 @@
       "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/maryland-battalion",
       "amount_7d_ago": 5679.98,
       "delta_7d": 507.87,
-      "vehicles_delivered_7d_ago": null,
-      "vehicles_delta_7d": null,
+      "vehicles_delivered_7d_ago": 0.0,
+      "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
     },
     {
@@ -548,8 +548,8 @@
       "merch_url": null,
       "amount_7d_ago": 1410.65,
       "delta_7d": 0.0,
-      "vehicles_delivered_7d_ago": null,
-      "vehicles_delta_7d": null,
+      "vehicles_delivered_7d_ago": 0.0,
+      "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
     }
   ],
@@ -566,8 +566,8 @@
       "merch_url": null,
       "amount_7d_ago": 4502.3,
       "delta_7d": 12544.38,
-      "vehicles_delivered_7d_ago": null,
-      "vehicles_delta_7d": null,
+      "vehicles_delivered_7d_ago": 0.25,
+      "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
     },
     {
@@ -580,10 +580,10 @@
       "includes_help99": false,
       "fundraising_rank": 16,
       "merch_url": null,
-      "amount_7d_ago": 14162.74,
-      "delta_7d": 1603.0,
-      "vehicles_delivered_7d_ago": null,
-      "vehicles_delta_7d": null,
+      "amount_7d_ago": 14392.74,
+      "delta_7d": 1373.0,
+      "vehicles_delivered_7d_ago": 1.0,
+      "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
     },
     {
@@ -598,8 +598,8 @@
       "merch_url": null,
       "amount_7d_ago": 18911.74,
       "delta_7d": 600.0,
-      "vehicles_delivered_7d_ago": null,
-      "vehicles_delta_7d": null,
+      "vehicles_delivered_7d_ago": 1.25,
+      "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
     },
     {
@@ -614,8 +614,8 @@
       "merch_url": null,
       "amount_7d_ago": 17437.06,
       "delta_7d": 599.41,
-      "vehicles_delivered_7d_ago": null,
-      "vehicles_delta_7d": null,
+      "vehicles_delivered_7d_ago": 1.0,
+      "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
     },
     {
@@ -630,8 +630,8 @@
       "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/maryland-battalion",
       "amount_7d_ago": 5679.98,
       "delta_7d": 507.87,
-      "vehicles_delivered_7d_ago": null,
-      "vehicles_delta_7d": null,
+      "vehicles_delivered_7d_ago": 0.0,
+      "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
     },
     {
@@ -646,8 +646,8 @@
       "merch_url": null,
       "amount_7d_ago": 47964.97,
       "delta_7d": 340.4,
-      "vehicles_delivered_7d_ago": null,
-      "vehicles_delta_7d": null,
+      "vehicles_delivered_7d_ago": 3.0,
+      "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
     },
     {
@@ -662,8 +662,8 @@
       "merch_url": null,
       "amount_7d_ago": 100704.89,
       "delta_7d": 146.77,
-      "vehicles_delivered_7d_ago": null,
-      "vehicles_delta_7d": null,
+      "vehicles_delivered_7d_ago": 4.0,
+      "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
     },
     {
@@ -678,8 +678,8 @@
       "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/virginia-battalion-merchandise",
       "amount_7d_ago": 22439.45,
       "delta_7d": 25.0,
-      "vehicles_delivered_7d_ago": null,
-      "vehicles_delta_7d": null,
+      "vehicles_delivered_7d_ago": 1.25,
+      "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
     },
     {
@@ -694,8 +694,8 @@
       "merch_url": null,
       "amount_7d_ago": 69042.42,
       "delta_7d": 0.0,
-      "vehicles_delivered_7d_ago": null,
-      "vehicles_delta_7d": null,
+      "vehicles_delivered_7d_ago": 4.0,
+      "vehicles_delta_7d": 1.0,
       "rank_improvement_7d": null
     },
     {
@@ -710,8 +710,8 @@
       "merch_url": null,
       "amount_7d_ago": 26410.96,
       "delta_7d": 0.0,
-      "vehicles_delivered_7d_ago": null,
-      "vehicles_delta_7d": null,
+      "vehicles_delivered_7d_ago": 2.0,
+      "vehicles_delta_7d": 1.0,
       "rank_improvement_7d": null
     }
   ]
