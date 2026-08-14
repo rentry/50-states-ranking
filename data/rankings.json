@@ -1,12 +1,12 @@
 {
-  "scraped_at": "2026-08-14T13:33:42.992459+00:00",
+  "scraped_at": "2026-08-14T15:02:42.432454+00:00",
   "source_url": "https://car4ukraine.com/campaigns/50forua",
   "totals": {
     "donated": 739287.57,
     "donations_count": 2003,
     "goal": 1000000.0
   },
-  "baseline_date": "2026-08-07T13:24:36.610333+00:00",
+  "baseline_date": "2026-08-07T15:04:33.789752+00:00",
   "states": [
     {
       "rank": 1,
@@ -20,8 +20,8 @@
       "merch_url": null,
       "amount_7d_ago": 69042.42,
       "delta_7d": 0.0,
-      "vehicles_delivered_7d_ago": 4.0,
-      "vehicles_delta_7d": 1.0,
+      "vehicles_delivered_7d_ago": 5.0,
+      "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
     },
     {
@@ -68,8 +68,8 @@
       "merch_url": null,
       "amount_7d_ago": 26410.96,
       "delta_7d": 0.0,
-      "vehicles_delivered_7d_ago": 2.0,
-      "vehicles_delta_7d": 1.0,
+      "vehicles_delivered_7d_ago": 3.0,
+      "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
     },
     {
@@ -694,8 +694,8 @@
       "merch_url": null,
       "amount_7d_ago": 69042.42,
       "delta_7d": 0.0,
-      "vehicles_delivered_7d_ago": 4.0,
-      "vehicles_delta_7d": 1.0,
+      "vehicles_delivered_7d_ago": 5.0,
+      "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
     },
     {
@@ -710,8 +710,8 @@
       "merch_url": null,
       "amount_7d_ago": 26410.96,
       "delta_7d": 0.0,
-      "vehicles_delivered_7d_ago": 2.0,
-      "vehicles_delta_7d": 1.0,
+      "vehicles_delivered_7d_ago": 3.0,
+      "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
     }
   ]
