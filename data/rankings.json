@@ -1,12 +1,12 @@
 {
-  "scraped_at": "2026-08-14T16:01:31.379916+00:00",
+  "scraped_at": "2026-08-14T17:04:35.652941+00:00",
   "source_url": "https://car4ukraine.com/campaigns/50forua",
   "totals": {
     "donated": 739287.57,
     "donations_count": 2003,
     "goal": 1000000.0
   },
-  "baseline_date": "2026-08-07T16:06:11.948035+00:00",
+  "baseline_date": "2026-08-07T17:04:37.116410+00:00",
   "states": [
     {
       "rank": 1,
@@ -545,7 +545,7 @@
       "vehicles_delivered": 0.0,
       "includes_help99": false,
       "fundraising_rank": 32,
-      "merch_url": null,
+      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/indiana-battalion",
       "amount_7d_ago": 1410.65,
       "delta_7d": 0.0,
       "vehicles_delivered_7d_ago": 0.0,
