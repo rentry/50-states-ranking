@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-08-15T21:30:06.733524+00:00",
+  "scraped_at": "2026-08-15T22:32:41.173982+00:00",
   "source_url": "https://car4ukraine.com/campaigns/50forua",
   "schema_version": 2,
   "rank_version": 2,
@@ -18,7 +18,7 @@
       "vehicles_delivered": 5.0,
       "includes_help99": false,
       "fundraising_rank": 1,
-      "merch_url": null
+      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/ohio-regiment"
     },
     {
       "rank": 2,
@@ -29,7 +29,7 @@
       "vehicles_delivered": 4.0,
       "includes_help99": true,
       "fundraising_rank": 31,
-      "merch_url": null
+      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/florida-battalion"
     },
     {
       "rank": 3,
@@ -40,7 +40,7 @@
       "vehicles_delivered": 3.0,
       "includes_help99": false,
       "fundraising_rank": 2,
-      "merch_url": null
+      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/michigan-battalion"
     },
     {
       "rank": 4,
@@ -51,7 +51,7 @@
       "vehicles_delivered": 3.0,
       "includes_help99": false,
       "fundraising_rank": 7,
-      "merch_url": null
+      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/connecticut-battalion"
     },
     {
       "rank": 5,
@@ -62,7 +62,7 @@
       "vehicles_delivered": 2.25,
       "includes_help99": false,
       "fundraising_rank": 3,
-      "merch_url": null
+      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/delaware-battalion"
     },
     {
       "rank": 6,
@@ -73,7 +73,7 @@
       "vehicles_delivered": 2.25,
       "includes_help99": false,
       "fundraising_rank": 5,
-      "merch_url": null
+      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/new-jersey-battalion"
     },
     {
       "rank": 7,
@@ -84,7 +84,7 @@
       "vehicles_delivered": 2.0,
       "includes_help99": false,
       "fundraising_rank": 6,
-      "merch_url": null
+      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/arizona-battalion"
     },
     {
       "rank": 8,
@@ -95,7 +95,7 @@
       "vehicles_delivered": 2.0,
       "includes_help99": false,
       "fundraising_rank": 8,
-      "merch_url": null
+      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/dc-battalion"
     },
     {
       "rank": 9,
@@ -117,7 +117,7 @@
       "vehicles_delivered": 1.25,
       "includes_help99": false,
       "fundraising_rank": 10,
-      "merch_url": null
+      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/washington-battalion"
     },
     {
       "rank": 11,
@@ -139,7 +139,7 @@
       "vehicles_delivered": 1.25,
       "includes_help99": false,
       "fundraising_rank": 15,
-      "merch_url": null
+      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/tennessee-battalion"
     },
     {
       "rank": 13,
@@ -150,7 +150,7 @@
       "vehicles_delivered": 1.0,
       "includes_help99": false,
       "fundraising_rank": 4,
-      "merch_url": null
+      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/iowa-battalion"
     },
     {
       "rank": 14,
@@ -183,7 +183,7 @@
       "vehicles_delivered": 1.0,
       "includes_help99": false,
       "fundraising_rank": 11,
-      "merch_url": null
+      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/arkansas-battalion"
     },
     {
       "rank": 17,
@@ -194,7 +194,7 @@
       "vehicles_delivered": 1.0,
       "includes_help99": false,
       "fundraising_rank": 16,
-      "merch_url": null
+      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/vermont-battalion"
     },
     {
       "rank": 18,
@@ -205,7 +205,7 @@
       "vehicles_delivered": 1.0,
       "includes_help99": false,
       "fundraising_rank": 17,
-      "merch_url": null
+      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/pennsylvania-battalion"
     },
     {
       "rank": 19,
@@ -216,7 +216,7 @@
       "vehicles_delivered": 1.0,
       "includes_help99": false,
       "fundraising_rank": 18,
-      "merch_url": null
+      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/minnesota-battalion"
     },
     {
       "rank": 20,
@@ -227,7 +227,7 @@
       "vehicles_delivered": 1.0,
       "includes_help99": false,
       "fundraising_rank": 19,
-      "merch_url": null
+      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/hawaii-battalion"
     },
     {
       "rank": 21,
@@ -238,7 +238,7 @@
       "vehicles_delivered": 1.0,
       "includes_help99": false,
       "fundraising_rank": 20,
-      "merch_url": null
+      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/american-samoa-battalion"
     },
     {
       "rank": 22,
@@ -249,7 +249,7 @@
       "vehicles_delivered": 1.0,
       "includes_help99": false,
       "fundraising_rank": 21,
-      "merch_url": null
+      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/guam-battalion"
     },
     {
       "rank": 23,
@@ -260,7 +260,7 @@
       "vehicles_delivered": 0.75,
       "includes_help99": true,
       "fundraising_rank": 22,
-      "merch_url": null
+      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/california-battalion"
     },
     {
       "rank": 24,
@@ -271,7 +271,7 @@
       "vehicles_delivered": 0.75,
       "includes_help99": true,
       "fundraising_rank": 29,
-      "merch_url": null
+      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/texas-battalion"
     },
     {
       "rank": 25,
@@ -282,7 +282,7 @@
       "vehicles_delivered": 0.5,
       "includes_help99": false,
       "fundraising_rank": 25,
-      "merch_url": null
+      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/north-carolina-battalion"
     },
     {
       "rank": 26,
@@ -293,7 +293,7 @@
       "vehicles_delivered": 0.25,
       "includes_help99": false,
       "fundraising_rank": 13,
-      "merch_url": null
+      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/colorado-battalion"
     },
     {
       "rank": 27,
@@ -304,7 +304,7 @@
       "vehicles_delivered": 0.25,
       "includes_help99": false,
       "fundraising_rank": 14,
-      "merch_url": null
+      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/new-hampshire-battalion"
     },
     {
       "rank": 28,
@@ -315,7 +315,7 @@
       "vehicles_delivered": 0.25,
       "includes_help99": false,
       "fundraising_rank": 23,
-      "merch_url": null
+      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/wisconsin-battalion"
     },
     {
       "rank": 29,
@@ -326,7 +326,7 @@
       "vehicles_delivered": 0.25,
       "includes_help99": false,
       "fundraising_rank": 27,
-      "merch_url": null
+      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/illinois-battalion"
     },
     {
       "rank": 30,
@@ -348,7 +348,7 @@
       "vehicles_delivered": 0.25,
       "includes_help99": false,
       "fundraising_rank": 30,
-      "merch_url": null
+      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/new-mexico-battalion"
     },
     {
       "rank": 32,
