@@ -1,11 +1,11 @@
 {
-  "scraped_at": "2026-08-18T20:34:42.362869+00:00",
+  "scraped_at": "2026-08-18T21:33:36.680279+00:00",
   "source_url": "https://car4ukraine.com/campaigns/50forua",
   "schema_version": 2,
   "rank_version": 2,
   "totals": {
-    "donated": 744287.31,
-    "donations_count": 2023,
+    "donated": 744402.31,
+    "donations_count": 2024,
     "goal": 1000000.0
   },
   "states": [
@@ -78,7 +78,7 @@
     {
       "rank": 7,
       "name": "Arizona Battalion",
-      "amount": 28404.75,
+      "amount": 28519.75,
       "url": "https://car4ukraine.com/campaigns/50forua-arizona-battalion",
       "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/arizona.svg",
       "vehicles_delivered": 2.0,
