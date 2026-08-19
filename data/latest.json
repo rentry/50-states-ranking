@@ -1,11 +1,11 @@
 {
-  "scraped_at": "2026-08-19T05:39:43.939378+00:00",
+  "scraped_at": "2026-08-19T07:00:17.893152+00:00",
   "source_url": "https://car4ukraine.com/campaigns/50forua",
   "schema_version": 2,
   "rank_version": 2,
   "totals": {
-    "donated": 744642.71,
-    "donations_count": 2025,
+    "donated": 744763.0,
+    "donations_count": 2026,
     "goal": 1000000.0
   },
   "states": [
@@ -133,7 +133,7 @@
     {
       "rank": 12,
       "name": "Tennessee Battalion",
-      "amount": 16444.87,
+      "amount": 16565.16,
       "url": "https://car4ukraine.com/campaigns/50forua-tennessee-battalion",
       "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/tennessee.svg",
       "vehicles_delivered": 1.25,
