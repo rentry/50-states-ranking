@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-08-19T16:42:01.268249+00:00",
+  "scraped_at": "2026-08-19T17:16:24.854965+00:00",
   "source_url": "https://car4ukraine.com/campaigns/50forua",
   "totals": {
     "donated": 757618.07,
@@ -46,18 +46,34 @@
       "amount": 51545.77,
       "url": "https://car4ukraine.com/campaigns/50forua-michigan-battalion",
       "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/michigan.svg",
-      "vehicles_delivered": 3.0,
+      "vehicles_delivered": 4.0,
       "includes_help99": false,
       "fundraising_rank": 2,
       "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/michigan-battalion",
       "amount_7d_ago": 48305.37,
       "delta_7d": 3240.4,
       "vehicles_delivered_7d_ago": 3.0,
-      "vehicles_delta_7d": 0.0,
+      "vehicles_delta_7d": 1.0,
       "rank_improvement_7d": null
     },
     {
       "rank": 4,
+      "name": "Arizona Battalion",
+      "amount": 41019.75,
+      "url": "https://car4ukraine.com/campaigns/50forua-arizona-battalion",
+      "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/arizona.svg",
+      "vehicles_delivered": 3.0,
+      "includes_help99": false,
+      "fundraising_rank": 3,
+      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/arizona-battalion",
+      "amount_7d_ago": 28359.95,
+      "delta_7d": 12659.8,
+      "vehicles_delivered_7d_ago": 2.0,
+      "vehicles_delta_7d": 1.0,
+      "rank_improvement_7d": 3
+    },
+    {
+      "rank": 5,
       "name": "Connecticut Battalion",
       "amount": 26410.96,
       "url": "https://car4ukraine.com/campaigns/50forua-connecticut-battalion",
@@ -73,7 +89,7 @@
       "rank_improvement_7d": null
     },
     {
-      "rank": 5,
+      "rank": 6,
       "name": "Delaware Battalion",
       "amount": 28645.83,
       "url": "https://car4ukraine.com/campaigns/50forua-delaware-battalion",
@@ -89,7 +105,7 @@
       "rank_improvement_7d": null
     },
     {
-      "rank": 6,
+      "rank": 7,
       "name": "New Jersey Battalion",
       "amount": 28380.08,
       "url": "https://car4ukraine.com/campaigns/50forua-new-jersey-battalion",
@@ -105,23 +121,23 @@
       "rank_improvement_7d": null
     },
     {
-      "rank": 7,
-      "name": "Arizona Battalion",
-      "amount": 41019.75,
-      "url": "https://car4ukraine.com/campaigns/50forua-arizona-battalion",
-      "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/arizona.svg",
+      "rank": 8,
+      "name": "Iowa Battalion",
+      "amount": 28629.21,
+      "url": "https://car4ukraine.com/campaigns/50forua-iowa-battalion",
+      "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/iowa.svg",
       "vehicles_delivered": 2.0,
       "includes_help99": false,
-      "fundraising_rank": 3,
-      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/arizona-battalion",
-      "amount_7d_ago": 28359.95,
-      "delta_7d": 12659.8,
-      "vehicles_delivered_7d_ago": 2.0,
-      "vehicles_delta_7d": 0.0,
-      "rank_improvement_7d": null
+      "fundraising_rank": 5,
+      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/iowa-battalion",
+      "amount_7d_ago": 28629.21,
+      "delta_7d": 0.0,
+      "vehicles_delivered_7d_ago": 1.0,
+      "vehicles_delta_7d": 1.0,
+      "rank_improvement_7d": 5
     },
     {
-      "rank": 8,
+      "rank": 9,
       "name": "DC Battalion",
       "amount": 25728.49,
       "url": "https://car4ukraine.com/campaigns/50forua-dc-battalion",
@@ -137,7 +153,7 @@
       "rank_improvement_7d": null
     },
     {
-      "rank": 9,
+      "rank": 10,
       "name": "Virginia Battalion",
       "amount": 22756.96,
       "url": "https://car4ukraine.com/campaigns/50forua-virginia-battalion",
@@ -153,7 +169,7 @@
       "rank_improvement_7d": null
     },
     {
-      "rank": 10,
+      "rank": 11,
       "name": "Washington Battalion",
       "amount": 19511.74,
       "url": "https://car4ukraine.com/campaigns/50forua-washington-battalion",
@@ -169,7 +185,7 @@
       "rank_improvement_7d": null
     },
     {
-      "rank": 11,
+      "rank": 12,
       "name": "Utah Battalion",
       "amount": 17492.97,
       "url": "https://car4ukraine.com/campaigns/50forua-utah-battalion",
@@ -185,7 +201,39 @@
       "rank_improvement_7d": null
     },
     {
-      "rank": 12,
+      "rank": 13,
+      "name": "Colorado Battalion",
+      "amount": 17046.68,
+      "url": "https://car4ukraine.com/campaigns/50forua-colorado-battalion",
+      "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/colorado.svg",
+      "vehicles_delivered": 1.25,
+      "includes_help99": false,
+      "fundraising_rank": 13,
+      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/colorado-battalion",
+      "amount_7d_ago": 17046.68,
+      "delta_7d": 0.0,
+      "vehicles_delivered_7d_ago": 0.25,
+      "vehicles_delta_7d": 1.0,
+      "rank_improvement_7d": 13
+    },
+    {
+      "rank": 14,
+      "name": "New Hampshire Battalion",
+      "amount": 16821.77,
+      "url": "https://car4ukraine.com/campaigns/50forua-new-hampshire-battalion",
+      "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/new-hampshire.svg",
+      "vehicles_delivered": 1.25,
+      "includes_help99": false,
+      "fundraising_rank": 14,
+      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/new-hampshire-battalion",
+      "amount_7d_ago": 16821.77,
+      "delta_7d": 0.0,
+      "vehicles_delivered_7d_ago": 0.25,
+      "vehicles_delta_7d": 1.0,
+      "rank_improvement_7d": 13
+    },
+    {
+      "rank": 15,
       "name": "Tennessee Battalion",
       "amount": 16565.16,
       "url": "https://car4ukraine.com/campaigns/50forua-tennessee-battalion",
@@ -201,23 +249,7 @@
       "rank_improvement_7d": null
     },
     {
-      "rank": 13,
-      "name": "Iowa Battalion",
-      "amount": 28629.21,
-      "url": "https://car4ukraine.com/campaigns/50forua-iowa-battalion",
-      "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/iowa.svg",
-      "vehicles_delivered": 1.0,
-      "includes_help99": false,
-      "fundraising_rank": 5,
-      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/iowa-battalion",
-      "amount_7d_ago": 28629.21,
-      "delta_7d": 0.0,
-      "vehicles_delivered_7d_ago": 1.0,
-      "vehicles_delta_7d": 0.0,
-      "rank_improvement_7d": null
-    },
-    {
-      "rank": 14,
+      "rank": 16,
       "name": "Massachusetts",
       "amount": 25500.0,
       "url": null,
@@ -233,7 +265,7 @@
       "rank_improvement_7d": null
     },
     {
-      "rank": 15,
+      "rank": 17,
       "name": "New York",
       "amount": 25162.42,
       "url": null,
@@ -249,7 +281,7 @@
       "rank_improvement_7d": null
     },
     {
-      "rank": 16,
+      "rank": 18,
       "name": "Arkansas Battalion",
       "amount": 18799.36,
       "url": "https://car4ukraine.com/campaigns/50forua-arkansas-battalion",
@@ -265,7 +297,7 @@
       "rank_improvement_7d": null
     },
     {
-      "rank": 17,
+      "rank": 19,
       "name": "Vermont Battalion",
       "amount": 16058.32,
       "url": "https://car4ukraine.com/campaigns/50forua-new-vermont-battalion",
@@ -281,7 +313,7 @@
       "rank_improvement_7d": null
     },
     {
-      "rank": 18,
+      "rank": 20,
       "name": "Pennsylvania Battalion",
       "amount": 14781.45,
       "url": "https://car4ukraine.com/campaigns/50forua-pennsylvania-battalion",
@@ -297,7 +329,7 @@
       "rank_improvement_7d": null
     },
     {
-      "rank": 19,
+      "rank": 21,
       "name": "Minnesota Battalion",
       "amount": 13579.35,
       "url": "https://car4ukraine.com/campaigns/50forua-minnesota-battalion",
@@ -313,7 +345,7 @@
       "rank_improvement_7d": null
     },
     {
-      "rank": 20,
+      "rank": 22,
       "name": "Hawaii Battalion",
       "amount": 13510.8,
       "url": "https://car4ukraine.com/campaigns/50forua-hawaii-battalion",
@@ -329,7 +361,7 @@
       "rank_improvement_7d": null
     },
     {
-      "rank": 21,
+      "rank": 23,
       "name": "American Samoa Battalion",
       "amount": 13143.35,
       "url": "https://car4ukraine.com/campaigns/50forua-american-samoa",
@@ -345,7 +377,7 @@
       "rank_improvement_7d": null
     },
     {
-      "rank": 22,
+      "rank": 24,
       "name": "Guam Battalion",
       "amount": 12526.44,
       "url": "https://car4ukraine.com/campaigns/50forua-guam-battalion",
@@ -361,7 +393,7 @@
       "rank_improvement_7d": null
     },
     {
-      "rank": 23,
+      "rank": 25,
       "name": "California Battalion",
       "amount": 20133.08,
       "url": "https://car4ukraine.com/campaigns/50forua-california-battalion",
@@ -377,7 +409,7 @@
       "rank_improvement_7d": null
     },
     {
-      "rank": 24,
+      "rank": 26,
       "name": "Texas Battalion",
       "amount": 16803.22,
       "url": "https://car4ukraine.com/campaigns/50forua-texas-battalion",
@@ -393,7 +425,7 @@
       "rank_improvement_7d": null
     },
     {
-      "rank": 25,
+      "rank": 27,
       "name": "North Carolina Battalion",
       "amount": 7032.14,
       "url": "https://car4ukraine.com/campaigns/50forua-nc-battalion",
@@ -405,38 +437,6 @@
       "amount_7d_ago": 7032.14,
       "delta_7d": 0.0,
       "vehicles_delivered_7d_ago": 0.5,
-      "vehicles_delta_7d": 0.0,
-      "rank_improvement_7d": null
-    },
-    {
-      "rank": 26,
-      "name": "Colorado Battalion",
-      "amount": 17046.68,
-      "url": "https://car4ukraine.com/campaigns/50forua-colorado-battalion",
-      "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/colorado.svg",
-      "vehicles_delivered": 0.25,
-      "includes_help99": false,
-      "fundraising_rank": 13,
-      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/colorado-battalion",
-      "amount_7d_ago": 17046.68,
-      "delta_7d": 0.0,
-      "vehicles_delivered_7d_ago": 0.25,
-      "vehicles_delta_7d": 0.0,
-      "rank_improvement_7d": null
-    },
-    {
-      "rank": 27,
-      "name": "New Hampshire Battalion",
-      "amount": 16821.77,
-      "url": "https://car4ukraine.com/campaigns/50forua-new-hampshire-battalion",
-      "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/new-hampshire.svg",
-      "vehicles_delivered": 0.25,
-      "includes_help99": false,
-      "fundraising_rank": 14,
-      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/new-hampshire-battalion",
-      "amount_7d_ago": 16821.77,
-      "delta_7d": 0.0,
-      "vehicles_delivered_7d_ago": 0.25,
       "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
     },
@@ -555,20 +555,20 @@
   ],
   "top_movers_7d": [
     {
-      "rank": 7,
+      "rank": 4,
       "name": "Arizona Battalion",
       "amount": 41019.75,
       "url": "https://car4ukraine.com/campaigns/50forua-arizona-battalion",
       "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/arizona.svg",
-      "vehicles_delivered": 2.0,
+      "vehicles_delivered": 3.0,
       "includes_help99": false,
       "fundraising_rank": 3,
       "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/arizona-battalion",
       "amount_7d_ago": 28359.95,
       "delta_7d": 12659.8,
       "vehicles_delivered_7d_ago": 2.0,
-      "vehicles_delta_7d": 0.0,
-      "rank_improvement_7d": null
+      "vehicles_delta_7d": 1.0,
+      "rank_improvement_7d": 3
     },
     {
       "rank": 3,
@@ -576,18 +576,18 @@
       "amount": 51545.77,
       "url": "https://car4ukraine.com/campaigns/50forua-michigan-battalion",
       "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/michigan.svg",
-      "vehicles_delivered": 3.0,
+      "vehicles_delivered": 4.0,
       "includes_help99": false,
       "fundraising_rank": 2,
       "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/michigan-battalion",
       "amount_7d_ago": 48305.37,
       "delta_7d": 3240.4,
       "vehicles_delivered_7d_ago": 3.0,
-      "vehicles_delta_7d": 0.0,
+      "vehicles_delta_7d": 1.0,
       "rank_improvement_7d": null
     },
     {
-      "rank": 16,
+      "rank": 18,
       "name": "Arkansas Battalion",
       "amount": 18799.36,
       "url": "https://car4ukraine.com/campaigns/50forua-arkansas-battalion",
@@ -635,7 +635,7 @@
       "rank_improvement_7d": null
     },
     {
-      "rank": 17,
+      "rank": 19,
       "name": "Vermont Battalion",
       "amount": 16058.32,
       "url": "https://car4ukraine.com/campaigns/50forua-new-vermont-battalion",
@@ -651,7 +651,7 @@
       "rank_improvement_7d": null
     },
     {
-      "rank": 9,
+      "rank": 10,
       "name": "Virginia Battalion",
       "amount": 22756.96,
       "url": "https://car4ukraine.com/campaigns/50forua-virginia-battalion",
@@ -683,7 +683,7 @@
       "rank_improvement_7d": null
     },
     {
-      "rank": 24,
+      "rank": 26,
       "name": "Texas Battalion",
       "amount": 16803.22,
       "url": "https://car4ukraine.com/campaigns/50forua-texas-battalion",
@@ -699,7 +699,7 @@
       "rank_improvement_7d": null
     },
     {
-      "rank": 12,
+      "rank": 15,
       "name": "Tennessee Battalion",
       "amount": 16565.16,
       "url": "https://car4ukraine.com/campaigns/50forua-tennessee-battalion",
