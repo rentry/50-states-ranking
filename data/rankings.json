@@ -1,12 +1,12 @@
 {
-  "scraped_at": "2026-08-19T11:34:50.234145+00:00",
+  "scraped_at": "2026-08-19T13:04:15.360771+00:00",
   "source_url": "https://car4ukraine.com/campaigns/50forua",
   "totals": {
     "donated": 757263.0,
     "donations_count": 2027,
     "goal": 1000000.0
   },
-  "baseline_date": "2026-08-12T11:54:48.047418+00:00",
+  "baseline_date": "2026-08-12T13:37:50.918847+00:00",
   "states": [
     {
       "rank": 1,
@@ -50,8 +50,8 @@
       "includes_help99": false,
       "fundraising_rank": 2,
       "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/michigan-battalion",
-      "amount_7d_ago": 48205.37,
-      "delta_7d": 3340.4,
+      "amount_7d_ago": 48305.37,
+      "delta_7d": 3240.4,
       "vehicles_delivered_7d_ago": 3.0,
       "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
@@ -580,8 +580,8 @@
       "includes_help99": false,
       "fundraising_rank": 2,
       "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/michigan-battalion",
-      "amount_7d_ago": 48205.37,
-      "delta_7d": 3340.4,
+      "amount_7d_ago": 48305.37,
+      "delta_7d": 3240.4,
       "vehicles_delivered_7d_ago": 3.0,
       "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
