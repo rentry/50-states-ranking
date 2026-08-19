@@ -50,7 +50,7 @@ VEHICLE_LEDGER_URL = "https://docs.google.com/spreadsheets/d/1UNjVYb94PSoxa25jGj
 # else breaks).
 MERCH_SHEET_URL = "https://docs.google.com/spreadsheets/d/1UNjVYb94PSoxa25jGjXECWSQGzSnNQwMRQE2PVw-T5Y/export?format=csv&gid=1595623771"
 
-COUNTED_STATUSES = {"9 delivered", "8 deployed"}  # normalized (lowercased/stripped) match targets
+COUNTED_STATUSES = {"9 delivered", "8 deployed", "7 funded"}  # normalized (lowercased/stripped) match targets
 HELP99_PARTNER = "help99"
 
 # Bumped whenever a change alters the *meaning* of a field already stored
@@ -63,12 +63,19 @@ HELP99_PARTNER = "help99"
 SCHEMA_VERSION = 2
 
 # Separate from SCHEMA_VERSION on purpose - this tracks changes to what a
-# rank NUMBER means (e.g. today's switch from "ties share a rank" to
-# "dollar amount breaks every tie into a unique rank"), independent of
-# whether dollar/vehicle amounts themselves are comparable. Bumping this
-# doesn't affect dollar/vehicle delta calculations at all - it only gates
-# whether a historical rank is safe to compare against for rank-movement
-# tracking specifically.
+# rank NUMBER means, independent of whether dollar amounts are
+# comparable. Bumping this doesn't affect dollar delta calculations at
+# all - it only gates whether a historical rank/vehicle count is safe to
+# compare against for movement tracking specifically.
+#
+# NOTE: adding "7 Funded" to COUNTED_STATUSES (below) technically changes
+# what vehicles_delivered means too, the same way past changes here
+# triggered a bump. Deliberately NOT bumped this time - Ryan's call,
+# accepting the risk that any state with a vehicle that's been sitting at
+# "7 Funded" for longer than ~7 days could show a one-time false rank/
+# vehicle-count jump, in exchange for not resetting the already-in-
+# progress wait for real rank-movement data (targeting ~Aug 16 2026).
+# If that tradeoff ever needs revisiting, bump this to 4.
 RANK_VERSION = 2
 
 # Names that legitimately appear in "State Battalion" but aren't states/
@@ -544,7 +551,8 @@ def build_rankings_with_deltas(snapshot: dict, history: list[dict]) -> dict:
 
         vehicles_delta = None
         prior_vehicles = prior.get("vehicles_delivered") if prior else None
-        if prior_vehicles is not None:
+        baseline_rank_version = baseline.get("rank_version", 0) if baseline else 0
+        if prior_vehicles is not None and baseline_rank_version >= RANK_VERSION:
             current_vehicles = s.get("vehicles_delivered", 0.0)
             vehicles_delta = round(current_vehicles - prior_vehicles, 4)
 
@@ -561,8 +569,7 @@ def build_rankings_with_deltas(snapshot: dict, history: list[dict]) -> dict:
         rank_improvement = None
         prior_rank = prior.get("rank") if prior else None
         current_rank = s.get("rank")
-        prior_rank_version = prior.get("rank_version", 0) if prior else 0
-        if prior_rank is not None and current_rank is not None and prior_rank_version >= RANK_VERSION:
+        if prior_rank is not None and current_rank is not None and baseline_rank_version >= RANK_VERSION:
             diff = prior_rank - current_rank
             if diff > 0:
                 rank_improvement = diff
