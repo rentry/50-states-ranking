@@ -1,12 +1,12 @@
 {
-  "scraped_at": "2026-08-20T22:38:22.986220+00:00",
+  "scraped_at": "2026-08-20T23:34:41.830849+00:00",
   "source_url": "https://car4ukraine.com/campaigns/50forua",
   "totals": {
-    "donated": 759310.83,
-    "donations_count": 2047,
+    "donated": 759551.23,
+    "donations_count": 2048,
     "goal": 1000000.0
   },
-  "baseline_date": "2026-08-13T22:55:52.111671+00:00",
+  "baseline_date": "2026-08-13T23:52:26.973143+00:00",
   "states": [
     {
       "rank": 1,
@@ -523,7 +523,7 @@
     {
       "rank": 33,
       "name": "Maryland Battalion",
-      "amount": 6312.85,
+      "amount": 6553.25,
       "url": "https://car4ukraine.com/campaigns/50forua-maryland-battalion",
       "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/maryland.svg",
       "vehicles_delivered": 0.0,
@@ -531,7 +531,7 @@
       "fundraising_rank": 26,
       "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/maryland-battalion",
       "amount_7d_ago": 6187.85,
-      "delta_7d": 125.0,
+      "delta_7d": 365.4,
       "vehicles_delivered_7d_ago": 0.0,
       "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
@@ -619,6 +619,22 @@
       "rank_improvement_7d": null
     },
     {
+      "rank": 33,
+      "name": "Maryland Battalion",
+      "amount": 6553.25,
+      "url": "https://car4ukraine.com/campaigns/50forua-maryland-battalion",
+      "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/maryland.svg",
+      "vehicles_delivered": 0.0,
+      "includes_help99": false,
+      "fundraising_rank": 26,
+      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/maryland-battalion",
+      "amount_7d_ago": 6187.85,
+      "delta_7d": 365.4,
+      "vehicles_delivered_7d_ago": 0.0,
+      "vehicles_delta_7d": 0.0,
+      "rank_improvement_7d": null
+    },
+    {
       "rank": 19,
       "name": "Vermont Battalion",
       "amount": 16058.32,
@@ -663,22 +679,6 @@
       "amount_7d_ago": 100851.66,
       "delta_7d": 240.65,
       "vehicles_delivered_7d_ago": 4.0,
-      "vehicles_delta_7d": 0.0,
-      "rank_improvement_7d": null
-    },
-    {
-      "rank": 33,
-      "name": "Maryland Battalion",
-      "amount": 6312.85,
-      "url": "https://car4ukraine.com/campaigns/50forua-maryland-battalion",
-      "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/maryland.svg",
-      "vehicles_delivered": 0.0,
-      "includes_help99": false,
-      "fundraising_rank": 26,
-      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/maryland-battalion",
-      "amount_7d_ago": 6187.85,
-      "delta_7d": 125.0,
-      "vehicles_delivered_7d_ago": 0.0,
       "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
     },
