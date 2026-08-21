@@ -1,12 +1,12 @@
 {
-  "scraped_at": "2026-08-21T16:46:43.554380+00:00",
+  "scraped_at": "2026-08-21T17:38:21.844920+00:00",
   "source_url": "https://car4ukraine.com/campaigns/50forua",
   "totals": {
     "donated": 764335.46,
     "donations_count": 2067,
     "goal": 1000000.0
   },
-  "baseline_date": "2026-08-14T17:04:35.652941+00:00",
+  "baseline_date": "2026-08-14T18:01:39.229516+00:00",
   "states": [
     {
       "rank": 1,
@@ -514,8 +514,8 @@
       "includes_help99": false,
       "fundraising_rank": 23,
       "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/maryland-battalion",
-      "amount_7d_ago": 6187.85,
-      "delta_7d": 3533.28,
+      "amount_7d_ago": 6302.85,
+      "delta_7d": 3418.28,
       "vehicles_delivered_7d_ago": 0.0,
       "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": 1
@@ -580,8 +580,8 @@
       "includes_help99": false,
       "fundraising_rank": 23,
       "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/maryland-battalion",
-      "amount_7d_ago": 6187.85,
-      "delta_7d": 3533.28,
+      "amount_7d_ago": 6302.85,
+      "delta_7d": 3418.28,
       "vehicles_delivered_7d_ago": 0.0,
       "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": 1
