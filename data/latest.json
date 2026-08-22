@@ -1,11 +1,11 @@
 {
-  "scraped_at": "2026-08-22T05:36:45.222627+00:00",
+  "scraped_at": "2026-08-22T06:55:01.427311+00:00",
   "source_url": "https://car4ukraine.com/campaigns/50forua",
   "schema_version": 2,
   "rank_version": 2,
   "totals": {
-    "donated": 765158.64,
-    "donations_count": 2078,
+    "donated": 765400.47,
+    "donations_count": 2080,
     "goal": 1000000.0
   },
   "states": [
@@ -309,7 +309,7 @@
     {
       "rank": 28,
       "name": "Wisconsin Battalion",
-      "amount": 11773.32,
+      "amount": 12015.15,
       "url": "https://car4ukraine.com/campaigns/50forua-wi-battalion",
       "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/wisconsin.svg",
       "vehicles_delivered": 0.25,
