@@ -1,12 +1,12 @@
 {
-  "scraped_at": "2026-08-24T16:50:35.901658+00:00",
+  "scraped_at": "2026-08-24T17:39:30.914772+00:00",
   "source_url": "https://car4ukraine.com/campaigns/50forua",
   "totals": {
     "donated": 766576.05,
     "donations_count": 2093,
     "goal": 1000000.0
   },
-  "baseline_date": "2026-08-17T16:39:10.348107+00:00",
+  "baseline_date": "2026-08-17T17:38:50.484428+00:00",
   "states": [
     {
       "rank": 1,
@@ -466,8 +466,8 @@
       "includes_help99": false,
       "fundraising_rank": 21,
       "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/wisconsin-battalion",
-      "amount_7d_ago": 8728.18,
-      "delta_7d": 4047.6,
+      "amount_7d_ago": 8768.27,
+      "delta_7d": 4007.51,
       "vehicles_delivered_7d_ago": 0.25,
       "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
@@ -564,8 +564,8 @@
       "includes_help99": false,
       "fundraising_rank": 21,
       "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/wisconsin-battalion",
-      "amount_7d_ago": 8728.18,
-      "delta_7d": 4047.6,
+      "amount_7d_ago": 8768.27,
+      "delta_7d": 4007.51,
       "vehicles_delivered_7d_ago": 0.25,
       "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
