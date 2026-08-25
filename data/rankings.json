@@ -1,12 +1,12 @@
 {
-  "scraped_at": "2026-08-24T23:30:24.923807+00:00",
+  "scraped_at": "2026-08-25T01:47:08.564269+00:00",
   "source_url": "https://car4ukraine.com/campaigns/50forua",
   "totals": {
-    "donated": 766696.34,
-    "donations_count": 2094,
+    "donated": 766816.7,
+    "donations_count": 2095,
     "goal": 1000000.0
   },
-  "baseline_date": "2026-08-17T23:32:22.831842+00:00",
+  "baseline_date": "2026-08-18T01:46:02.362633+00:00",
   "states": [
     {
       "rank": 1,
@@ -427,7 +427,7 @@
     {
       "rank": 27,
       "name": "North Carolina Battalion",
-      "amount": 7032.14,
+      "amount": 7152.5,
       "url": "https://car4ukraine.com/campaigns/50forua-nc-battalion",
       "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/north-carolina.svg",
       "vehicles_delivered": 0.5,
@@ -435,7 +435,7 @@
       "fundraising_rank": 26,
       "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/north-carolina-battalion",
       "amount_7d_ago": 7032.14,
-      "delta_7d": 0.0,
+      "delta_7d": 120.36,
       "vehicles_delivered_7d_ago": 0.5,
       "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
@@ -683,6 +683,22 @@
       "rank_improvement_7d": null
     },
     {
+      "rank": 27,
+      "name": "North Carolina Battalion",
+      "amount": 7152.5,
+      "url": "https://car4ukraine.com/campaigns/50forua-nc-battalion",
+      "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/north-carolina.svg",
+      "vehicles_delivered": 0.5,
+      "includes_help99": false,
+      "fundraising_rank": 26,
+      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/north-carolina-battalion",
+      "amount_7d_ago": 7032.14,
+      "delta_7d": 120.36,
+      "vehicles_delivered_7d_ago": 0.5,
+      "vehicles_delta_7d": 0.0,
+      "rank_improvement_7d": null
+    },
+    {
       "rank": 15,
       "name": "Tennessee Battalion",
       "amount": 16565.16,
@@ -695,22 +711,6 @@
       "amount_7d_ago": 16444.87,
       "delta_7d": 120.29,
       "vehicles_delivered_7d_ago": 1.25,
-      "vehicles_delta_7d": 0.0,
-      "rank_improvement_7d": null
-    },
-    {
-      "rank": 26,
-      "name": "Texas Battalion",
-      "amount": 16855.81,
-      "url": "https://car4ukraine.com/campaigns/50forua-texas-battalion",
-      "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/texas.svg",
-      "vehicles_delivered": 0.75,
-      "includes_help99": true,
-      "fundraising_rank": 29,
-      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/texas-battalion",
-      "amount_7d_ago": 16803.22,
-      "delta_7d": 52.59,
-      "vehicles_delivered_7d_ago": 0.75,
       "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
     }

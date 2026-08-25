@@ -1,11 +1,11 @@
 {
-  "scraped_at": "2026-08-24T23:30:24.923807+00:00",
+  "scraped_at": "2026-08-25T01:47:08.564269+00:00",
   "source_url": "https://car4ukraine.com/campaigns/50forua",
   "schema_version": 2,
   "rank_version": 2,
   "totals": {
-    "donated": 766696.34,
-    "donations_count": 2094,
+    "donated": 766816.7,
+    "donations_count": 2095,
     "goal": 1000000.0
   },
   "states": [
@@ -298,7 +298,7 @@
     {
       "rank": 27,
       "name": "North Carolina Battalion",
-      "amount": 7032.14,
+      "amount": 7152.5,
       "url": "https://car4ukraine.com/campaigns/50forua-nc-battalion",
       "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/north-carolina.svg",
       "vehicles_delivered": 0.5,
