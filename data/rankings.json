@@ -1,12 +1,12 @@
 {
-  "scraped_at": "2026-08-25T16:49:56.051483+00:00",
+  "scraped_at": "2026-08-25T17:39:55.946381+00:00",
   "source_url": "https://car4ukraine.com/campaigns/50forua",
   "totals": {
-    "donated": 766816.7,
-    "donations_count": 2095,
+    "donated": 766984.29,
+    "donations_count": 2097,
     "goal": 1000000.0
   },
-  "baseline_date": "2026-08-18T16:43:08.059493+00:00",
+  "baseline_date": "2026-08-18T17:37:23.302257+00:00",
   "states": [
     {
       "rank": 1,
@@ -178,8 +178,8 @@
       "includes_help99": false,
       "fundraising_rank": 9,
       "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/virginia-battalion-merchandise",
-      "amount_7d_ago": 22516.96,
-      "delta_7d": 240.0,
+      "amount_7d_ago": 22641.96,
+      "delta_7d": 115.0,
       "vehicles_delivered_7d_ago": 1.25,
       "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
@@ -507,7 +507,7 @@
     {
       "rank": 32,
       "name": "Maryland Battalion",
-      "amount": 10064.29,
+      "amount": 10231.88,
       "url": "https://car4ukraine.com/campaigns/50forua-maryland-battalion",
       "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/maryland.svg",
       "vehicles_delivered": 0.0,
@@ -515,7 +515,7 @@
       "fundraising_rank": 23,
       "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/maryland-battalion",
       "amount_7d_ago": 6312.85,
-      "delta_7d": 3751.44,
+      "delta_7d": 3919.03,
       "vehicles_delivered_7d_ago": 0.0,
       "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": 1
@@ -573,7 +573,7 @@
     {
       "rank": 32,
       "name": "Maryland Battalion",
-      "amount": 10064.29,
+      "amount": 10231.88,
       "url": "https://car4ukraine.com/campaigns/50forua-maryland-battalion",
       "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/maryland.svg",
       "vehicles_delivered": 0.0,
@@ -581,7 +581,7 @@
       "fundraising_rank": 23,
       "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/maryland-battalion",
       "amount_7d_ago": 6312.85,
-      "delta_7d": 3751.44,
+      "delta_7d": 3919.03,
       "vehicles_delivered_7d_ago": 0.0,
       "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": 1
@@ -631,22 +631,6 @@
       "amount_7d_ago": 15818.25,
       "delta_7d": 240.07,
       "vehicles_delivered_7d_ago": 1.0,
-      "vehicles_delta_7d": 0.0,
-      "rank_improvement_7d": null
-    },
-    {
-      "rank": 11,
-      "name": "Virginia Battalion",
-      "amount": 22756.96,
-      "url": "https://car4ukraine.com/campaigns/50forua-virginia-battalion",
-      "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/virginia.svg",
-      "vehicles_delivered": 1.25,
-      "includes_help99": false,
-      "fundraising_rank": 9,
-      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/virginia-battalion-merchandise",
-      "amount_7d_ago": 22516.96,
-      "delta_7d": 240.0,
-      "vehicles_delivered_7d_ago": 1.25,
       "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
     },
@@ -710,6 +694,22 @@
       "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/tennessee-battalion",
       "amount_7d_ago": 16444.87,
       "delta_7d": 120.29,
+      "vehicles_delivered_7d_ago": 1.25,
+      "vehicles_delta_7d": 0.0,
+      "rank_improvement_7d": null
+    },
+    {
+      "rank": 11,
+      "name": "Virginia Battalion",
+      "amount": 22756.96,
+      "url": "https://car4ukraine.com/campaigns/50forua-virginia-battalion",
+      "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/virginia.svg",
+      "vehicles_delivered": 1.25,
+      "includes_help99": false,
+      "fundraising_rank": 9,
+      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/virginia-battalion-merchandise",
+      "amount_7d_ago": 22641.96,
+      "delta_7d": 115.0,
       "vehicles_delivered_7d_ago": 1.25,
       "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
