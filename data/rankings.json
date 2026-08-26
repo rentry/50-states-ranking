@@ -1,12 +1,12 @@
 {
-  "scraped_at": "2026-08-26T14:56:22.158412+00:00",
+  "scraped_at": "2026-08-26T16:26:30.027781+00:00",
   "source_url": "https://car4ukraine.com/campaigns/50forua",
   "totals": {
-    "donated": 768394.51,
-    "donations_count": 2101,
+    "donated": 768444.51,
+    "donations_count": 2102,
     "goal": 1000000.0
   },
-  "baseline_date": "2026-08-19T14:46:22.544447+00:00",
+  "baseline_date": "2026-08-19T16:42:01.268249+00:00",
   "states": [
     {
       "rank": 1,
@@ -178,8 +178,8 @@
       "includes_help99": false,
       "fundraising_rank": 9,
       "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/virginia-battalion-merchandise",
-      "amount_7d_ago": 22641.96,
-      "delta_7d": 115.0,
+      "amount_7d_ago": 22756.96,
+      "delta_7d": 0.0,
       "vehicles_delivered_7d_ago": 1.25,
       "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
@@ -322,8 +322,8 @@
       "includes_help99": false,
       "fundraising_rank": 16,
       "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/vermont-battalion",
-      "amount_7d_ago": 15818.25,
-      "delta_7d": 240.07,
+      "amount_7d_ago": 16058.32,
+      "delta_7d": 0.0,
       "vehicles_delivered_7d_ago": 1.0,
       "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
@@ -507,7 +507,7 @@
     {
       "rank": 32,
       "name": "Maryland Battalion",
-      "amount": 10231.88,
+      "amount": 10281.88,
       "url": "https://car4ukraine.com/campaigns/50forua-maryland-battalion",
       "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/maryland.svg",
       "vehicles_delivered": 0.0,
@@ -515,7 +515,7 @@
       "fundraising_rank": 23,
       "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/maryland-battalion",
       "amount_7d_ago": 6312.85,
-      "delta_7d": 3919.03,
+      "delta_7d": 3969.03,
       "vehicles_delivered_7d_ago": 0.0,
       "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": 1
@@ -573,7 +573,7 @@
     {
       "rank": 32,
       "name": "Maryland Battalion",
-      "amount": 10231.88,
+      "amount": 10281.88,
       "url": "https://car4ukraine.com/campaigns/50forua-maryland-battalion",
       "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/maryland.svg",
       "vehicles_delivered": 0.0,
@@ -581,7 +581,7 @@
       "fundraising_rank": 23,
       "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/maryland-battalion",
       "amount_7d_ago": 6312.85,
-      "delta_7d": 3919.03,
+      "delta_7d": 3969.03,
       "vehicles_delivered_7d_ago": 0.0,
       "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": 1
@@ -617,22 +617,6 @@
       "vehicles_delivered_7d_ago": 0.25,
       "vehicles_delta_7d": 0.25,
       "rank_improvement_7d": 1
-    },
-    {
-      "rank": 20,
-      "name": "Vermont Battalion",
-      "amount": 16058.32,
-      "url": "https://car4ukraine.com/campaigns/50forua-new-vermont-battalion",
-      "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/vermont.svg",
-      "vehicles_delivered": 1.0,
-      "includes_help99": false,
-      "fundraising_rank": 16,
-      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/vermont-battalion",
-      "amount_7d_ago": 15818.25,
-      "delta_7d": 240.07,
-      "vehicles_delivered_7d_ago": 1.0,
-      "vehicles_delta_7d": 0.0,
-      "rank_improvement_7d": null
     },
     {
       "rank": 19,
@@ -712,6 +696,22 @@
       "delta_7d": 115.0,
       "vehicles_delivered_7d_ago": 3.0,
       "vehicles_delta_7d": 1.0,
+      "rank_improvement_7d": null
+    },
+    {
+      "rank": 26,
+      "name": "Texas Battalion",
+      "amount": 16855.81,
+      "url": "https://car4ukraine.com/campaigns/50forua-texas-battalion",
+      "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/texas.svg",
+      "vehicles_delivered": 0.75,
+      "includes_help99": true,
+      "fundraising_rank": 29,
+      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/texas-battalion",
+      "amount_7d_ago": 16803.22,
+      "delta_7d": 52.59,
+      "vehicles_delivered_7d_ago": 0.75,
+      "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
     }
   ]
