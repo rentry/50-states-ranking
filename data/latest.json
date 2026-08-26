@@ -1,11 +1,11 @@
 {
-  "scraped_at": "2026-08-25T23:33:30.417701+00:00",
+  "scraped_at": "2026-08-26T01:53:02.407958+00:00",
   "source_url": "https://car4ukraine.com/campaigns/50forua",
   "schema_version": 2,
   "rank_version": 2,
   "totals": {
-    "donated": 766995.05,
-    "donations_count": 2098,
+    "donated": 767195.69,
+    "donations_count": 2099,
     "goal": 1000000.0
   },
   "states": [
@@ -210,7 +210,7 @@
     {
       "rank": 19,
       "name": "Arkansas Battalion",
-      "amount": 18799.36,
+      "amount": 19000.0,
       "url": "https://car4ukraine.com/campaigns/50forua-arkansas-battalion",
       "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/arkansas.svg",
       "vehicles_delivered": 1.0,

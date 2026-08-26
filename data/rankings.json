@@ -1,12 +1,12 @@
 {
-  "scraped_at": "2026-08-25T23:33:30.417701+00:00",
+  "scraped_at": "2026-08-26T01:53:02.407958+00:00",
   "source_url": "https://car4ukraine.com/campaigns/50forua",
   "totals": {
-    "donated": 766995.05,
-    "donations_count": 2098,
+    "donated": 767195.69,
+    "donations_count": 2099,
     "goal": 1000000.0
   },
-  "baseline_date": "2026-08-18T23:31:39.756860+00:00",
+  "baseline_date": "2026-08-19T01:48:13.469316+00:00",
   "states": [
     {
       "rank": 1,
@@ -50,8 +50,8 @@
       "includes_help99": false,
       "fundraising_rank": 2,
       "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/michigan-battalion",
-      "amount_7d_ago": 51305.37,
-      "delta_7d": 355.4,
+      "amount_7d_ago": 51545.77,
+      "delta_7d": 115.0,
       "vehicles_delivered_7d_ago": 3.0,
       "vehicles_delta_7d": 1.0,
       "rank_improvement_7d": null
@@ -299,7 +299,7 @@
     {
       "rank": 19,
       "name": "Arkansas Battalion",
-      "amount": 18799.36,
+      "amount": 19000.0,
       "url": "https://car4ukraine.com/campaigns/50forua-arkansas-battalion",
       "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/arkansas.svg",
       "vehicles_delivered": 1.0,
@@ -307,7 +307,7 @@
       "fundraising_rank": 11,
       "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/arkansas-battalion",
       "amount_7d_ago": 18799.36,
-      "delta_7d": 0.0,
+      "delta_7d": 200.64,
       "vehicles_delivered_7d_ago": 1.0,
       "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
@@ -603,22 +603,6 @@
       "rank_improvement_7d": 1
     },
     {
-      "rank": 3,
-      "name": "Michigan Regiment",
-      "amount": 51660.77,
-      "url": "https://car4ukraine.com/campaigns/50forua-michigan-battalion",
-      "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/michigan.svg",
-      "vehicles_delivered": 4.0,
-      "includes_help99": false,
-      "fundraising_rank": 2,
-      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/michigan-battalion",
-      "amount_7d_ago": 51305.37,
-      "delta_7d": 355.4,
-      "vehicles_delivered_7d_ago": 3.0,
-      "vehicles_delta_7d": 1.0,
-      "rank_improvement_7d": null
-    },
-    {
       "rank": 20,
       "name": "Vermont Battalion",
       "amount": 16058.32,
@@ -630,6 +614,22 @@
       "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/vermont-battalion",
       "amount_7d_ago": 15818.25,
       "delta_7d": 240.07,
+      "vehicles_delivered_7d_ago": 1.0,
+      "vehicles_delta_7d": 0.0,
+      "rank_improvement_7d": null
+    },
+    {
+      "rank": 19,
+      "name": "Arkansas Battalion",
+      "amount": 19000.0,
+      "url": "https://car4ukraine.com/campaigns/50forua-arkansas-battalion",
+      "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/arkansas.svg",
+      "vehicles_delivered": 1.0,
+      "includes_help99": false,
+      "fundraising_rank": 11,
+      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/arkansas-battalion",
+      "amount_7d_ago": 18799.36,
+      "delta_7d": 200.64,
       "vehicles_delivered_7d_ago": 1.0,
       "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
@@ -699,19 +699,19 @@
       "rank_improvement_7d": null
     },
     {
-      "rank": 11,
-      "name": "Virginia Battalion",
-      "amount": 22756.96,
-      "url": "https://car4ukraine.com/campaigns/50forua-virginia-battalion",
-      "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/virginia.svg",
-      "vehicles_delivered": 1.25,
+      "rank": 3,
+      "name": "Michigan Regiment",
+      "amount": 51660.77,
+      "url": "https://car4ukraine.com/campaigns/50forua-michigan-battalion",
+      "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/michigan.svg",
+      "vehicles_delivered": 4.0,
       "includes_help99": false,
-      "fundraising_rank": 9,
-      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/virginia-battalion-merchandise",
-      "amount_7d_ago": 22641.96,
+      "fundraising_rank": 2,
+      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/michigan-battalion",
+      "amount_7d_ago": 51545.77,
       "delta_7d": 115.0,
-      "vehicles_delivered_7d_ago": 1.25,
-      "vehicles_delta_7d": 0.0,
+      "vehicles_delivered_7d_ago": 3.0,
+      "vehicles_delta_7d": 1.0,
       "rank_improvement_7d": null
     }
   ]
