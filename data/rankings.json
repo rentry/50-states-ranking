@@ -1,12 +1,12 @@
 {
-  "scraped_at": "2026-08-26T16:26:30.027781+00:00",
+  "scraped_at": "2026-08-26T19:14:56.680187+00:00",
   "source_url": "https://car4ukraine.com/campaigns/50forua",
   "totals": {
     "donated": 768444.51,
     "donations_count": 2102,
     "goal": 1000000.0
   },
-  "baseline_date": "2026-08-19T16:42:01.268249+00:00",
+  "baseline_date": "2026-08-19T19:34:05.154884+00:00",
   "states": [
     {
       "rank": 1,
@@ -52,8 +52,8 @@
       "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/michigan-battalion",
       "amount_7d_ago": 51545.77,
       "delta_7d": 115.0,
-      "vehicles_delivered_7d_ago": 3.0,
-      "vehicles_delta_7d": 1.0,
+      "vehicles_delivered_7d_ago": 4.0,
+      "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
     },
     {
@@ -132,9 +132,9 @@
       "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/iowa-battalion",
       "amount_7d_ago": 28629.21,
       "delta_7d": 0.0,
-      "vehicles_delivered_7d_ago": 1.0,
-      "vehicles_delta_7d": 1.0,
-      "rank_improvement_7d": 5
+      "vehicles_delivered_7d_ago": 2.0,
+      "vehicles_delta_7d": 0.0,
+      "rank_improvement_7d": null
     },
     {
       "rank": 9,
@@ -166,7 +166,7 @@
       "delta_7d": 0.0,
       "vehicles_delivered_7d_ago": 1.25,
       "vehicles_delta_7d": 0.25,
-      "rank_improvement_7d": null
+      "rank_improvement_7d": 1
     },
     {
       "rank": 11,
@@ -212,9 +212,9 @@
       "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/colorado-battalion",
       "amount_7d_ago": 17046.68,
       "delta_7d": 0.0,
-      "vehicles_delivered_7d_ago": 0.25,
-      "vehicles_delta_7d": 1.0,
-      "rank_improvement_7d": 13
+      "vehicles_delivered_7d_ago": 1.25,
+      "vehicles_delta_7d": 0.0,
+      "rank_improvement_7d": null
     },
     {
       "rank": 14,
@@ -228,9 +228,9 @@
       "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/new-hampshire-battalion",
       "amount_7d_ago": 16821.77,
       "delta_7d": 0.0,
-      "vehicles_delivered_7d_ago": 0.25,
-      "vehicles_delta_7d": 1.0,
-      "rank_improvement_7d": 13
+      "vehicles_delivered_7d_ago": 1.25,
+      "vehicles_delta_7d": 0.0,
+      "rank_improvement_7d": null
     },
     {
       "rank": 15,
@@ -294,7 +294,7 @@
       "delta_7d": 0.0,
       "vehicles_delivered_7d_ago": 0.75,
       "vehicles_delta_7d": 0.25,
-      "rank_improvement_7d": 5
+      "rank_improvement_7d": 7
     },
     {
       "rank": 19,
@@ -694,8 +694,8 @@
       "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/michigan-battalion",
       "amount_7d_ago": 51545.77,
       "delta_7d": 115.0,
-      "vehicles_delivered_7d_ago": 3.0,
-      "vehicles_delta_7d": 1.0,
+      "vehicles_delivered_7d_ago": 4.0,
+      "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
     },
     {
