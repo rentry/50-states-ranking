@@ -1,10 +1,10 @@
 {
-  "scraped_at": "2026-08-27T20:19:55.650779+00:00",
+  "scraped_at": "2026-08-28T05:18:42.315749+00:00",
   "source_url": "https://car4ukraine.com/campaigns/50forua",
   "schema_version": 2,
   "rank_version": 2,
   "totals": {
-    "donated": 768669.51,
+    "donated": 768666.94,
     "donations_count": 2104,
     "goal": 1000000.0
   },
@@ -309,7 +309,7 @@
     {
       "rank": 28,
       "name": "Illinois Battalion",
-      "amount": 6564.09,
+      "amount": 6561.52,
       "url": "https://car4ukraine.com/campaigns/50forua-illinois-battalion",
       "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/illinois.svg",
       "vehicles_delivered": 0.5,
