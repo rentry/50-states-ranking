@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-08-30T20:58:38.751853+00:00",
+  "scraped_at": "2026-08-30T23:25:10.236783+00:00",
   "source_url": "https://car4ukraine.com/campaigns/50forua",
   "schema_version": 2,
   "rank_version": 2,
@@ -183,7 +183,7 @@
       "vehicles_delivered": 1.0,
       "includes_help99": true,
       "fundraising_rank": 34,
-      "merch_url": null
+      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/massachusetts-battalion"
     },
     {
       "rank": 17,
