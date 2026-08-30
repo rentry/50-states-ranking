@@ -1,12 +1,12 @@
 {
-  "scraped_at": "2026-08-29T21:40:49.534912+00:00",
+  "scraped_at": "2026-08-30T00:10:58.549470+00:00",
   "source_url": "https://car4ukraine.com/campaigns/50forua",
   "totals": {
     "donated": 769151.09,
     "donations_count": 2108,
     "goal": 1000000.0
   },
-  "baseline_date": "2026-08-22T21:31:26.297779+00:00",
+  "baseline_date": "2026-08-22T23:30:27.314578+00:00",
   "states": [
     {
       "rank": 1,
@@ -250,18 +250,18 @@
     },
     {
       "rank": 16,
-      "name": "Massachusetts",
+      "name": "Massachusetts Battalion",
       "amount": 25500.0,
-      "url": null,
-      "fundraising_rank": null,
+      "url": "https://car4ukraine.com/campaigns/50forua-massachusetts-battalion",
       "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/massachusetts.svg",
       "vehicles_delivered": 1.0,
       "includes_help99": true,
+      "fundraising_rank": 34,
       "merch_url": null,
-      "amount_7d_ago": 25500.0,
-      "delta_7d": 0.0,
-      "vehicles_delivered_7d_ago": 1.0,
-      "vehicles_delta_7d": 0.0,
+      "amount_7d_ago": null,
+      "delta_7d": null,
+      "vehicles_delivered_7d_ago": null,
+      "vehicles_delta_7d": null,
       "rank_improvement_7d": null
     },
     {
