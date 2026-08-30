@@ -1,12 +1,12 @@
 {
-  "scraped_at": "2026-08-30T12:47:36.510961+00:00",
+  "scraped_at": "2026-08-30T17:22:18.418418+00:00",
   "source_url": "https://car4ukraine.com/campaigns/50forua",
   "totals": {
-    "donated": 769391.16,
-    "donations_count": 2109,
+    "donated": 769416.16,
+    "donations_count": 2110,
     "goal": 1000000.0
   },
-  "baseline_date": "2026-08-23T12:57:20.521444+00:00",
+  "baseline_date": "2026-08-23T17:29:43.759618+00:00",
   "states": [
     {
       "rank": 1,
@@ -466,8 +466,8 @@
       "includes_help99": false,
       "fundraising_rank": 21,
       "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/wisconsin-battalion",
-      "amount_7d_ago": 12027.92,
-      "delta_7d": 878.91,
+      "amount_7d_ago": 12195.0,
+      "delta_7d": 711.83,
       "vehicles_delivered_7d_ago": 0.25,
       "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
@@ -514,8 +514,8 @@
       "includes_help99": false,
       "fundraising_rank": 23,
       "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/maryland-battalion",
-      "amount_7d_ago": 9943.93,
-      "delta_7d": 362.95,
+      "amount_7d_ago": 10064.29,
+      "delta_7d": 242.59,
       "vehicles_delivered_7d_ago": 0.0,
       "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
@@ -596,8 +596,8 @@
       "includes_help99": false,
       "fundraising_rank": 21,
       "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/wisconsin-battalion",
-      "amount_7d_ago": 12027.92,
-      "delta_7d": 878.91,
+      "amount_7d_ago": 12195.0,
+      "delta_7d": 711.83,
       "vehicles_delivered_7d_ago": 0.25,
       "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
@@ -612,8 +612,8 @@
       "includes_help99": false,
       "fundraising_rank": 23,
       "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/maryland-battalion",
-      "amount_7d_ago": 9943.93,
-      "delta_7d": 362.95,
+      "amount_7d_ago": 10064.29,
+      "delta_7d": 242.59,
       "vehicles_delivered_7d_ago": 0.0,
       "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
