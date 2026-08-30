@@ -1,18 +1,18 @@
 {
-  "scraped_at": "2026-08-30T17:22:18.418418+00:00",
+  "scraped_at": "2026-08-30T20:58:38.751853+00:00",
   "source_url": "https://car4ukraine.com/campaigns/50forua",
   "schema_version": 2,
   "rank_version": 2,
   "totals": {
-    "donated": 769416.16,
-    "donations_count": 2110,
+    "donated": 769504.43,
+    "donations_count": 2113,
     "goal": 1000000.0
   },
   "states": [
     {
       "rank": 1,
       "name": "Ohio Regiment",
-      "amount": 69042.42,
+      "amount": 69094.93,
       "url": "https://car4ukraine.com/campaigns/50forua-ohio-battalion",
       "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/ohio.svg",
       "vehicles_delivered": 5.0,
@@ -392,7 +392,7 @@
       "vehicles_delivered": 0.0,
       "includes_help99": false,
       "fundraising_rank": 33,
-      "merch_url": null
+      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/georgia-battalion"
     }
   ]
 }
