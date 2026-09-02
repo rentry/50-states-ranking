@@ -1,11 +1,11 @@
 {
-  "scraped_at": "2026-09-02T09:30:14.664052+00:00",
+  "scraped_at": "2026-09-02T14:22:22.622101+00:00",
   "source_url": "https://car4ukraine.com/campaigns/50forua",
   "schema_version": 2,
   "rank_version": 2,
   "totals": {
-    "donated": 770169.72,
-    "donations_count": 2117,
+    "donated": 771010.97,
+    "donations_count": 2120,
     "goal": 1000000.0
   },
   "states": [
@@ -143,41 +143,41 @@
     },
     {
       "rank": 13,
+      "name": "Tennessee Battalion",
+      "amount": 17165.69,
+      "url": "https://car4ukraine.com/campaigns/50forua-tennessee-battalion",
+      "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/tennessee.svg",
+      "vehicles_delivered": 1.25,
+      "includes_help99": false,
+      "fundraising_rank": 13,
+      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/tennessee-battalion"
+    },
+    {
+      "rank": 14,
       "name": "Colorado Battalion",
       "amount": 17046.68,
       "url": "https://car4ukraine.com/campaigns/50forua-colorado-battalion",
       "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/colorado.svg",
       "vehicles_delivered": 1.25,
       "includes_help99": false,
-      "fundraising_rank": 13,
+      "fundraising_rank": 14,
       "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/colorado-battalion"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "name": "New Hampshire Battalion",
       "amount": 16821.77,
       "url": "https://car4ukraine.com/campaigns/50forua-new-hampshire-battalion",
       "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/new-hampshire.svg",
       "vehicles_delivered": 1.25,
       "includes_help99": false,
-      "fundraising_rank": 14,
-      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/new-hampshire-battalion"
-    },
-    {
-      "rank": 15,
-      "name": "Tennessee Battalion",
-      "amount": 16565.16,
-      "url": "https://car4ukraine.com/campaigns/50forua-tennessee-battalion",
-      "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/tennessee.svg",
-      "vehicles_delivered": 1.25,
-      "includes_help99": false,
       "fundraising_rank": 15,
-      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/tennessee-battalion"
+      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/new-hampshire-battalion"
     },
     {
       "rank": 16,
       "name": "Massachusetts Battalion",
-      "amount": 25500.0,
+      "amount": 25620.36,
       "url": "https://car4ukraine.com/campaigns/50forua-massachusetts-battalion",
       "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/massachusetts.svg",
       "vehicles_delivered": 1.0,
@@ -386,7 +386,7 @@
     {
       "rank": 35,
       "name": "Georgia Battalion",
-      "amount": 240.07,
+      "amount": 360.43,
       "url": "https://car4ukraine.com/campaigns/50forua-georgia-battalion",
       "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/georgia.svg",
       "vehicles_delivered": 0.0,
