@@ -1,12 +1,12 @@
 {
-  "scraped_at": "2026-09-03T23:58:54.321078+00:00",
+  "scraped_at": "2026-09-04T04:20:54.518540+00:00",
   "source_url": "https://car4ukraine.com/campaigns/50forua",
   "totals": {
     "donated": 778239.11,
     "donations_count": 2129,
     "goal": 1000000.0
   },
-  "baseline_date": "2026-08-27T20:19:55.650779+00:00",
+  "baseline_date": "2026-08-28T05:18:42.315749+00:00",
   "states": [
     {
       "rank": 1,
@@ -482,8 +482,8 @@
       "includes_help99": false,
       "fundraising_rank": 27,
       "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/illinois-battalion",
-      "amount_7d_ago": 6564.09,
-      "delta_7d": -2.57,
+      "amount_7d_ago": 6561.52,
+      "delta_7d": 0.0,
       "vehicles_delivered_7d_ago": 0.5,
       "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
