@@ -1,12 +1,12 @@
 {
-  "scraped_at": "2026-09-05T15:58:55.274231+00:00",
+  "scraped_at": "2026-09-05T18:11:18.364001+00:00",
   "source_url": "https://car4ukraine.com/campaigns/50forua",
   "totals": {
     "donated": 778260.97,
     "donations_count": 2131,
     "goal": 1000000.0
   },
-  "baseline_date": "2026-08-29T14:24:57.200410+00:00",
+  "baseline_date": "2026-08-29T18:22:06.773395+00:00",
   "states": [
     {
       "rank": 1,
@@ -130,8 +130,8 @@
       "includes_help99": false,
       "fundraising_rank": 4,
       "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/iowa-battalion",
-      "amount_7d_ago": 28749.57,
-      "delta_7d": 388.39,
+      "amount_7d_ago": 28822.96,
+      "delta_7d": 315.0,
       "vehicles_delivered_7d_ago": 2.0,
       "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
@@ -386,8 +386,8 @@
       "includes_help99": false,
       "fundraising_rank": 20,
       "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/maine-battalion",
-      "amount_7d_ago": 7808.5,
-      "delta_7d": 5605.93,
+      "amount_7d_ago": 7858.5,
+      "delta_7d": 5555.93,
       "vehicles_delivered_7d_ago": 0.0,
       "vehicles_delta_7d": 1.0,
       "rank_improvement_7d": 9
@@ -580,8 +580,8 @@
       "includes_help99": false,
       "fundraising_rank": 20,
       "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/maine-battalion",
-      "amount_7d_ago": 7808.5,
-      "delta_7d": 5605.93,
+      "amount_7d_ago": 7858.5,
+      "delta_7d": 5555.93,
       "vehicles_delivered_7d_ago": 0.0,
       "vehicles_delta_7d": 1.0,
       "rank_improvement_7d": 9
@@ -676,8 +676,8 @@
       "includes_help99": false,
       "fundraising_rank": 4,
       "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/iowa-battalion",
-      "amount_7d_ago": 28749.57,
-      "delta_7d": 388.39,
+      "amount_7d_ago": 28822.96,
+      "delta_7d": 315.0,
       "vehicles_delivered_7d_ago": 2.0,
       "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
