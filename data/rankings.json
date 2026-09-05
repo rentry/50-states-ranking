@@ -1,12 +1,12 @@
 {
-  "scraped_at": "2026-09-05T21:08:22.409639+00:00",
+  "scraped_at": "2026-09-05T23:48:09.082130+00:00",
   "source_url": "https://car4ukraine.com/campaigns/50forua",
   "totals": {
     "donated": 778310.97,
     "donations_count": 2132,
     "goal": 1000000.0
   },
-  "baseline_date": "2026-08-29T21:40:49.534912+00:00",
+  "baseline_date": "2026-08-30T00:10:58.549470+00:00",
   "states": [
     {
       "rank": 1,
@@ -258,10 +258,10 @@
       "includes_help99": true,
       "fundraising_rank": 34,
       "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/massachusetts-battalion",
-      "amount_7d_ago": null,
-      "delta_7d": null,
-      "vehicles_delivered_7d_ago": null,
-      "vehicles_delta_7d": null,
+      "amount_7d_ago": 25500.0,
+      "delta_7d": 120.36,
+      "vehicles_delivered_7d_ago": 1.0,
+      "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
     },
     {
@@ -715,18 +715,18 @@
       "rank_improvement_7d": null
     },
     {
-      "rank": 32,
-      "name": "Oregon Battalion",
-      "amount": 5777.79,
-      "url": "https://car4ukraine.com/campaigns/50forua-oregon-battalion",
-      "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/oregon.svg",
-      "vehicles_delivered": 0.25,
-      "includes_help99": false,
-      "fundraising_rank": 28,
-      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/oregon-battalion",
-      "amount_7d_ago": 5657.5,
-      "delta_7d": 120.29,
-      "vehicles_delivered_7d_ago": 0.25,
+      "rank": 16,
+      "name": "Massachusetts Battalion",
+      "amount": 25620.36,
+      "url": "https://car4ukraine.com/campaigns/50forua-massachusetts-battalion",
+      "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/massachusetts.svg",
+      "vehicles_delivered": 1.0,
+      "includes_help99": true,
+      "fundraising_rank": 34,
+      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/massachusetts-battalion",
+      "amount_7d_ago": 25500.0,
+      "delta_7d": 120.36,
+      "vehicles_delivered_7d_ago": 1.0,
       "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
     }
