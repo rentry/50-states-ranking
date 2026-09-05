@@ -1,11 +1,11 @@
 {
-  "scraped_at": "2026-09-05T18:11:18.364001+00:00",
+  "scraped_at": "2026-09-05T21:08:22.409639+00:00",
   "source_url": "https://car4ukraine.com/campaigns/50forua",
   "schema_version": 2,
   "rank_version": 2,
   "totals": {
-    "donated": 778260.97,
-    "donations_count": 2131,
+    "donated": 778310.97,
+    "donations_count": 2132,
     "goal": 1000000.0
   },
   "states": [
@@ -265,7 +265,7 @@
     {
       "rank": 24,
       "name": "Maine Battalion",
-      "amount": 13414.43,
+      "amount": 13464.43,
       "url": "https://car4ukraine.com/campaigns/50forua-maine-battalion",
       "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/maine.svg",
       "vehicles_delivered": 1.0,
