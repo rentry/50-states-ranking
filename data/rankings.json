@@ -1,12 +1,12 @@
 {
-  "scraped_at": "2026-09-07T16:24:28.277225+00:00",
+  "scraped_at": "2026-09-07T20:30:14.758805+00:00",
   "source_url": "https://car4ukraine.com/campaigns/50forua",
   "totals": {
     "donated": 779634.71,
     "donations_count": 2148,
     "goal": 1000000.0
   },
-  "baseline_date": "2026-08-31T13:33:46.962700+00:00",
+  "baseline_date": "2026-08-31T19:57:56.255077+00:00",
   "states": [
     {
       "rank": 1,
@@ -130,8 +130,8 @@
       "includes_help99": false,
       "fundraising_rank": 4,
       "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/iowa-battalion",
-      "amount_7d_ago": 28822.96,
-      "delta_7d": 315.0,
+      "amount_7d_ago": 29022.96,
+      "delta_7d": 115.0,
       "vehicles_delivered_7d_ago": 2.0,
       "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
@@ -667,22 +667,6 @@
       "rank_improvement_7d": null
     },
     {
-      "rank": 8,
-      "name": "Iowa Battalion",
-      "amount": 29137.96,
-      "url": "https://car4ukraine.com/campaigns/50forua-iowa-battalion",
-      "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/iowa.svg",
-      "vehicles_delivered": 2.0,
-      "includes_help99": false,
-      "fundraising_rank": 4,
-      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/iowa-battalion",
-      "amount_7d_ago": 28822.96,
-      "delta_7d": 315.0,
-      "vehicles_delivered_7d_ago": 2.0,
-      "vehicles_delta_7d": 0.0,
-      "rank_improvement_7d": null
-    },
-    {
       "rank": 35,
       "name": "Georgia Battalion",
       "amount": 490.57,
@@ -727,6 +711,22 @@
       "amount_7d_ago": 25500.0,
       "delta_7d": 140.36,
       "vehicles_delivered_7d_ago": 1.0,
+      "vehicles_delta_7d": 0.0,
+      "rank_improvement_7d": null
+    },
+    {
+      "rank": 2,
+      "name": "Florida Battalion",
+      "amount": 101216.72,
+      "url": "https://car4ukraine.com/campaigns/50forua-florida-battalion",
+      "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/florida.svg",
+      "vehicles_delivered": 4.0,
+      "includes_help99": true,
+      "fundraising_rank": 31,
+      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/florida-battalion",
+      "amount_7d_ago": 101092.31,
+      "delta_7d": 124.41,
+      "vehicles_delivered_7d_ago": 4.0,
       "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
     }
