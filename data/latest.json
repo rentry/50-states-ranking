@@ -1,11 +1,11 @@
 {
-  "scraped_at": "2026-09-06T23:47:03.151798+00:00",
+  "scraped_at": "2026-09-07T04:26:06.605222+00:00",
   "source_url": "https://car4ukraine.com/campaigns/50forua",
   "schema_version": 2,
   "rank_version": 2,
   "totals": {
-    "donated": 778732.88,
-    "donations_count": 2138,
+    "donated": 779140.79,
+    "donations_count": 2141,
     "goal": 1000000.0
   },
   "states": [
@@ -353,7 +353,7 @@
     {
       "rank": 32,
       "name": "Oregon Battalion",
-      "amount": 6179.7,
+      "amount": 6347.21,
       "url": "https://car4ukraine.com/campaigns/50forua-oregon-battalion",
       "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/oregon.svg",
       "vehicles_delivered": 0.25,
@@ -364,7 +364,7 @@
     {
       "rank": 33,
       "name": "New Mexico",
-      "amount": 4575.17,
+      "amount": 4815.57,
       "url": "https://car4ukraine.com/campaigns/50forua-new-mexico-battalion",
       "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/new-mexico.svg",
       "vehicles_delivered": 0.25,
