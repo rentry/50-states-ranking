@@ -1,12 +1,12 @@
 {
-  "scraped_at": "2026-09-10T09:36:10.656440+00:00",
+  "scraped_at": "2026-09-10T14:19:35.714905+00:00",
   "source_url": "https://car4ukraine.com/campaigns/50forua",
   "totals": {
     "donated": 781634.52,
     "donations_count": 2154,
     "goal": 1000000.0
   },
-  "baseline_date": "2026-09-03T09:39:39.659124+00:00",
+  "baseline_date": "2026-09-03T14:26:21.547492+00:00",
   "states": [
     {
       "rank": 1,
@@ -356,9 +356,9 @@
       "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/maine-battalion",
       "amount_7d_ago": 13403.5,
       "delta_7d": 235.28,
-      "vehicles_delivered_7d_ago": 0.0,
-      "vehicles_delta_7d": 1.0,
-      "rank_improvement_7d": 11
+      "vehicles_delivered_7d_ago": 1.0,
+      "vehicles_delta_7d": 0.0,
+      "rank_improvement_7d": 2
     },
     {
       "rank": 23,
@@ -630,9 +630,9 @@
       "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/maine-battalion",
       "amount_7d_ago": 13403.5,
       "delta_7d": 235.28,
-      "vehicles_delivered_7d_ago": 0.0,
-      "vehicles_delta_7d": 1.0,
-      "rank_improvement_7d": 11
+      "vehicles_delivered_7d_ago": 1.0,
+      "vehicles_delta_7d": 0.0,
+      "rank_improvement_7d": 2
     },
     {
       "rank": 14,
