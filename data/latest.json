@@ -1,11 +1,11 @@
 {
-  "scraped_at": "2026-09-12T10:38:29.799530+00:00",
+  "scraped_at": "2026-09-12T14:01:52.600430+00:00",
   "source_url": "https://car4ukraine.com/campaigns/50forua",
   "schema_version": 2,
   "rank_version": 2,
   "totals": {
-    "donated": 781990.24,
-    "donations_count": 2157,
+    "donated": 782230.31,
+    "donations_count": 2158,
     "goal": 1000000.0
   },
   "states": [
@@ -287,7 +287,7 @@
     {
       "rank": 26,
       "name": "Guam Battalion",
-      "amount": 12526.44,
+      "amount": 12766.51,
       "url": "https://car4ukraine.com/campaigns/50forua-guam-battalion",
       "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/guam.svg",
       "vehicles_delivered": 1.0,
