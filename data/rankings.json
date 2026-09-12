@@ -1,12 +1,12 @@
 {
-  "scraped_at": "2026-09-11T21:40:45.958304+00:00",
+  "scraped_at": "2026-09-12T00:10:47.003498+00:00",
   "source_url": "https://car4ukraine.com/campaigns/50forua",
   "totals": {
-    "donated": 781869.88,
-    "donations_count": 2156,
+    "donated": 781990.24,
+    "donations_count": 2157,
     "goal": 1000000.0
   },
-  "baseline_date": "2026-09-04T21:23:09.365647+00:00",
+  "baseline_date": "2026-09-04T23:58:00.171441+00:00",
   "states": [
     {
       "rank": 1,
@@ -507,7 +507,7 @@
     {
       "rank": 32,
       "name": "Oregon Battalion",
-      "amount": 6524.1,
+      "amount": 6644.46,
       "url": "https://car4ukraine.com/campaigns/50forua-oregon-battalion",
       "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/oregon.svg",
       "vehicles_delivered": 0.25,
@@ -515,7 +515,7 @@
       "fundraising_rank": 28,
       "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/oregon-battalion",
       "amount_7d_ago": 5777.79,
-      "delta_7d": 746.31,
+      "delta_7d": 866.67,
       "vehicles_delivered_7d_ago": 0.25,
       "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
@@ -589,7 +589,7 @@
     {
       "rank": 32,
       "name": "Oregon Battalion",
-      "amount": 6524.1,
+      "amount": 6644.46,
       "url": "https://car4ukraine.com/campaigns/50forua-oregon-battalion",
       "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/oregon.svg",
       "vehicles_delivered": 0.25,
@@ -597,7 +597,7 @@
       "fundraising_rank": 28,
       "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/oregon-battalion",
       "amount_7d_ago": 5777.79,
-      "delta_7d": 746.31,
+      "delta_7d": 866.67,
       "vehicles_delivered_7d_ago": 0.25,
       "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
