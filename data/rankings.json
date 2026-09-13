@@ -1,12 +1,12 @@
 {
-  "scraped_at": "2026-09-13T19:22:28.907578+00:00",
+  "scraped_at": "2026-09-13T22:21:16.028815+00:00",
   "source_url": "https://car4ukraine.com/campaigns/50forua",
   "totals": {
     "donated": 784367.13,
     "donations_count": 2174,
     "goal": 1000000.0
   },
-  "baseline_date": "2026-09-06T19:04:25.543948+00:00",
+  "baseline_date": "2026-09-06T21:16:23.989131+00:00",
   "states": [
     {
       "rank": 1,
@@ -258,8 +258,8 @@
       "includes_help99": true,
       "fundraising_rank": 34,
       "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/massachusetts-battalion",
-      "amount_7d_ago": 25620.36,
-      "delta_7d": 20.0,
+      "amount_7d_ago": 25640.36,
+      "delta_7d": 0.0,
       "vehicles_delivered_7d_ago": 1.0,
       "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
@@ -514,8 +514,8 @@
       "includes_help99": false,
       "fundraising_rank": 28,
       "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/oregon-battalion",
-      "amount_7d_ago": 6039.7,
-      "delta_7d": 610.48,
+      "amount_7d_ago": 6154.7,
+      "delta_7d": 495.48,
       "vehicles_delivered_7d_ago": 0.25,
       "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
@@ -596,8 +596,8 @@
       "includes_help99": false,
       "fundraising_rank": 28,
       "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/oregon-battalion",
-      "amount_7d_ago": 6039.7,
-      "delta_7d": 610.48,
+      "amount_7d_ago": 6154.7,
+      "delta_7d": 495.48,
       "vehicles_delivered_7d_ago": 0.25,
       "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
