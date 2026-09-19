@@ -1,12 +1,12 @@
 {
-  "scraped_at": "2026-09-18T21:36:11.428992+00:00",
+  "scraped_at": "2026-09-19T00:12:09.831346+00:00",
   "source_url": "https://car4ukraine.com/campaigns/50forua",
   "totals": {
     "donated": 786077.85,
     "donations_count": 2181,
     "goal": 1000000.0
   },
-  "baseline_date": "2026-09-11T21:40:45.958304+00:00",
+  "baseline_date": "2026-09-12T00:10:47.003498+00:00",
   "states": [
     {
       "rank": 1,
@@ -514,8 +514,8 @@
       "includes_help99": false,
       "fundraising_rank": 28,
       "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/oregon-battalion",
-      "amount_7d_ago": 6524.1,
-      "delta_7d": 126.08,
+      "amount_7d_ago": 6644.46,
+      "delta_7d": 5.72,
       "vehicles_delivered_7d_ago": 0.25,
       "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
@@ -715,18 +715,18 @@
       "rank_improvement_7d": null
     },
     {
-      "rank": 32,
-      "name": "Oregon Battalion",
-      "amount": 6650.18,
-      "url": "https://car4ukraine.com/campaigns/50forua-oregon-battalion",
-      "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/oregon.svg",
-      "vehicles_delivered": 0.25,
+      "rank": 10,
+      "name": "Washington Battalion",
+      "amount": 19632.1,
+      "url": "https://car4ukraine.com/campaigns/50forua-washington-battalion",
+      "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/washington.svg",
+      "vehicles_delivered": 1.5,
       "includes_help99": false,
-      "fundraising_rank": 28,
-      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/oregon-battalion",
-      "amount_7d_ago": 6524.1,
-      "delta_7d": 126.08,
-      "vehicles_delivered_7d_ago": 0.25,
+      "fundraising_rank": 10,
+      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/washington-battalion",
+      "amount_7d_ago": 19511.74,
+      "delta_7d": 120.36,
+      "vehicles_delivered_7d_ago": 1.5,
       "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
     }
