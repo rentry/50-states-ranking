@@ -1,12 +1,12 @@
 {
-  "scraped_at": "2026-09-19T10:49:48.837659+00:00",
+  "scraped_at": "2026-09-19T14:20:00.357387+00:00",
   "source_url": "https://car4ukraine.com/campaigns/50forua",
   "totals": {
     "donated": 786099.2,
     "donations_count": 2182,
     "goal": 1000000.0
   },
-  "baseline_date": "2026-09-12T10:38:29.799530+00:00",
+  "baseline_date": "2026-09-12T14:01:52.600430+00:00",
   "states": [
     {
       "rank": 1,
@@ -434,8 +434,8 @@
       "includes_help99": false,
       "fundraising_rank": 23,
       "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/guam-battalion",
-      "amount_7d_ago": 12526.44,
-      "delta_7d": 240.07,
+      "amount_7d_ago": 12766.51,
+      "delta_7d": 0.0,
       "vehicles_delivered_7d_ago": 1.0,
       "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
@@ -635,22 +635,6 @@
       "rank_improvement_7d": null
     },
     {
-      "rank": 27,
-      "name": "Guam Battalion",
-      "amount": 12766.51,
-      "url": "https://car4ukraine.com/campaigns/50forua-guam-battalion",
-      "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/guam.svg",
-      "vehicles_delivered": 1.0,
-      "includes_help99": false,
-      "fundraising_rank": 23,
-      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/guam-battalion",
-      "amount_7d_ago": 12526.44,
-      "delta_7d": 240.07,
-      "vehicles_delivered_7d_ago": 1.0,
-      "vehicles_delta_7d": 0.0,
-      "rank_improvement_7d": null
-    },
-    {
       "rank": 28,
       "name": "Maryland Battalion",
       "amount": 11309.26,
@@ -727,6 +711,22 @@
       "amount_7d_ago": 19511.74,
       "delta_7d": 120.36,
       "vehicles_delivered_7d_ago": 1.5,
+      "vehicles_delta_7d": 0.0,
+      "rank_improvement_7d": null
+    },
+    {
+      "rank": 31,
+      "name": "Illinois Battalion",
+      "amount": 6802.24,
+      "url": "https://car4ukraine.com/campaigns/50forua-illinois-battalion",
+      "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/illinois.svg",
+      "vehicles_delivered": 0.5,
+      "includes_help99": false,
+      "fundraising_rank": 27,
+      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/illinois-battalion",
+      "amount_7d_ago": 6681.88,
+      "delta_7d": 120.36,
+      "vehicles_delivered_7d_ago": 0.5,
       "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
     }
