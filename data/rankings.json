@@ -1,12 +1,12 @@
 {
-  "scraped_at": "2026-09-22T18:48:04.698314+00:00",
+  "scraped_at": "2026-09-22T22:00:05.887495+00:00",
   "source_url": "https://car4ukraine.com/campaigns/50forua",
   "totals": {
-    "donated": 787426.96,
-    "donations_count": 2189,
+    "donated": 787456.94,
+    "donations_count": 2190,
     "goal": 1000000.0
   },
-  "baseline_date": "2026-09-15T18:07:14.912155+00:00",
+  "baseline_date": "2026-09-15T22:08:09.793498+00:00",
   "states": [
     {
       "rank": 1,
@@ -123,7 +123,7 @@
     {
       "rank": 8,
       "name": "Iowa Battalion",
-      "amount": 29237.96,
+      "amount": 29267.94,
       "url": "https://car4ukraine.com/campaigns/50forua-iowa-battalion",
       "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/iowa.svg",
       "vehicles_delivered": 2.0,
@@ -131,7 +131,7 @@
       "fundraising_rank": 4,
       "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/iowa-battalion",
       "amount_7d_ago": 29237.96,
-      "delta_7d": 0.0,
+      "delta_7d": 29.98,
       "vehicles_delivered_7d_ago": 2.0,
       "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
@@ -651,6 +651,22 @@
       "rank_improvement_7d": null
     },
     {
+      "rank": 8,
+      "name": "Iowa Battalion",
+      "amount": 29267.94,
+      "url": "https://car4ukraine.com/campaigns/50forua-iowa-battalion",
+      "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/iowa.svg",
+      "vehicles_delivered": 2.0,
+      "includes_help99": false,
+      "fundraising_rank": 4,
+      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/iowa-battalion",
+      "amount_7d_ago": 29237.96,
+      "delta_7d": 29.98,
+      "vehicles_delivered_7d_ago": 2.0,
+      "vehicles_delta_7d": 0.0,
+      "rank_improvement_7d": null
+    },
+    {
       "rank": 28,
       "name": "Maryland Battalion",
       "amount": 11319.26,
@@ -711,22 +727,6 @@
       "amount_7d_ago": 54636.53,
       "delta_7d": 0.0,
       "vehicles_delivered_7d_ago": 4.0,
-      "vehicles_delta_7d": 0.0,
-      "rank_improvement_7d": null
-    },
-    {
-      "rank": 4,
-      "name": "Arizona Regiment",
-      "amount": 41315.69,
-      "url": "https://car4ukraine.com/campaigns/50forua-arizona-battalion",
-      "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/arizona.svg",
-      "vehicles_delivered": 3.25,
-      "includes_help99": false,
-      "fundraising_rank": 3,
-      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/arizona-battalion",
-      "amount_7d_ago": 41315.69,
-      "delta_7d": 0.0,
-      "vehicles_delivered_7d_ago": 3.25,
       "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
     }

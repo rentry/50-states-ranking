@@ -1,11 +1,11 @@
 {
-  "scraped_at": "2026-09-22T18:48:04.698314+00:00",
+  "scraped_at": "2026-09-22T22:00:05.887495+00:00",
   "source_url": "https://car4ukraine.com/campaigns/50forua",
   "schema_version": 2,
   "rank_version": 2,
   "totals": {
-    "donated": 787426.96,
-    "donations_count": 2189,
+    "donated": 787456.94,
+    "donations_count": 2190,
     "goal": 1000000.0
   },
   "states": [
@@ -89,7 +89,7 @@
     {
       "rank": 8,
       "name": "Iowa Battalion",
-      "amount": 29237.96,
+      "amount": 29267.94,
       "url": "https://car4ukraine.com/campaigns/50forua-iowa-battalion",
       "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/iowa.svg",
       "vehicles_delivered": 2.0,
