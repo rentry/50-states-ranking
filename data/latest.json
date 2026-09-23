@@ -1,11 +1,11 @@
 {
-  "scraped_at": "2026-09-23T11:25:08.265676+00:00",
+  "scraped_at": "2026-09-23T16:48:09.169853+00:00",
   "source_url": "https://car4ukraine.com/campaigns/50forua",
   "schema_version": 2,
   "rank_version": 2,
   "totals": {
-    "donated": 788062.47,
-    "donations_count": 2192,
+    "donated": 788177.02,
+    "donations_count": 2194,
     "goal": 1000000.0
   },
   "states": [
@@ -210,7 +210,7 @@
     {
       "rank": 19,
       "name": "California Battalion",
-      "amount": 20133.08,
+      "amount": 20159.62,
       "url": "https://car4ukraine.com/campaigns/50forua-california-battalion",
       "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/california.svg",
       "vehicles_delivered": 1.0,
