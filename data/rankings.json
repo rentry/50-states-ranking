@@ -1,12 +1,12 @@
 {
-  "scraped_at": "2026-09-23T00:22:08.235059+00:00",
+  "scraped_at": "2026-09-23T05:52:01.261814+00:00",
   "source_url": "https://car4ukraine.com/campaigns/50forua",
   "totals": {
-    "donated": 788057.47,
-    "donations_count": 2191,
+    "donated": 788062.47,
+    "donations_count": 2192,
     "goal": 1000000.0
   },
-  "baseline_date": "2026-09-16T01:20:38.335162+00:00",
+  "baseline_date": "2026-09-16T07:36:57.926907+00:00",
   "states": [
     {
       "rank": 1,
@@ -282,18 +282,18 @@
     },
     {
       "rank": 18,
-      "name": "New York",
-      "amount": 25162.42,
-      "url": null,
-      "fundraising_rank": null,
+      "name": "New York Battalion",
+      "amount": 25167.42,
+      "url": "https://car4ukraine.com/campaigns/50forua-ny-battalion",
       "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/new-york.svg",
       "vehicles_delivered": 1.0,
       "includes_help99": true,
+      "fundraising_rank": 35,
       "merch_url": null,
-      "amount_7d_ago": 25162.42,
-      "delta_7d": 0.0,
-      "vehicles_delivered_7d_ago": 1.0,
-      "vehicles_delta_7d": 0.0,
+      "amount_7d_ago": null,
+      "delta_7d": null,
+      "vehicles_delivered_7d_ago": null,
+      "vehicles_delta_7d": null,
       "rank_improvement_7d": null
     },
     {
