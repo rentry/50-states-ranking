@@ -1,12 +1,12 @@
 {
-  "scraped_at": "2026-09-26T12:59:44.131159+00:00",
+  "scraped_at": "2026-09-26T17:05:17.568143+00:00",
   "source_url": "https://car4ukraine.com/campaigns/50forua",
   "totals": {
     "donated": 792451.38,
     "donations_count": 2204,
     "goal": 1000000.0
   },
-  "baseline_date": "2026-09-19T14:20:00.357387+00:00",
+  "baseline_date": "2026-09-19T17:56:58.908368+00:00",
   "states": [
     {
       "rank": 1,
@@ -226,8 +226,8 @@
       "includes_help99": false,
       "fundraising_rank": 14,
       "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/tennessee-battalion",
-      "amount_7d_ago": 17395.69,
-      "delta_7d": 120.36,
+      "amount_7d_ago": 17516.05,
+      "delta_7d": 0.0,
       "vehicles_delivered_7d_ago": 1.25,
       "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
@@ -635,22 +635,6 @@
       "rank_improvement_7d": null
     },
     {
-      "rank": 14,
-      "name": "Tennessee Battalion",
-      "amount": 17516.05,
-      "url": "https://car4ukraine.com/campaigns/50forua-tennessee-battalion",
-      "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/tennessee.svg",
-      "vehicles_delivered": 1.25,
-      "includes_help99": false,
-      "fundraising_rank": 14,
-      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/tennessee-battalion",
-      "amount_7d_ago": 17395.69,
-      "delta_7d": 120.36,
-      "vehicles_delivered_7d_ago": 1.25,
-      "vehicles_delta_7d": 0.0,
-      "rank_improvement_7d": null
-    },
-    {
       "rank": 17,
       "name": "Massachusetts Battalion",
       "amount": 25760.72,
@@ -727,6 +711,22 @@
       "amount_7d_ago": 610.93,
       "delta_7d": 36.85,
       "vehicles_delivered_7d_ago": 0.0,
+      "vehicles_delta_7d": 0.0,
+      "rank_improvement_7d": null
+    },
+    {
+      "rank": 8,
+      "name": "Iowa Battalion",
+      "amount": 29267.94,
+      "url": "https://car4ukraine.com/campaigns/50forua-iowa-battalion",
+      "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/iowa.svg",
+      "vehicles_delivered": 2.0,
+      "includes_help99": false,
+      "fundraising_rank": 4,
+      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/iowa-battalion",
+      "amount_7d_ago": 29237.96,
+      "delta_7d": 29.98,
+      "vehicles_delivered_7d_ago": 2.0,
       "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
     }
