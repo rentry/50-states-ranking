@@ -1,12 +1,12 @@
 {
-  "scraped_at": "2026-09-26T07:33:18.728466+00:00",
+  "scraped_at": "2026-09-26T12:59:44.131159+00:00",
   "source_url": "https://car4ukraine.com/campaigns/50forua",
   "totals": {
-    "donated": 791970.58,
-    "donations_count": 2202,
+    "donated": 792451.38,
+    "donations_count": 2204,
     "goal": 1000000.0
   },
-  "baseline_date": "2026-09-19T05:45:06.433404+00:00",
+  "baseline_date": "2026-09-19T14:20:00.357387+00:00",
   "states": [
     {
       "rank": 1,
@@ -43,7 +43,7 @@
     {
       "rank": 3,
       "name": "Michigan Regiment",
-      "amount": 54636.53,
+      "amount": 54876.93,
       "url": "https://car4ukraine.com/campaigns/50forua-michigan-battalion",
       "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/michigan.svg",
       "vehicles_delivered": 4.0,
@@ -51,7 +51,7 @@
       "fundraising_rank": 2,
       "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/michigan-battalion",
       "amount_7d_ago": 54636.53,
-      "delta_7d": 0.0,
+      "delta_7d": 240.4,
       "vehicles_delivered_7d_ago": 4.0,
       "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
@@ -171,7 +171,7 @@
     {
       "rank": 11,
       "name": "Virginia Battalion",
-      "amount": 24199.74,
+      "amount": 24440.14,
       "url": "https://car4ukraine.com/campaigns/50forua-virginia-battalion",
       "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/virginia.svg",
       "vehicles_delivered": 1.25,
@@ -179,7 +179,7 @@
       "fundraising_rank": 9,
       "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/virginia-battalion-merchandise",
       "amount_7d_ago": 23484.21,
-      "delta_7d": 715.53,
+      "delta_7d": 955.93,
       "vehicles_delivered_7d_ago": 1.25,
       "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
@@ -589,7 +589,7 @@
     {
       "rank": 11,
       "name": "Virginia Battalion",
-      "amount": 24199.74,
+      "amount": 24440.14,
       "url": "https://car4ukraine.com/campaigns/50forua-virginia-battalion",
       "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/virginia.svg",
       "vehicles_delivered": 1.25,
@@ -597,7 +597,7 @@
       "fundraising_rank": 9,
       "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/virginia-battalion-merchandise",
       "amount_7d_ago": 23484.21,
-      "delta_7d": 715.53,
+      "delta_7d": 955.93,
       "vehicles_delivered_7d_ago": 1.25,
       "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
@@ -615,6 +615,22 @@
       "amount_7d_ago": 19632.1,
       "delta_7d": 592.08,
       "vehicles_delivered_7d_ago": 1.5,
+      "vehicles_delta_7d": 0.0,
+      "rank_improvement_7d": null
+    },
+    {
+      "rank": 3,
+      "name": "Michigan Regiment",
+      "amount": 54876.93,
+      "url": "https://car4ukraine.com/campaigns/50forua-michigan-battalion",
+      "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/michigan.svg",
+      "vehicles_delivered": 4.0,
+      "includes_help99": false,
+      "fundraising_rank": 2,
+      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/michigan-battalion",
+      "amount_7d_ago": 54636.53,
+      "delta_7d": 240.4,
+      "vehicles_delivered_7d_ago": 4.0,
       "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
     },
@@ -711,22 +727,6 @@
       "amount_7d_ago": 610.93,
       "delta_7d": 36.85,
       "vehicles_delivered_7d_ago": 0.0,
-      "vehicles_delta_7d": 0.0,
-      "rank_improvement_7d": null
-    },
-    {
-      "rank": 8,
-      "name": "Iowa Battalion",
-      "amount": 29267.94,
-      "url": "https://car4ukraine.com/campaigns/50forua-iowa-battalion",
-      "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/iowa.svg",
-      "vehicles_delivered": 2.0,
-      "includes_help99": false,
-      "fundraising_rank": 4,
-      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/iowa-battalion",
-      "amount_7d_ago": 29237.96,
-      "delta_7d": 29.98,
-      "vehicles_delivered_7d_ago": 2.0,
       "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
     }
