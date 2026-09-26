@@ -1,11 +1,11 @@
 {
-  "scraped_at": "2026-09-26T19:47:46.323942+00:00",
+  "scraped_at": "2026-09-26T22:41:12.325294+00:00",
   "source_url": "https://car4ukraine.com/campaigns/50forua",
   "schema_version": 2,
   "rank_version": 2,
   "totals": {
-    "donated": 792451.38,
-    "donations_count": 2204,
+    "donated": 792501.38,
+    "donations_count": 2205,
     "goal": 1000000.0
   },
   "states": [
@@ -193,18 +193,18 @@
       "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/massachusetts.svg",
       "vehicles_delivered": 1.0,
       "includes_help99": true,
-      "fundraising_rank": 34,
+      "fundraising_rank": 35,
       "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/massachusetts-battalion"
     },
     {
       "rank": 18,
       "name": "New York Battalion",
-      "amount": 25408.14,
+      "amount": 25458.14,
       "url": "https://car4ukraine.com/campaigns/50forua-ny-battalion",
       "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/new-york.svg",
       "vehicles_delivered": 1.0,
       "includes_help99": true,
-      "fundraising_rank": 35,
+      "fundraising_rank": 34,
       "merch_url": null
     },
     {
