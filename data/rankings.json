@@ -1,12 +1,12 @@
 {
-  "scraped_at": "2026-09-28T00:35:08.512593+00:00",
+  "scraped_at": "2026-09-28T06:42:45.565458+00:00",
   "source_url": "https://car4ukraine.com/campaigns/50forua",
   "totals": {
-    "donated": 792512.14,
-    "donations_count": 2206,
+    "donated": 792760.09,
+    "donations_count": 2208,
     "goal": 1000000.0
   },
-  "baseline_date": "2026-09-21T00:09:47.235266+00:00",
+  "baseline_date": "2026-09-21T06:11:52.153620+00:00",
   "states": [
     {
       "rank": 1,
@@ -474,32 +474,32 @@
     },
     {
       "rank": 30,
+      "name": "Illinois Battalion",
+      "amount": 7170.55,
+      "url": "https://car4ukraine.com/campaigns/50forua-illinois-battalion",
+      "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/illinois.svg",
+      "vehicles_delivered": 0.5,
+      "includes_help99": false,
+      "fundraising_rank": 26,
+      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/illinois-battalion",
+      "amount_7d_ago": 6802.24,
+      "delta_7d": 368.31,
+      "vehicles_delivered_7d_ago": 0.5,
+      "vehicles_delta_7d": 0.0,
+      "rank_improvement_7d": 1
+    },
+    {
+      "rank": 31,
       "name": "North Carolina Battalion",
       "amount": 7152.5,
       "url": "https://car4ukraine.com/campaigns/50forua-nc-battalion",
       "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/north-carolina.svg",
       "vehicles_delivered": 0.5,
       "includes_help99": false,
-      "fundraising_rank": 26,
+      "fundraising_rank": 27,
       "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/north-carolina-battalion",
       "amount_7d_ago": 7152.5,
       "delta_7d": 0.0,
-      "vehicles_delivered_7d_ago": 0.5,
-      "vehicles_delta_7d": 0.0,
-      "rank_improvement_7d": null
-    },
-    {
-      "rank": 31,
-      "name": "Illinois Battalion",
-      "amount": 6922.6,
-      "url": "https://car4ukraine.com/campaigns/50forua-illinois-battalion",
-      "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/illinois.svg",
-      "vehicles_delivered": 0.5,
-      "includes_help99": false,
-      "fundraising_rank": 27,
-      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/illinois-battalion",
-      "amount_7d_ago": 6802.24,
-      "delta_7d": 120.36,
       "vehicles_delivered_7d_ago": 0.5,
       "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
@@ -619,6 +619,22 @@
       "rank_improvement_7d": null
     },
     {
+      "rank": 30,
+      "name": "Illinois Battalion",
+      "amount": 7170.55,
+      "url": "https://car4ukraine.com/campaigns/50forua-illinois-battalion",
+      "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/illinois.svg",
+      "vehicles_delivered": 0.5,
+      "includes_help99": false,
+      "fundraising_rank": 26,
+      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/illinois-battalion",
+      "amount_7d_ago": 6802.24,
+      "delta_7d": 368.31,
+      "vehicles_delivered_7d_ago": 0.5,
+      "vehicles_delta_7d": 0.0,
+      "rank_improvement_7d": 1
+    },
+    {
       "rank": 3,
       "name": "Michigan Regiment",
       "amount": 54876.93,
@@ -647,22 +663,6 @@
       "amount_7d_ago": 25640.36,
       "delta_7d": 120.36,
       "vehicles_delivered_7d_ago": 1.0,
-      "vehicles_delta_7d": 0.0,
-      "rank_improvement_7d": null
-    },
-    {
-      "rank": 31,
-      "name": "Illinois Battalion",
-      "amount": 6922.6,
-      "url": "https://car4ukraine.com/campaigns/50forua-illinois-battalion",
-      "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/illinois.svg",
-      "vehicles_delivered": 0.5,
-      "includes_help99": false,
-      "fundraising_rank": 27,
-      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/illinois-battalion",
-      "amount_7d_ago": 6802.24,
-      "delta_7d": 120.36,
-      "vehicles_delivered_7d_ago": 0.5,
       "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
     },
