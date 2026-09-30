@@ -1,11 +1,11 @@
 {
-  "scraped_at": "2026-09-30T13:36:07.405862+00:00",
+  "scraped_at": "2026-09-30T19:08:49.822417+00:00",
   "source_url": "https://car4ukraine.com/campaigns/50forua",
   "schema_version": 2,
   "rank_version": 2,
   "totals": {
-    "donated": 793522.53,
-    "donations_count": 2219,
+    "donated": 794243.9,
+    "donations_count": 2222,
     "goal": 1000000.0
   },
   "states": [
@@ -122,7 +122,7 @@
     {
       "rank": 11,
       "name": "Virginia Battalion",
-      "amount": 24910.86,
+      "amount": 25015.56,
       "url": "https://car4ukraine.com/campaigns/50forua-virginia-battalion",
       "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/virginia.svg",
       "vehicles_delivered": 1.25,
@@ -320,7 +320,7 @@
     {
       "rank": 29,
       "name": "Texas Battalion",
-      "amount": 16855.81,
+      "amount": 16871.94,
       "url": "https://car4ukraine.com/campaigns/50forua-texas-battalion",
       "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/texas.svg",
       "vehicles_delivered": 0.75,
@@ -331,7 +331,7 @@
     {
       "rank": 30,
       "name": "Illinois Battalion",
-      "amount": 7170.55,
+      "amount": 7771.08,
       "url": "https://car4ukraine.com/campaigns/50forua-illinois-battalion",
       "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/illinois.svg",
       "vehicles_delivered": 0.5,
