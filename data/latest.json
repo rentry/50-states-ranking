@@ -1,11 +1,11 @@
 {
-  "scraped_at": "2026-10-01T05:40:38.165705+00:00",
+  "scraped_at": "2026-10-01T13:02:07.415140+00:00",
   "source_url": "https://car4ukraine.com/campaigns/50forua",
   "schema_version": 2,
   "rank_version": 2,
   "totals": {
-    "donated": 795788.94,
-    "donations_count": 2226,
+    "donated": 796029.52,
+    "donations_count": 2228,
     "goal": 1000000.0
   },
   "states": [
@@ -166,7 +166,7 @@
     {
       "rank": 15,
       "name": "New Hampshire Battalion",
-      "amount": 16936.77,
+      "amount": 17177.35,
       "url": "https://car4ukraine.com/campaigns/50forua-new-hampshire-battalion",
       "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/new-hampshire.svg",
       "vehicles_delivered": 1.25,
