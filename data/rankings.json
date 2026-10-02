@@ -1,12 +1,12 @@
 {
-  "scraped_at": "2026-10-01T13:02:07.415140+00:00",
+  "scraped_at": "2026-10-02T02:11:07.812622+00:00",
   "source_url": "https://car4ukraine.com/campaigns/50forua",
   "totals": {
     "donated": 796029.52,
     "donations_count": 2228,
     "goal": 1000000.0
   },
-  "baseline_date": "2026-09-24T14:56:50.289167+00:00",
+  "baseline_date": "2026-09-25T01:24:35.468909+00:00",
   "states": [
     {
       "rank": 1,
@@ -274,8 +274,8 @@
       "includes_help99": true,
       "fundraising_rank": 35,
       "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/massachusetts-battalion",
-      "amount_7d_ago": 25640.36,
-      "delta_7d": 120.36,
+      "amount_7d_ago": 25760.72,
+      "delta_7d": 0.0,
       "vehicles_delivered_7d_ago": 1.0,
       "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
@@ -290,8 +290,8 @@
       "includes_help99": true,
       "fundraising_rank": 34,
       "merch_url": null,
-      "amount_7d_ago": 25167.42,
-      "delta_7d": 301.72,
+      "amount_7d_ago": 25287.78,
+      "delta_7d": 181.36,
       "vehicles_delivered_7d_ago": 1.0,
       "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
@@ -370,11 +370,11 @@
       "includes_help99": false,
       "fundraising_rank": 19,
       "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/maryland-battalion",
-      "amount_7d_ago": 11319.26,
-      "delta_7d": 3131.84,
+      "amount_7d_ago": 14451.1,
+      "delta_7d": 0.0,
       "vehicles_delivered_7d_ago": 1.0,
       "vehicles_delta_7d": 0.0,
-      "rank_improvement_7d": 5
+      "rank_improvement_7d": null
     },
     {
       "rank": 24,
@@ -571,22 +571,6 @@
   ],
   "top_movers_7d": [
     {
-      "rank": 23,
-      "name": "Maryland Battalion",
-      "amount": 14451.1,
-      "url": "https://car4ukraine.com/campaigns/50forua-maryland-battalion",
-      "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/maryland.svg",
-      "vehicles_delivered": 1.0,
-      "includes_help99": false,
-      "fundraising_rank": 19,
-      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/maryland-battalion",
-      "amount_7d_ago": 11319.26,
-      "delta_7d": 3131.84,
-      "vehicles_delivered_7d_ago": 1.0,
-      "vehicles_delta_7d": 0.0,
-      "rank_improvement_7d": 5
-    },
-    {
       "rank": 19,
       "name": "Arkansas Battalion",
       "amount": 20199.94,
@@ -635,22 +619,6 @@
       "rank_improvement_7d": 1
     },
     {
-      "rank": 18,
-      "name": "New York Battalion",
-      "amount": 25469.14,
-      "url": "https://car4ukraine.com/campaigns/50forua-ny-battalion",
-      "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/new-york.svg",
-      "vehicles_delivered": 1.0,
-      "includes_help99": true,
-      "fundraising_rank": 34,
-      "merch_url": null,
-      "amount_7d_ago": 25167.42,
-      "delta_7d": 301.72,
-      "vehicles_delivered_7d_ago": 1.0,
-      "vehicles_delta_7d": 0.0,
-      "rank_improvement_7d": null
-    },
-    {
       "rank": 15,
       "name": "New Hampshire Battalion",
       "amount": 17177.35,
@@ -683,6 +651,22 @@
       "rank_improvement_7d": null
     },
     {
+      "rank": 18,
+      "name": "New York Battalion",
+      "amount": 25469.14,
+      "url": "https://car4ukraine.com/campaigns/50forua-ny-battalion",
+      "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/new-york.svg",
+      "vehicles_delivered": 1.0,
+      "includes_help99": true,
+      "fundraising_rank": 34,
+      "merch_url": null,
+      "amount_7d_ago": 25287.78,
+      "delta_7d": 181.36,
+      "vehicles_delivered_7d_ago": 1.0,
+      "vehicles_delta_7d": 0.0,
+      "rank_improvement_7d": null
+    },
+    {
       "rank": 1,
       "name": "Ohio Regiment",
       "amount": 69330.29,
@@ -699,22 +683,6 @@
       "rank_improvement_7d": null
     },
     {
-      "rank": 17,
-      "name": "Massachusetts Battalion",
-      "amount": 25760.72,
-      "url": "https://car4ukraine.com/campaigns/50forua-massachusetts-battalion",
-      "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/massachusetts.svg",
-      "vehicles_delivered": 1.0,
-      "includes_help99": true,
-      "fundraising_rank": 35,
-      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/massachusetts-battalion",
-      "amount_7d_ago": 25640.36,
-      "delta_7d": 120.36,
-      "vehicles_delivered_7d_ago": 1.0,
-      "vehicles_delta_7d": 0.0,
-      "rank_improvement_7d": null
-    },
-    {
       "rank": 33,
       "name": "New Mexico",
       "amount": 4935.93,
@@ -727,6 +695,38 @@
       "amount_7d_ago": 4815.57,
       "delta_7d": 120.36,
       "vehicles_delivered_7d_ago": 0.25,
+      "vehicles_delta_7d": 0.0,
+      "rank_improvement_7d": null
+    },
+    {
+      "rank": 4,
+      "name": "Arizona Regiment",
+      "amount": 41337.04,
+      "url": "https://car4ukraine.com/campaigns/50forua-arizona-battalion",
+      "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/arizona.svg",
+      "vehicles_delivered": 3.25,
+      "includes_help99": false,
+      "fundraising_rank": 3,
+      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/arizona-battalion",
+      "amount_7d_ago": 41315.69,
+      "delta_7d": 21.35,
+      "vehicles_delivered_7d_ago": 3.25,
+      "vehicles_delta_7d": 0.0,
+      "rank_improvement_7d": null
+    },
+    {
+      "rank": 29,
+      "name": "Texas Battalion",
+      "amount": 16871.94,
+      "url": "https://car4ukraine.com/campaigns/50forua-texas-battalion",
+      "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/texas.svg",
+      "vehicles_delivered": 0.75,
+      "includes_help99": true,
+      "fundraising_rank": 29,
+      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/texas-battalion",
+      "amount_7d_ago": 16855.81,
+      "delta_7d": 16.13,
+      "vehicles_delivered_7d_ago": 0.75,
       "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
     }
