@@ -1,11 +1,11 @@
 {
-  "scraped_at": "2026-10-02T16:13:44.136046+00:00",
+  "scraped_at": "2026-10-02T21:16:49.447121+00:00",
   "source_url": "https://car4ukraine.com/campaigns/50forua",
   "schema_version": 2,
   "rank_version": 2,
   "totals": {
-    "donated": 796144.52,
-    "donations_count": 2229,
+    "donated": 796270.42,
+    "donations_count": 2231,
     "goal": 1000000.0
   },
   "states": [
@@ -78,7 +78,7 @@
     {
       "rank": 7,
       "name": "New Jersey Battalion",
-      "amount": 28380.08,
+      "amount": 28385.62,
       "url": "https://car4ukraine.com/campaigns/50forua-new-jersey-battalion",
       "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/new-jersey.svg",
       "vehicles_delivered": 2.25,
@@ -122,7 +122,7 @@
     {
       "rank": 11,
       "name": "Virginia Battalion",
-      "amount": 25360.66,
+      "amount": 25481.02,
       "url": "https://car4ukraine.com/campaigns/50forua-virginia-battalion",
       "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/virginia.svg",
       "vehicles_delivered": 1.25,
