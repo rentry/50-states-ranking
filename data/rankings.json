@@ -1,12 +1,12 @@
 {
-  "scraped_at": "2026-10-03T21:08:12.327227+00:00",
+  "scraped_at": "2026-10-04T00:31:11.878797+00:00",
   "source_url": "https://car4ukraine.com/campaigns/50forua",
   "totals": {
-    "donated": 796606.97,
-    "donations_count": 2236,
+    "donated": 796726.97,
+    "donations_count": 2237,
     "goal": 1000000.0
   },
-  "baseline_date": "2026-09-26T19:47:46.323942+00:00",
+  "baseline_date": "2026-09-27T01:20:13.610152+00:00",
   "states": [
     {
       "rank": 1,
@@ -283,15 +283,15 @@
     {
       "rank": 18,
       "name": "New York Battalion",
-      "amount": 25469.14,
+      "amount": 25589.14,
       "url": "https://car4ukraine.com/campaigns/50forua-ny-battalion",
       "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/new-york.svg",
       "vehicles_delivered": 1.0,
       "includes_help99": true,
       "fundraising_rank": 34,
       "merch_url": null,
-      "amount_7d_ago": 25408.14,
-      "delta_7d": 61.0,
+      "amount_7d_ago": 25458.14,
+      "delta_7d": 131.0,
       "vehicles_delivered_7d_ago": 1.0,
       "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
@@ -651,6 +651,22 @@
       "rank_improvement_7d": null
     },
     {
+      "rank": 18,
+      "name": "New York Battalion",
+      "amount": 25589.14,
+      "url": "https://car4ukraine.com/campaigns/50forua-ny-battalion",
+      "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/new-york.svg",
+      "vehicles_delivered": 1.0,
+      "includes_help99": true,
+      "fundraising_rank": 34,
+      "merch_url": null,
+      "amount_7d_ago": 25458.14,
+      "delta_7d": 131.0,
+      "vehicles_delivered_7d_ago": 1.0,
+      "vehicles_delta_7d": 0.0,
+      "rank_improvement_7d": null
+    },
+    {
       "rank": 1,
       "name": "Ohio Regiment",
       "amount": 69330.29,
@@ -694,22 +710,6 @@
       "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/california-battalion",
       "amount_7d_ago": 20159.62,
       "delta_7d": 115.0,
-      "vehicles_delivered_7d_ago": 1.0,
-      "vehicles_delta_7d": 0.0,
-      "rank_improvement_7d": null
-    },
-    {
-      "rank": 18,
-      "name": "New York Battalion",
-      "amount": 25469.14,
-      "url": "https://car4ukraine.com/campaigns/50forua-ny-battalion",
-      "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/new-york.svg",
-      "vehicles_delivered": 1.0,
-      "includes_help99": true,
-      "fundraising_rank": 34,
-      "merch_url": null,
-      "amount_7d_ago": 25408.14,
-      "delta_7d": 61.0,
       "vehicles_delivered_7d_ago": 1.0,
       "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
