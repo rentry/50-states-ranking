@@ -1,12 +1,12 @@
 {
-  "scraped_at": "2026-10-05T00:47:58.750056+00:00",
+  "scraped_at": "2026-10-05T06:54:11.120707+00:00",
   "source_url": "https://car4ukraine.com/campaigns/50forua",
   "totals": {
-    "donated": 797359.71,
-    "donations_count": 2242,
+    "donated": 797412.22,
+    "donations_count": 2243,
     "goal": 1000000.0
   },
-  "baseline_date": "2026-09-28T00:35:08.512593+00:00",
+  "baseline_date": "2026-09-28T06:42:45.565458+00:00",
   "states": [
     {
       "rank": 1,
@@ -299,7 +299,7 @@
     {
       "rank": 19,
       "name": "California Battalion",
-      "amount": 20274.62,
+      "amount": 20327.14,
       "url": "https://car4ukraine.com/campaigns/50forua-california-battalion",
       "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/california.svg",
       "vehicles_delivered": 1.0,
@@ -307,7 +307,7 @@
       "fundraising_rank": 25,
       "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/california-battalion",
       "amount_7d_ago": 20159.62,
-      "delta_7d": 115.0,
+      "delta_7d": 167.52,
       "vehicles_delivered_7d_ago": 1.0,
       "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
@@ -482,11 +482,11 @@
       "includes_help99": false,
       "fundraising_rank": 26,
       "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/illinois-battalion",
-      "amount_7d_ago": 6922.6,
-      "delta_7d": 848.48,
+      "amount_7d_ago": 7170.55,
+      "delta_7d": 600.53,
       "vehicles_delivered_7d_ago": 0.5,
       "vehicles_delta_7d": 0.0,
-      "rank_improvement_7d": 1
+      "rank_improvement_7d": null
     },
     {
       "rank": 31,
@@ -612,11 +612,11 @@
       "includes_help99": false,
       "fundraising_rank": 26,
       "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/illinois-battalion",
-      "amount_7d_ago": 6922.6,
-      "delta_7d": 848.48,
+      "amount_7d_ago": 7170.55,
+      "delta_7d": 600.53,
       "vehicles_delivered_7d_ago": 0.5,
       "vehicles_delta_7d": 0.0,
-      "rank_improvement_7d": 1
+      "rank_improvement_7d": null
     },
     {
       "rank": 15,
@@ -631,6 +631,22 @@
       "amount_7d_ago": 16936.77,
       "delta_7d": 240.58,
       "vehicles_delivered_7d_ago": 1.25,
+      "vehicles_delta_7d": 0.0,
+      "rank_improvement_7d": null
+    },
+    {
+      "rank": 19,
+      "name": "California Battalion",
+      "amount": 20327.14,
+      "url": "https://car4ukraine.com/campaigns/50forua-california-battalion",
+      "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/california.svg",
+      "vehicles_delivered": 1.0,
+      "includes_help99": true,
+      "fundraising_rank": 25,
+      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/california-battalion",
+      "amount_7d_ago": 20159.62,
+      "delta_7d": 167.52,
+      "vehicles_delivered_7d_ago": 1.0,
       "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
     },
@@ -695,22 +711,6 @@
       "amount_7d_ago": 4815.57,
       "delta_7d": 120.36,
       "vehicles_delivered_7d_ago": 0.25,
-      "vehicles_delta_7d": 0.0,
-      "rank_improvement_7d": null
-    },
-    {
-      "rank": 19,
-      "name": "California Battalion",
-      "amount": 20274.62,
-      "url": "https://car4ukraine.com/campaigns/50forua-california-battalion",
-      "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/california.svg",
-      "vehicles_delivered": 1.0,
-      "includes_help99": true,
-      "fundraising_rank": 25,
-      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/california-battalion",
-      "amount_7d_ago": 20159.62,
-      "delta_7d": 115.0,
-      "vehicles_delivered_7d_ago": 1.0,
       "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
     },
