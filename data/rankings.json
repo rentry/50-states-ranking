@@ -1,12 +1,12 @@
 {
-  "scraped_at": "2026-10-06T16:45:22.395113+00:00",
+  "scraped_at": "2026-10-06T21:35:13.041234+00:00",
   "source_url": "https://car4ukraine.com/campaigns/50forua",
   "totals": {
     "donated": 797433.41,
     "donations_count": 2244,
     "goal": 1000000.0
   },
-  "baseline_date": "2026-09-29T15:42:06.222131+00:00",
+  "baseline_date": "2026-09-29T20:41:29.011148+00:00",
   "states": [
     {
       "rank": 1,
@@ -290,8 +290,8 @@
       "includes_help99": true,
       "fundraising_rank": 34,
       "merch_url": null,
-      "amount_7d_ago": 25458.14,
-      "delta_7d": 152.19,
+      "amount_7d_ago": 25469.14,
+      "delta_7d": 141.19,
       "vehicles_delivered_7d_ago": 1.0,
       "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
@@ -651,22 +651,6 @@
       "rank_improvement_7d": null
     },
     {
-      "rank": 18,
-      "name": "New York Battalion",
-      "amount": 25610.33,
-      "url": "https://car4ukraine.com/campaigns/50forua-ny-battalion",
-      "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/new-york.svg",
-      "vehicles_delivered": 1.0,
-      "includes_help99": true,
-      "fundraising_rank": 34,
-      "merch_url": null,
-      "amount_7d_ago": 25458.14,
-      "delta_7d": 152.19,
-      "vehicles_delivered_7d_ago": 1.0,
-      "vehicles_delta_7d": 0.0,
-      "rank_improvement_7d": null
-    },
-    {
       "rank": 7,
       "name": "New Jersey Battalion",
       "amount": 28532.17,
@@ -679,6 +663,22 @@
       "amount_7d_ago": 28380.08,
       "delta_7d": 152.09,
       "vehicles_delivered_7d_ago": 2.25,
+      "vehicles_delta_7d": 0.0,
+      "rank_improvement_7d": null
+    },
+    {
+      "rank": 18,
+      "name": "New York Battalion",
+      "amount": 25610.33,
+      "url": "https://car4ukraine.com/campaigns/50forua-ny-battalion",
+      "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/new-york.svg",
+      "vehicles_delivered": 1.0,
+      "includes_help99": true,
+      "fundraising_rank": 34,
+      "merch_url": null,
+      "amount_7d_ago": 25469.14,
+      "delta_7d": 141.19,
+      "vehicles_delivered_7d_ago": 1.0,
       "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
     },
