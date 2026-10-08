@@ -1,12 +1,12 @@
 {
-  "scraped_at": "2026-10-08T08:50:24.467287+00:00",
+  "scraped_at": "2026-10-08T16:23:37.707779+00:00",
   "source_url": "https://car4ukraine.com/campaigns/50forua",
   "totals": {
     "donated": 797533.47,
     "donations_count": 2245,
     "goal": 1000000.0
   },
-  "baseline_date": "2026-10-01T05:40:38.165705+00:00",
+  "baseline_date": "2026-10-01T13:02:07.415140+00:00",
   "states": [
     {
       "rank": 1,
@@ -242,8 +242,8 @@
       "includes_help99": false,
       "fundraising_rank": 15,
       "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/new-hampshire-battalion",
-      "amount_7d_ago": 16936.77,
-      "delta_7d": 240.58,
+      "amount_7d_ago": 17177.35,
+      "delta_7d": 0.0,
       "vehicles_delivered_7d_ago": 1.25,
       "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
@@ -587,22 +587,6 @@
       "rank_improvement_7d": null
     },
     {
-      "rank": 15,
-      "name": "New Hampshire Battalion",
-      "amount": 17177.35,
-      "url": "https://car4ukraine.com/campaigns/50forua-new-hampshire-battalion",
-      "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/new-hampshire.svg",
-      "vehicles_delivered": 1.25,
-      "includes_help99": false,
-      "fundraising_rank": 15,
-      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/new-hampshire-battalion",
-      "amount_7d_ago": 16936.77,
-      "delta_7d": 240.58,
-      "vehicles_delivered_7d_ago": 1.25,
-      "vehicles_delta_7d": 0.0,
-      "rank_improvement_7d": null
-    },
-    {
       "rank": 19,
       "name": "California Battalion",
       "amount": 20327.14,
@@ -727,6 +711,22 @@
       "amount_7d_ago": 41337.04,
       "delta_7d": 0.0,
       "vehicles_delivered_7d_ago": 3.25,
+      "vehicles_delta_7d": 0.0,
+      "rank_improvement_7d": null
+    },
+    {
+      "rank": 5,
+      "name": "Connecticut Battalion",
+      "amount": 26410.96,
+      "url": "https://car4ukraine.com/campaigns/50forua-connecticut-battalion",
+      "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/connecticut.svg",
+      "vehicles_delivered": 3.0,
+      "includes_help99": false,
+      "fundraising_rank": 7,
+      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/connecticut-battalion",
+      "amount_7d_ago": 26410.96,
+      "delta_7d": 0.0,
+      "vehicles_delivered_7d_ago": 3.0,
       "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
     }
