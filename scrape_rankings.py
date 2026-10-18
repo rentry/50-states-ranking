@@ -173,7 +173,7 @@ def aggregate_vehicle_data(rows: list[dict], known_state_keys: set) -> tuple[dic
 
         resolved_pairs = []
         for name, weight in pairs:
-            key = normalize_name(name)
+            key = state_key(name)
             if key not in known_state_keys:
                 if key in KNOWN_NON_STATE_NAMES:
                     print(f"INFO: ignoring known non-state entry '{name}' (row: {row.get('Name', '?')})", file=sys.stderr)
@@ -201,8 +201,7 @@ def aggregate_vehicle_data(rows: list[dict], known_state_keys: set) -> tuple[dic
 def attach_vehicle_data(states: list[dict], vehicles_by_state: dict, help99_dollars_by_state: dict) -> list[dict]:
     enriched = []
     for s in states:
-        stripped = NAME_SUFFIX_RE.sub("", s["name"]).strip()
-        key = normalize_name(stripped)
+        key = state_key(s["name"])
         enriched.append({
             **s,
             "vehicles_delivered": round(vehicles_by_state.get(key, 0.0), 4),
@@ -230,8 +229,7 @@ def add_missing_help99_only_states(
     """
     existing_keys = set()
     for s in states:
-        stripped = NAME_SUFFIX_RE.sub("", s["name"]).strip()
-        existing_keys.add(normalize_name(stripped))
+        existing_keys.add(state_key(s["name"]))
 
     candidate_keys = set(vehicles_by_state.keys()) | set(help99_dollars_by_state.keys())
     missing_keys = candidate_keys - existing_keys
@@ -262,8 +260,7 @@ def combine_help99_dollars(states: list[dict], help99_dollars_by_state: dict) ->
     enriched = []
     total_help99_dollars = 0.0
     for s in states:
-        stripped = NAME_SUFFIX_RE.sub("", s["name"]).strip()
-        key = normalize_name(stripped)
+        key = state_key(s["name"])
         help99_dollars = help99_dollars_by_state.get(key, 0.0)
         total_help99_dollars += help99_dollars
         enriched.append({**s, "amount": round(s["amount"] + help99_dollars, 2)})
@@ -303,12 +300,14 @@ def rerank_by_vehicles(states: list[dict]) -> list[dict]:
 # of a full URL (e.g. "assets/flags/ohio.svg").
 PAGES_BASE_URL = "https://brentryanjohnson.com/50-states-ranking"
 
-STATE_LINE_RE = re.compile(r"^\s*(\d+)\s+(.+?)\s+\$([\d,]+\.\d{2})\s*$")
+# Cents are optional: car4ukraine switched from "$69,042.42" to "$69,330" in
+# Oct 2026, which silently broke a version of this that required them.
+STATE_LINE_RE = re.compile(r"^\s*(\d+)\s+(.+?)\s+\$([\d,]+(?:\.\d{2})?)\s*$")
 CAMPAIGN_LINK_RE = re.compile(r"/campaigns/50forua-")
 NAME_SUFFIX_RE = re.compile(r"\s+(battalion|regiment)$", re.IGNORECASE)
 
 # Overall campaign totals, e.g. "Donated$542,338.64"
-DONATED_RE = re.compile(r"Donated\s*\$([\d,]+\.\d{2})")
+DONATED_RE = re.compile(r"Donated\s*\$([\d,]+(?:\.\d{2})?)")
 DONATIONS_COUNT_RE = re.compile(r"Donations\s*([\d,]+)")
 GOAL_RE = re.compile(r"Goal\s*\$([\d,]+(?:\.\d{2})?)")
 
@@ -321,6 +320,17 @@ def normalize_name(text: str) -> str:
     return re.sub(r"\s+", " ", s).strip()
 
 
+def state_key(name: str) -> str:
+    """Canonical state identity for a campaign/display name, ignoring the
+    unit-tier suffix: "Ohio Regiment", "Ohio Battalion", and a bare "Ohio"
+    all map to "ohio". Campaigns get promoted (Battalion -> Regiment) as
+    they hit fundraising thresholds, so anything that matches a state across
+    time or across data sources (history, ledger, flags, merch) must go
+    through this rather than comparing raw display names. If a new tier name
+    ever appears, add it to NAME_SUFFIX_RE."""
+    return normalize_name(NAME_SUFFIX_RE.sub("", name).strip())
+
+
 def load_state_meta() -> dict:
     if not STATE_META_FILE.exists():
         return {}
@@ -331,8 +341,7 @@ def load_state_meta() -> dict:
 def attach_flags(states: list[dict], state_meta: dict) -> list[dict]:
     enriched = []
     for s in states:
-        stripped = NAME_SUFFIX_RE.sub("", s["name"]).strip()
-        key = normalize_name(stripped)
+        key = state_key(s["name"])
         entry = state_meta.get(key)
 
         flag_url = None
@@ -343,7 +352,10 @@ def attach_flags(states: list[dict], state_meta: dict) -> list[dict]:
                 else entry["flag_file"]
             )
         else:
-            print(f"WARNING: no flag match for state name '{s['name']}'", file=sys.stderr)
+            gh_warning(
+                f"no state match for campaign name '{s['name']}' - if this is a new "
+                f"tier name (like Battalion/Regiment), add it to NAME_SUFFIX_RE."
+            )
 
         enriched.append({**s, "flag_url": flag_url})
     return enriched
@@ -367,7 +379,7 @@ def fetch_merch_links(url: str) -> dict:
         name = (row.get("State Battalion") or "").strip()
         link = (row.get("Shop Link") or "").strip()
         if name and link:
-            lookup[normalize_name(name)] = link
+            lookup[state_key(name)] = link
     return lookup
 
 
@@ -377,8 +389,7 @@ def attach_merch_links(states: list[dict], merch_by_state: dict) -> list[dict]:
 
     enriched = []
     for s in states:
-        stripped = NAME_SUFFIX_RE.sub("", s["name"]).strip()
-        key = normalize_name(stripped)
+        key = state_key(s["name"])
         enriched.append({**s, "merch_url": merch_by_state.get(key)})
     return enriched
 
@@ -443,11 +454,23 @@ def build_snapshot() -> dict:
     html = fetch_page()
     states = parse_states(html)
     totals = parse_totals(html)
+    if totals.get("donated") is None:
+        gh_warning(
+            "could not parse the overall 'Donated' total from the page - "
+            "the progress bar will show $0 until the pattern is fixed."
+        )
 
     if not states:
+        samples = [
+            " ".join(a.get_text(separator=" ").split())
+            for a in BeautifulSoup(html, "html.parser").find_all("a", href=True)
+            if CAMPAIGN_LINK_RE.search(a["href"])
+        ][:3]
         raise RuntimeError(
             "No state rankings were found on the page. The page structure may "
-            "have changed and the scraper needs updating."
+            "have changed and the scraper needs updating. "
+            f"Campaign links with text that did not match the expected "
+            f"'<rank> <name> $<amount>' pattern (first 3): {samples!r}"
         )
 
     state_meta = load_state_meta()
@@ -539,15 +562,18 @@ def build_rankings_with_deltas(snapshot: dict, history: list[dict]) -> dict:
     week_ago_target = datetime.fromtimestamp(week_ago_target, tz=timezone.utc)
 
     baseline = find_snapshot_near(history, week_ago_target, tolerance_hours=18)
-    baseline_by_name = {s["name"]: s for s in baseline["states"]} if baseline else {}
+    baseline_by_state = {state_key(s["name"]): s for s in baseline["states"]} if baseline else {}
 
     enriched_states = []
     for s in snapshot["states"]:
-        prior = baseline_by_name.get(s["name"])
+        prior = baseline_by_state.get(state_key(s["name"]))
 
         delta = None
         if prior is not None:
-            delta = round(s["amount"] - prior["amount"], 2)
+            # Compare whole dollars: car4ukraine now reports amounts without
+            # cents, but older history entries still carry them, which would
+            # otherwise show up as phantom +$0 / -$0 "growth" on static states.
+            delta = float(round(s["amount"]) - round(prior["amount"]))
 
         vehicles_delta = None
         prior_vehicles = prior.get("vehicles_delivered") if prior else None

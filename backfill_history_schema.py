@@ -68,7 +68,7 @@ def main() -> int:
         snap = json.loads(line)
 
         needs_amount_fix = snap.get("schema_version", 0) < sr.SCHEMA_VERSION
-        needs_rank_fix = not snap.get("rank_corrected", False)
+        needs_rank_fix = snap.get("rank_version", 0) < sr.RANK_VERSION
 
         if not needs_amount_fix and not needs_rank_fix:
             skipped_count += 1
@@ -77,14 +77,12 @@ def main() -> int:
 
         existing_keys = set()
         for s in snap["states"]:
-            stripped = sr.NAME_SUFFIX_RE.sub("", s["name"]).strip()
-            existing_keys.add(sr.normalize_name(stripped))
+            existing_keys.add(sr.state_key(s["name"]))
 
         if needs_amount_fix:
             patched_states = []
             for s in snap["states"]:
-                stripped = sr.NAME_SUFFIX_RE.sub("", s["name"]).strip()
-                key = sr.normalize_name(stripped)
+                key = sr.state_key(s["name"])
                 help99_amount = help99_dollars_by_state.get(key, 0.0)
                 patched_states.append({**s, "amount": round(s["amount"] + help99_amount, 2)})
 
@@ -111,7 +109,7 @@ def main() -> int:
         patched_states = sr.rerank_by_vehicles(patched_states)
         snap["states"] = patched_states
         snap["schema_version"] = sr.SCHEMA_VERSION
-        snap["rank_corrected"] = True
+        snap["rank_version"] = sr.RANK_VERSION
         patched_count += 1
         output_lines.append(json.dumps(snap, separators=(",", ":")))
 
