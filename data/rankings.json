@@ -1,9 +1,9 @@
 {
-  "scraped_at": "2026-10-20T16:51:07.593147+00:00",
+  "scraped_at": "2026-10-20T20:28:57.998354+00:00",
   "source_url": "https://car4ukraine.com/campaigns/50forua",
   "totals": {
-    "donated": 826570.19,
-    "donations_count": 2314,
+    "donated": 826819.19,
+    "donations_count": 2315,
     "goal": 1000000.0
   },
   "baseline_date": null,
@@ -171,7 +171,7 @@
     {
       "rank": 11,
       "name": "Washington Battalion",
-      "amount": 20246.0,
+      "amount": 20495.0,
       "url": "https://car4ukraine.com/campaigns/50forua-washington-battalion",
       "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/washington.svg",
       "vehicles_delivered": 1.5,
