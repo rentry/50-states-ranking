@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-10-24T14:26:57.143644+00:00",
+  "scraped_at": "2026-10-24T18:03:47.720302+00:00",
   "source_url": "https://car4ukraine.com/campaigns/50forua",
   "totals": {
     "donated": 828180.19,
@@ -305,7 +305,7 @@
       "vehicles_delivered": 1.0,
       "includes_help99": true,
       "fundraising_rank": 33,
-      "merch_url": null,
+      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/new-york-battalion",
       "amount_7d_ago": null,
       "delta_7d": null,
       "vehicles_delivered_7d_ago": null,
