@@ -1,11 +1,11 @@
 {
-  "scraped_at": "2026-10-30T14:00:56.412328+00:00",
+  "scraped_at": "2026-10-30T19:13:55.807243+00:00",
   "source_url": "https://car4ukraine.com/campaigns/50forua",
   "schema_version": 2,
   "rank_version": 2,
   "totals": {
-    "donated": 831987.19,
-    "donations_count": 2338,
+    "donated": 831997.19,
+    "donations_count": 2339,
     "goal": 1000000.0
   },
   "states": [
@@ -331,7 +331,7 @@
     {
       "rank": 30,
       "name": "Texas Battalion",
-      "amount": 17387.22,
+      "amount": 17397.22,
       "url": "https://car4ukraine.com/campaigns/50forua-texas-battalion",
       "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/texas.svg",
       "vehicles_delivered": 0.75,
