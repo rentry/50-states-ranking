@@ -1,11 +1,11 @@
 {
-  "scraped_at": "2026-10-31T12:12:48.219828+00:00",
+  "scraped_at": "2026-10-31T17:39:22.626278+00:00",
   "source_url": "https://car4ukraine.com/campaigns/50forua",
   "schema_version": 2,
   "rank_version": 2,
   "totals": {
-    "donated": 831997.19,
-    "donations_count": 2339,
+    "donated": 832231.19,
+    "donations_count": 2341,
     "goal": 1000000.0
   },
   "states": [
@@ -45,7 +45,7 @@
     {
       "rank": 4,
       "name": "Arizona Regiment",
-      "amount": 41337.0,
+      "amount": 41456.0,
       "url": "https://car4ukraine.com/campaigns/50forua-arizona-battalion",
       "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/arizona.svg",
       "vehicles_delivered": 3.25,
@@ -221,7 +221,7 @@
     {
       "rank": 20,
       "name": "Massachusetts Battalion",
-      "amount": 25885.0,
+      "amount": 26000.0,
       "url": "https://car4ukraine.com/campaigns/50forua-massachusetts-battalion",
       "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/massachusetts.svg",
       "vehicles_delivered": 1.0,
