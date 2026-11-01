@@ -1,12 +1,12 @@
 {
-  "scraped_at": "2026-11-01T14:58:36.346254+00:00",
+  "scraped_at": "2026-11-01T19:32:40.103855+00:00",
   "source_url": "https://car4ukraine.com/campaigns/50forua",
   "totals": {
     "donated": 832477.19,
     "donations_count": 2344,
     "goal": 1000000.0
   },
-  "baseline_date": "2026-10-25T16:02:46.150472+00:00",
+  "baseline_date": "2026-10-25T18:56:45.281339+00:00",
   "states": [
     {
       "rank": 1,
@@ -18,8 +18,8 @@
       "includes_help99": false,
       "fundraising_rank": 1,
       "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/ohio-regiment",
-      "amount_7d_ago": 69357.0,
-      "delta_7d": 581.0,
+      "amount_7d_ago": 69393.0,
+      "delta_7d": 545.0,
       "vehicles_delivered_7d_ago": 5.0,
       "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
@@ -596,8 +596,8 @@
       "includes_help99": false,
       "fundraising_rank": 1,
       "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/ohio-regiment",
-      "amount_7d_ago": 69357.0,
-      "delta_7d": 581.0,
+      "amount_7d_ago": 69393.0,
+      "delta_7d": 545.0,
       "vehicles_delivered_7d_ago": 5.0,
       "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
