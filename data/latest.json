@@ -1,11 +1,11 @@
 {
-  "scraped_at": "2026-11-02T05:51:19.235404+00:00",
+  "scraped_at": "2026-11-02T15:36:32.336872+00:00",
   "source_url": "https://car4ukraine.com/campaigns/50forua",
   "schema_version": 2,
   "rank_version": 2,
   "totals": {
-    "donated": 834258.19,
-    "donations_count": 2348,
+    "donated": 834517.19,
+    "donations_count": 2349,
     "goal": 1000000.0
   },
   "states": [
@@ -210,7 +210,7 @@
     {
       "rank": 19,
       "name": "New York Battalion",
-      "amount": 26177.42,
+      "amount": 26436.42,
       "url": "https://car4ukraine.com/campaigns/50forua-ny-battalion",
       "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/new-york.svg",
       "vehicles_delivered": 1.0,
