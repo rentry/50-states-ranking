@@ -1,12 +1,12 @@
 {
-  "scraped_at": "2026-11-03T06:35:15.864546+00:00",
+  "scraped_at": "2026-11-03T14:59:48.729348+00:00",
   "source_url": "https://car4ukraine.com/campaigns/50forua",
   "totals": {
     "donated": 834804.19,
     "donations_count": 2352,
     "goal": 1000000.0
   },
-  "baseline_date": "2026-10-27T04:52:27.956884+00:00",
+  "baseline_date": "2026-10-27T16:27:18.478314+00:00",
   "states": [
     {
       "rank": 1,
@@ -18,8 +18,8 @@
       "includes_help99": false,
       "fundraising_rank": 1,
       "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/ohio-regiment",
-      "amount_7d_ago": 69739.0,
-      "delta_7d": 199.0,
+      "amount_7d_ago": 69859.0,
+      "delta_7d": 79.0,
       "vehicles_delivered_7d_ago": 5.0,
       "vehicles_delta_7d": 0.0,
       "rank_improvement_7d": null
@@ -418,11 +418,11 @@
       "includes_help99": false,
       "fundraising_rank": 22,
       "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/maine-battalion",
-      "amount_7d_ago": 13754.0,
-      "delta_7d": 55.0,
+      "amount_7d_ago": 13809.0,
+      "delta_7d": 0.0,
       "vehicles_delivered_7d_ago": 1.0,
       "vehicles_delta_7d": 0.0,
-      "rank_improvement_7d": 1
+      "rank_improvement_7d": null
     },
     {
       "rank": 27,
@@ -635,22 +635,6 @@
       "rank_improvement_7d": null
     },
     {
-      "rank": 1,
-      "name": "Ohio Regiment",
-      "amount": 69938.0,
-      "url": "https://car4ukraine.com/campaigns/50forua-ohio-battalion",
-      "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/ohio.svg",
-      "vehicles_delivered": 5.0,
-      "includes_help99": false,
-      "fundraising_rank": 1,
-      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/ohio-regiment",
-      "amount_7d_ago": 69739.0,
-      "delta_7d": 199.0,
-      "vehicles_delivered_7d_ago": 5.0,
-      "vehicles_delta_7d": 0.0,
-      "rank_improvement_7d": null
-    },
-    {
       "rank": 4,
       "name": "Arizona Regiment",
       "amount": 41468.0,
@@ -715,20 +699,36 @@
       "rank_improvement_7d": null
     },
     {
-      "rank": 25,
-      "name": "Maine Battalion",
-      "amount": 13809.0,
-      "url": "https://car4ukraine.com/campaigns/50forua-maine-battalion",
-      "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/maine.svg",
-      "vehicles_delivered": 1.0,
+      "rank": 1,
+      "name": "Ohio Regiment",
+      "amount": 69938.0,
+      "url": "https://car4ukraine.com/campaigns/50forua-ohio-battalion",
+      "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/ohio.svg",
+      "vehicles_delivered": 5.0,
       "includes_help99": false,
-      "fundraising_rank": 22,
-      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/maine-battalion",
-      "amount_7d_ago": 13754.0,
-      "delta_7d": 55.0,
-      "vehicles_delivered_7d_ago": 1.0,
+      "fundraising_rank": 1,
+      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/ohio-regiment",
+      "amount_7d_ago": 69859.0,
+      "delta_7d": 79.0,
+      "vehicles_delivered_7d_ago": 5.0,
       "vehicles_delta_7d": 0.0,
-      "rank_improvement_7d": 1
+      "rank_improvement_7d": null
+    },
+    {
+      "rank": 7,
+      "name": "New Jersey Battalion",
+      "amount": 28632.0,
+      "url": "https://car4ukraine.com/campaigns/50forua-new-jersey-battalion",
+      "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/new-jersey.svg",
+      "vehicles_delivered": 2.25,
+      "includes_help99": false,
+      "fundraising_rank": 7,
+      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/new-jersey-battalion",
+      "amount_7d_ago": 28580.0,
+      "delta_7d": 52.0,
+      "vehicles_delivered_7d_ago": 2.25,
+      "vehicles_delta_7d": 0.0,
+      "rank_improvement_7d": null
     }
   ]
 }
