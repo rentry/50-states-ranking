@@ -1,11 +1,11 @@
 {
-  "scraped_at": "2026-11-10T16:58:35.280421+00:00",
+  "scraped_at": "2026-11-11T10:43:59.972659+00:00",
   "source_url": "https://car4ukraine.com/campaigns/50forua",
   "schema_version": 2,
   "rank_version": 2,
   "totals": {
-    "donated": 840805.19,
-    "donations_count": 2371,
+    "donated": 841043.19,
+    "donations_count": 2372,
     "goal": 1000000.0
   },
   "states": [
@@ -144,7 +144,7 @@
     {
       "rank": 13,
       "name": "Utah Battalion",
-      "amount": 19094.0,
+      "amount": 19332.0,
       "url": "https://car4ukraine.com/campaigns/50forua-utah-battalion",
       "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/utah.svg",
       "vehicles_delivered": 1.25,
