@@ -1,11 +1,11 @@
 {
-  "scraped_at": "2026-11-20T11:22:57.596044+00:00",
+  "scraped_at": "2026-11-20T19:59:50.560061+00:00",
   "source_url": "https://car4ukraine.com/campaigns/50forua",
   "schema_version": 2,
   "rank_version": 2,
   "totals": {
-    "donated": 846476.19,
-    "donations_count": 2387,
+    "donated": 847102.19,
+    "donations_count": 2389,
     "goal": 1000000.0
   },
   "states": [
@@ -45,7 +45,7 @@
     {
       "rank": 4,
       "name": "Arizona Regiment",
-      "amount": 41478.0,
+      "amount": 41493.0,
       "url": "https://car4ukraine.com/campaigns/50forua-arizona-battalion",
       "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/arizona.svg",
       "vehicles_delivered": 3.25,
@@ -209,6 +209,17 @@
     },
     {
       "rank": 19,
+      "name": "Massachusetts Battalion",
+      "amount": 26726.0,
+      "url": "https://car4ukraine.com/campaigns/50forua-massachusetts-battalion",
+      "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/massachusetts.svg",
+      "vehicles_delivered": 1.0,
+      "includes_help99": true,
+      "fundraising_rank": 34,
+      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/massachusetts-battalion"
+    },
+    {
+      "rank": 20,
       "name": "New York Battalion",
       "amount": 26488.42,
       "url": "https://car4ukraine.com/campaigns/50forua-ny-battalion",
@@ -217,17 +228,6 @@
       "includes_help99": true,
       "fundraising_rank": 33,
       "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/new-york-battalion"
-    },
-    {
-      "rank": 20,
-      "name": "Massachusetts Battalion",
-      "amount": 26115.0,
-      "url": "https://car4ukraine.com/campaigns/50forua-massachusetts-battalion",
-      "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/massachusetts.svg",
-      "vehicles_delivered": 1.0,
-      "includes_help99": true,
-      "fundraising_rank": 35,
-      "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/massachusetts-battalion"
     },
     {
       "rank": 21,
@@ -391,7 +391,7 @@
       "flag_url": "https://brentryanjohnson.com/50-states-ranking/assets/flags/georgia.svg",
       "vehicles_delivered": 0.0,
       "includes_help99": false,
-      "fundraising_rank": 34,
+      "fundraising_rank": 35,
       "merch_url": "https://50-states-for-ukraine-shop.fourthwall.com/collections/georgia-battalion"
     }
   ]
